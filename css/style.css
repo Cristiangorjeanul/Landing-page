@@ -261,20 +261,23 @@ h2 {
   70% {
     content: "Learn quickly";
   }
-  75% {
+  74% {
     content: "Contest results";
   }
-  80% {
+  78% {
     content: "Romanian wines";
   }
-  85% {
+  82% {
     content: "Graphic Design";
   }
-  90% {
+  86% {
     content: "Byzantine music";
   }
-  95% {
+  90% {
     content: "Bread recipe";
+  }
+  95% {
+    content: "School library";
   }
   100% {
     content: "Landing page";
