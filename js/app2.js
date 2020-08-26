@@ -34,8 +34,8 @@ $(document).ready(function () {
   });
 
   function blink(selector) {
-    $(selector).fadeOut('slow', function () {
-      $(this).fadeIn('slow', function () {
+    $(selector).fadeOut(1000, function () {
+      $(this).fadeIn(2500, function () {
         blink(this);
       });
     });
