@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
   };
   setInterval(changeSlides, slideTimer);
 
-  //Button
+  //ButtonS
   var button = document.querySelector('.button1');
   var counter = 1;
 
