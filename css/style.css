@@ -34,7 +34,7 @@ h1 {
   position: absolute;
   transform: translate(-50%, -50%);
   transition: all 1.5s ease;
-  filter: drop-shadow(5px 5px 10px #222);
+  filter: drop-shadow(1px 3px 5px black);
   top: 230px;
   width: 310px;
   height: 180px;
