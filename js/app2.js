@@ -32,10 +32,10 @@ $(document).ready(function () {
       }
     });
   });
-
+  // Blink - apps number
   function blink(selector) {
-    $(selector).fadeOut(1000, function () {
-      $(this).fadeIn(2500, function () {
+    $(selector).fadeOut(100, function () {
+      $(this).fadeIn(1000, function () {
         blink(this);
       });
     });
