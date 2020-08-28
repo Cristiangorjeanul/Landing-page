@@ -177,7 +177,8 @@ h4 {
 
 .logo {
   color: #f4511e;
-  font-size: 200px;
+  padding-top: 47px;
+  font-size: 120px;
 }
 
 #changeText {
