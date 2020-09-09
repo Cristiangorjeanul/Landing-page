@@ -147,6 +147,7 @@ h4 {
 
 @media (min-width: 768px) {
   .box img {
+    width: 100%;
     padding-top: 25px;
   }
 }
