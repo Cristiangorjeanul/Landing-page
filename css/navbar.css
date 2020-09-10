@@ -1,6 +1,6 @@
 .navbar {
   margin-bottom: 0;
-  background-color: #e150e9;
+  background-color: lightskyblue;
   z-index: 9999;
   border: 0;
   font-weight: 900;
@@ -8,6 +8,7 @@
   line-height: 1.42857143 !important;
   letter-spacing: 4px;
   border-radius: 0;
+  border: 1px solid white;
   font-family: Times New Roman, sans-serif;
 }
 
