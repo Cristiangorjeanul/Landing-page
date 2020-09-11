@@ -43,34 +43,13 @@ document.addEventListener('DOMContentLoaded', function () {
   };
   setInterval(changeSlides, slideTimer);
 
-  //ButtonS
-  var button = document.querySelector('.button1');
-  var counter = 1;
+  //Button
 
-  button.addEventListener('click', function () {
-    document.querySelector('.button1 span').innerText = counter;
-    counter++;
-  });
 
-  var button = document.querySelector('.button2');
-  var counter = 1;
-
-  button.addEventListener('click', function () {
-    document.querySelector('.button2 span').innerText = counter;
-    counter++;
-  });
-
-  var button = document.querySelector('.button3');
+  var button = document.querySelector('.button');
   var counter = 1;
   button.addEventListener('click', function () {
-    document.querySelector('.button3 span').innerText = counter;
-    counter++;
-  });
-
-  var button = document.querySelector('.button4');
-  var counter = 1;
-  button.addEventListener('click', function () {
-    document.querySelector('.button4 span').innerText = counter;
+    document.querySelector('.button span').innerText = counter;
     counter++;
   });
 

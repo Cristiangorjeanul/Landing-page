@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Landing page</title>
+  <title>Cristian`s Landing Page</title>
   <meta name="Landing page" content="portfolio, apps, Html, Css, JavaScript, jQuery, React" />
   <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -107,7 +107,7 @@
           </div>
         </div><br>
 
-        <div class="box">
+        <div class="box"><br>
           <img src="assets/presentation.jpg" alt="My photo">
           <h4>My website presentation at the JavaScript course!</h4>
           <h4 style="color:blue;">Click to see my activity on the Github
@@ -244,8 +244,9 @@
                   <h3>Pedagogy</h3>
                 </div>
                 <div class="panel-body">
-                  <h4><strong>Management and dynamics of school organization</strong></h4>
-                  <h4><strong>Optimizing communication & relationship</strong></h4>
+                  <h4><strong>Management and dynamics</strong></h4>
+                  <h4><strong>of school organization</strong></h4>
+                  <h4><strong>Communication</strong></h4>
                 </div>
               </div>
             </div>
@@ -300,7 +301,7 @@
 
             <div class="row slideanim">
               <div class="col-sm-4">
-                <span class="glyphicon glyphicon-play" style="color:green;"></span>
+                <span class="glyphicon glyphicon-education" style="color:green;"></span>
                 <h4 style="color:green;">TRAINING<br>& TEACHING<br>
                   <br>Providing staff training<br>for the optimal use<br>of the software!</h4>
               </div>
@@ -686,11 +687,11 @@
                 <img src="assets/astronomy.jpg">
               </div>
               <div class="item">
-                <h4>"One word for this educational puzzle... WOW!!"</h4>
-                <img src="assets/treepuzzle.jpg">
+                <h4>"An intuitive shopping list for my mobile phone!"</h4>
+                <img src="assets/shoppinglist.jpg">
               </div>
               <div class="item">
-                <h4>"This website has beautiful images and is user friendly"</h4>
+                <h4>"Nice e-shop with beautiful images and is user friendly"</h4>
                 <img src="assets/shop.jpg">
               </div>
             </div>
@@ -735,9 +736,6 @@
                   <h4><strong>Bootstrap</strong> - medium</h4>
                   <h4><strong>NPM, React</strong> - beginner</h4>
                 </div>
-                <div class="panel-footer">
-                  <button class="button1">Like! <span id="counter"></span></button>
-                </div>
               </div>
             </div>
 
@@ -755,9 +753,6 @@
                   <h4><strong>Video editing</strong> - medium</h4>
                   <h4><strong>UI Design</strong> - medium</h4>
                 </div>
-                <div class="panel-footer">
-                  <button class="button2">Like! <span id="counter"></span></button>
-                </div>
               </div>
             </div>
 
@@ -774,9 +769,6 @@
                   <h4><strong>English</strong> -medium</h4>
                   <h4><strong>Leadership</strong> - efficient</h4>
                   <h4><strong>Teamwork</strong> - efficient</h4>
-                </div>
-                <div class="panel-footer">
-                  <button class="button3">Like! <span id="counter"></span></button>
                 </div>
               </div>
             </div>
@@ -820,13 +812,37 @@
     </section>
 
     <footer class="container-fluid text-center">
+
+      <div class="panel-footer">
+        <h4>Do you like my landing page?</h4>
+        <button class="button" data-toggle="modal" data-target="#myModal">Like!<br><span
+            id="counter"></span></button><br><br>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">x</button>
+              <b style="color:red; font-size: 18px;"><span class="glyphicon glyphicon-heart"></span> Thank you very much
+                for your consideration!</b>
+            </div>
+            <div class="modal-body text-center">
+              <b style="color:white; font-size: 18px;">I hope I will become your favorite Frontend Developer!</b>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
       <a href="#myPage" title="To Top">
         <span class="glyphicon glyphicon-chevron-up"></span>
       </a>
-      <div class="panel-footer">
-        <h4>Do you like my landing page?</h4>
-        <button class="button4">Like!<br><span id="counter"></span></button><br><br>
-      </div>
+
     </footer>
 
 
