@@ -2,7 +2,7 @@
   position: fixed;
   font-size: 50px;
   font-weight: 700;
-  color: red;
+  color: blue;
   text-align: center;
   top: 0;
   left: 0;
@@ -69,7 +69,7 @@
   top: 0;
   width: 51%;
   height: 100%;
-  background: yellow;
+  background: lightskyblue;
   z-index: 1000;
 }
 
