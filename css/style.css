@@ -35,7 +35,7 @@ h1 {
   transform: translate(-50%, -50%);
   transition: all 1.5s ease;
   filter: drop-shadow(1px 3px 5px black);
-  top: 165px;
+  top: 160px;
   width: 290px;
   height: 170px;
 }
