@@ -224,84 +224,117 @@ h5 {
 
 #changeText:after {
   content: "";
-  animation: change 10s linear infinite;
+  animation: change 18s linear infinite;
 }
 
 @keyframes change {
   0% {
     content: "Landing page";
   }
-  4% {
-    content: "Astronomic quiz";
+  2.5% {
+    content: "Resume & portfolio";
   }
-  8% {
-    content: "Shop'n roses";
+  5% {
+    content: "Cover letter";
   }
-  12% {
-    content: "Seasons photos";
+  7.5% {
+    content: "Funny resume";
   }
-  16% {
-    content: "Quiz Religion";
+  10% {
+    content: "Electric car";
   }
-  20% {
-    content: "Christmas tree";
+  12.5% {
+    content: "Interstellar navigation";
   }
-  24% {
+  15% {
     content: "Find antonyms";
   }
-  28% {
-    content: "  Portfolio";
+  17.5% {
+    content: "Byzantine Empire";
   }
-  32% {
-    content: "Educatie tehno";
+  20% {
+    content: "Coloring pages";
   }
-  36% {
-    content: "Breaking news";
+  22.5% {
+    content: "Squash game";
+  }
+  25% {
+    content: "Students` prayers";
+  }
+  27.5% {
+    content: "Astronomical quiz";
+  }
+  30% {
+    content: "Shop in roses";
+  }
+  32.5% {
+    content: "Seasons photos";
+  }
+  35% {
+    content: "Quiz Religion";
+  }
+  37.5% {
+    content: "Christmas tree";
   }
   40% {
+    content: "Shapes game";
+  }
+  42.5% {
+    content: "My Portfolio";
+  }
+  45% {
+    content: "Educatie tehnologica";
+  }
+  47.5% {
+    content: "Breaking news";
+  }
+  50% {
     content: "Bungee jumping";
   }
-  44% {
+  52.5% {
     content: "Shopping list";
   }
-  48% {
+  55% {
     content: "Discover colors";
   }
-  52% {
+  57.5% {
     content: "School survey";
   }
-  56% {
+  60% {
     content: "Bread recipe";
   }
-  60% {
+  62.5% {
     content: "Moving button";
   }
-  64% {
+  65% {
     content: "Changing petals";
   }
-  68% {
+  67.5% {
     content: "Learn quickly";
   }
-  72% {
+  70% {
     content: "Contest results";
   }
-  76% {
+  72.5% {
     content: "Romanian wines";
   }
-  80% {
+  75% {
     content: "Graphic Design";
   }
-  84% {
+  77.5% {
     content: "Byzantine music";
   }
-  88% {
+  80% {
     content: "Bread recipe";
   }
-  92% {
+  82.5% {
     content: "School library";
   }
-  96% {
+  85% {
     content: "Meridian clocks";
+  }
+  87.5% {
+    content: "Landing page";
   }
   100% {
     content: "Landing page";
@@ -512,4 +545,218 @@ h5 {
   color: #ffdb59;
   font-size: 15px;
   font-weight: 700;
+}
+
+/* Experience hourglass */
+.hourglass {
+  background: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  box-shadow: inset 0 0 0 0.35rem blue;
+  flex-direction: column;
+  animation: clock 10s ease-in-out infinite;
+}
+
+.glass {
+  background: lightsteelblue;
+  height: 35%;
+  width: 35%;
+  border-top: 4px solid blue;
+  border-bottom: 8px solid blue;
+  border-radius: 75% 75% 0 0/ 100% 100% 0 0;
+  overflow: hidden;
+}
+
+.top {
+  transform: rotate(180deg);
+}
+
+.sand {
+  background: #ffdb59;
+  height: 150%;
+  width: 150%;
+  transform-origin: 0% 0%;
+  animation: sand 10s linear infinite -5s;
+}
+
+.delayed {
+  animation-delay: 0s;
+}
+
+@keyframes clock {
+  0% {
+    transform: rotate(0deg);
+  }
+  25%,
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes sand {
+  0%,
+  100% {
+    border-radius: 5%;
+    transform: translate(35%, 20%) rotate(45deg);
+  }
+  15% {
+    border-radius: 40%;
+    transform: translate(0%, 35%) rotate(-65deg) scale(1.5, 1.5);
+  }
+  25% {
+    border-radius: 20%;
+    transform: translate(-15%, 35%) rotate(-90deg) scale(1.2, 1.2);
+  }
+  50% {
+    border-radius: 5%;
+    transform: translate(0%, 0%) rotate(-90deg) scale(1, 1);
+    opacity: 1;
+  }
+  50.01%,
+  64.99% {
+    opacity: 0;
+  }
+  65% {
+    border-radius: 35%;
+    transform: translate(20%, 50%) rotate(30deg);
+    opacity: 1;
+  }
+  75% {
+    border-radius: 10%;
+    transform: translate(35%, 40%) rotate(45deg);
+  }
+}
+
+/* Experience time line */
+#timeline ul {
+  padding: 5px;
+}
+
+#timeline ul li {
+  position: relative;
+  width: 5px;
+  padding-top: 50px;
+  margin: 0 auto;
+  background: blue;
+  list-style: none;
+}
+
+/* Boxes */
+#timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 145px;
+  padding: 0.1rem;
+  background: blue;
+  transition: all 0.5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* Years Boxes */
+#timeline ul li div h4 {
+  color: white;
+  text-align: center;
+}
+/* Right Side */
+#timeline ul li:nth-child(odd) div {
+  left: 40px;
+  transform: translate(50px, 0);
+}
+
+/* Left Side */
+#timeline ul li:nth-child(even) div {
+  left: -180px;
+  transform: translate(-50px, 0);
+}
+
+/* Dots */
+#timeline ul li:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 25px;
+  height: 25px;
+  background: inherit;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  transition: 0.5s ease-in-out;
+}
+
+/* Arrows Base */
+#timeline div:before {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+/* Right Side Arrows */
+#timeline ul li:nth-child(odd) div:before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent blue transparent transparent;
+}
+
+/* Left Side Arrows */
+#timeline ul li:nth-child(even) div:before {
+  right: -15px;
+  border-width: 8px 0px 8px 16px;
+  border-color: transparent transparent transparent blue;
+}
+
+/* Show Boxes */
+#timeline ul li.show div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+#timeline ul li.show:after {
+  background: white;
+  border: 3.5px solid blue;
+}
+
+@media (max-width: 900px) {
+  #timeline ul li div {
+    width: 250px;
+  }
+
+  #timeline ul li:nth-child(even) div {
+    left: -284px;
+  }
+}
+
+@media (max-width: 600px) {
+  #timeline ul li {
+    margin-left: 20px;
+  }
+
+  #timeline ul li div {
+    width: calc(100vw - 90px);
+  }
+
+  #timeline ul li:nth-child(even) div {
+    left: 40px;
+  }
+
+  #timeline ul li:nth-child(even) div:before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent blue transparent transparent;
+  }
 }
