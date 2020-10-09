@@ -313,7 +313,7 @@ h5 {
     content: "Learn quickly";
   }
   70% {
-    content: "Contest results";
+    content: "Results table";
   }
   72.5% {
     content: "Romanian wines";
@@ -334,6 +334,18 @@ h5 {
     content: "Meridian clocks";
   }
   87.5% {
+    content: "Golden fish";
+  }
+  90% {
+    content: "Green energy";
+  }
+  92.5% {
+    content: "Landing page";
+  }
+  95% {
+    content: "Landing page";
+  }
+  97.5% {
     content: "Landing page";
   }
   100% {
