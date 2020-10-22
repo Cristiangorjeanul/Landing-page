@@ -4,10 +4,11 @@
   z-index: 9999;
   font-weight: 900;
   font-size: 12px !important;
-  line-height: 1.42857143 !important;
+  line-height: 1.5 !important;
   letter-spacing: 1px;
   border-radius: 0;
   border: 1px solid white;
+  text-shadow: 1px 1px 1px blue;
   font-family: Lato, Montserrat, sans-serif, Times New Roman;
 }
 
