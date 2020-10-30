@@ -218,15 +218,6 @@ h5 {
   background-color: lightskyblue;
 }
 
-main button {
-  background-color: lightskyblue;
-  font-weight: 500;
-}
-
-main button:hover {
-  background: red;
-}
-
 #changeText {
   font-size: 25px;
   width: 100%;
@@ -521,6 +512,16 @@ main button:hover {
   }
 }
 
+.button {
+  background-color: red;
+  font-weight: 800;
+  margin: auto;
+}
+
+.button:hover {
+  background-color: lightskyblue;
+}
+
 @media screen and (max-width: 768px) {
   .col-sm-4 {
     text-align: center;
@@ -531,6 +532,10 @@ main button:hover {
     width: 100%;
     margin-bottom: 35px;
   }
+}
+
+.btn-lg:hover {
+  background-color: lightskyblue;
 }
 
 #iframe {
