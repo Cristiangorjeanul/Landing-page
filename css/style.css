@@ -37,15 +37,15 @@ h1 {
   filter: drop-shadow(1px 3px 5px black);
   top: 160px;
   width: 290px;
-  height: 170px;
+  height: 150px;
 }
 
 @media (min-width: 768px) {
   .photo {
     left: 50%;
     top: 225px;
-    width: 500px;
-    height: 250px;
+    width: 535px;
+    height: 235px;
   }
 }
 
