@@ -36,7 +36,7 @@ h1 {
   transition: all 1.5s ease;
   filter: drop-shadow(1px 3px 5px black);
   top: 160px;
-  width: 290px;
+  width: 320px;
   height: 150px;
 }
 
@@ -211,7 +211,7 @@ h5 {
 }
 
 .carousel-indicators li {
-  border-color: lightskyblue;
+  border-color: blue;
   
 }
 
@@ -220,7 +220,7 @@ h5 {
 }
 
 .carousel-indicators li.active {
-  background-color: lightskyblue;
+  background-color: blue;
 }
 
 #changeText {
