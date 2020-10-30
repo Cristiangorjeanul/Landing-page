@@ -212,6 +212,11 @@ h5 {
 
 .carousel-indicators li {
   border-color: lightskyblue;
+  
+}
+
+.carousel-indicators {
+  bottom: -31px;
 }
 
 .carousel-indicators li.active {
