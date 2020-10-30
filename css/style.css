@@ -684,7 +684,7 @@ h5 {
   bottom: 0;
   width: 145px;
   padding: 0.1rem;
-  background: blue;
+  background: lightskyblue;
   transition: all 0.5s ease-in-out;
   visibility: hidden;
   opacity: 0;
@@ -735,14 +735,14 @@ h5 {
 #timeline ul li:nth-child(odd) div:before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent blue transparent transparent;
+  border-color: transparent lightskyblue transparent transparent;
 }
 
 /* Left Side Arrows */
 #timeline ul li:nth-child(even) div:before {
   right: -15px;
   border-width: 8px 0px 8px 16px;
-  border-color: transparent transparent transparent blue;
+  border-color: transparent transparent transparent lightskyblue;
 }
 
 /* Show Boxes */
