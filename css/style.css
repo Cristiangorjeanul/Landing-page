@@ -219,12 +219,12 @@ h5 {
 }
 
 main button {
-  background-color: red;
-  text-decoration: none;
+  background-color: lightskyblue;
+  font-weight: 500;
 }
 
 main button:hover {
-  background: lightskyblue;
+  background: red;
 }
 
 #changeText {
