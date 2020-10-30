@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/loader.css">
   <link rel="stylesheet" href="css/navbar.css">
@@ -62,18 +63,16 @@
             <div class="panel-heading">
               <div class="photos">
 
-                <img class="photo" src="assets/seasonsphotos.jpg" alt="Seasons Seasons_photos">
-                <img class="photo" src="assets/juice-shop.jpg" alt="Juice-shop">
+                <img class="photo" src="assets/blog.jpg" alt="Photo blog">
+                <img class="photo" src="assets/juice-store.jpg" alt="Juice store">
                 <img class="photo" src="assets/animations.jpg" alt="Graphic animation">
-                <img class="photo" src="assets/shop.jpg" alt="Shop`n roses">
-                <img class="photo" src="assets/library.jpg" alt="School library">
-                <img class="photo" src="assets/shoppinglist.jpg" alt="Shopping list">
-                <img class="photo" src="assets/discovercolors.jpg" alt="Discover identical colors">
+                <img class="photo" src="assets/shop.jpg" alt="Flower shop">
+                <img class="photo" src="assets/learning.jpg" alt="Learning system">
+                <img class="photo" src="assets/programming.jpg" alt="Programming eBook">
                 <img class="photo" src="assets/breadrecipe.jpg" alt="Bread recipe">
                 <img class="photo" src="assets/astronomy.jpg" alt="Astronomical quiz">
-                <img class="photo" src="assets/programming.jpg" alt="Programming eBook">
                 <img class="photo" src="assets/graphicdesign.jpg" alt="Graphic design">
-                <img class="photo" src="assets/byzantine.jpg" alt="Byazantine Empire">
+                <img class="photo" src="assets/byzantine.jpg" alt="Byzantine Empire">
 
                 <div class="portfolio">
                 </div>
@@ -104,20 +103,49 @@
         <h3 class="margin" style="color: blue">Welcome!</h3>
         <img src="assets/desk.jpg" class="img-responsive img-circle margin" style="display:inline" alt="homedesk"
           width="250" height="250">
-        <h3 style="color: blue">I'm a<br>Software Developer!</h3><br>
+        <h3 style="color: blue">I'm a<br>Software Developer!</h3><br><br>
 
-
-        <div class="box"><br>
-          <h4 style="margin-top: 1px;">My website presentation at the JavaScript course!</h4>
-          <img src="assets/presentation.jpg" alt="My photo">
-          <h5><span style="font-weight:700;">Click to see my activity on the Github
-              platform:</span><br><span
-              style="font-size: 12px; color:blue; padding-bottom: 25px;">https://github.com/Cristiangorjeanul</span>
-            <a href="https://github.com/Cristiangorjeanul?tab=repositories" target="_blank"><span
-                class="span-link"></span></a>
-          </h5>
-        </div><br><br>
+        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+          <!-- Slider indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="assets/presentation1.jpg">
+            </div>
+            <div class="item">
+              <img src="assets/presentation2.jpg">
+            </div>
+            <div class="item">
+              <img src="assets/presentation3.jpg">
+            </div>
+          </div>
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
+
+      <h4>Images from my presentation at the 'Frontend Developer' course<br>
+        (Bucharest, December 2019 - February 2020).<br>
+        If you want to see my apps please take a look at my portfolio<br>
+        or visit my Github account:<br><br>
+        <button class="btn">
+          <a href="https://github.com/Cristiangorjeanul" target="_blank"
+            style="font-size: 12px; color:blue; padding-bottom: 25px;"><span class="span-link"></span>Visit my Github
+            account</a>
+      </h4></button><br><br>
+
 
       <!-- Container Portfolio section -->
       <div id="portfolio" class="container-fluid text-center">
@@ -137,7 +165,7 @@
         <br><br>
         <h4>I have already created</h4>
         <h4 id="appNumber" style="color: red; font-size: 37px; font-weight: 900;">
-          49</h4>
+          53</h4>
         <h4>user friendly web pages!</h4>
 
         <b id="changeText"></b><br>
@@ -153,7 +181,7 @@
                 alt="Saint Nectarios">
               <h4>A short description of the life, miracles and work of Saint Nectarios of Aegina (Greece)
                 <br><br><span style="color: blue">Click here to read<br>this biographical page</span>
-                <a href="https://cristiangorjeanul.github.io/Saint-Nectarios/" target="_blank"><span
+                <a href="https://cristiangorjeanul.github.io/Biographical-Page/" target="_blank"><span
                     class="span-link"></span></a>
               </h4>
             </div>
@@ -161,11 +189,11 @@
 
           <div class="col-sm-4">
             <div class="thumbnail">
-              <h3>Photo<br>blog</h3>
-              <img src="assets/seasonsphotos.jpg" alt="Seasons photos">
+              <h3>Photo<br>Blog</h3>
+              <img src="assets/blog.jpg" alt="Photo Blog">
               <h4>A photography lovers website with many beautiful photos (HTML, CSS, JS, AJAX)
                 <br><br><span style="color: blue">Click here to see<br>beautiful photos!</span>
-                <a href="https://cristiangorjeanul.github.io/Seasons_photos/" target="_blank"><span
+                <a href="https://cristiangorjeanul.github.io/Photo-Blog/" target="_blank"><span
                     class="span-link"></span></a>
               </h4>
             </div>
@@ -173,11 +201,11 @@
 
           <div class="col-sm-4">
             <div class="thumbnail">
-              <h3>Juice<br>store</h3>
-              <img src="assets/juice-shop.jpg" alt="Juice-shop">
-              <h4>A responsive e-shop for a small business with juices (HTML, CSS, JavaScript, Bootstrap).
+              <h3>Juice<br>Store</h3>
+              <img src="assets/juice-store.jpg" alt="Juice Store">
+              <h4>An e-Commerce website for a business with juices (HTML, CSS, JavaScript, Bootstrap)
                 <br><br><span style="color: blue">Click here to see this<br>e-commerce web page!</span>
-                <a href="https://cristiangorjeanul.github.io/Juice-shop/" target="_blank"><span
+                <a href="https://cristiangorjeanul.github.io/Juice-Store/" target="_blank"><span
                     class="span-link"></span></a>
               </h4>
             </div>
@@ -186,11 +214,11 @@
 
           <div class="col-sm-4">
             <div class="thumbnail">
-              <h3>Shop`n<br>roses</h3>
-              <img src="assets/shop.jpg" alt="Shop`n roses">
+              <h3>Flower<br>Shop</h3>
+              <img src="assets/shop.jpg" alt="Flower shop">
               <h4>A responsive e-shop for a small business with flowers (HTML, CSS, JavaScript).
                 <br><br><span style="color: blue">Click here to see this<br>e-commerce web page!</span>
-                <a href="https://cristiangorjeanul.github.io/Shop-n_roses/" target="_blank"><span
+                <a href="https://cristiangorjeanul.github.io/Flower-Shop/" target="_blank"><span
                     class="span-link"></span></a>
               </h4>
             </div>
@@ -198,7 +226,7 @@
 
           <div class="col-sm-4">
             <div class="thumbnail">
-              <h3>Graphic<br>animation</h3>
+              <h3>Graphic<br>Animation</h3>
               <img src="assets/animations.jpg" alt="Graphic animation">
               <h4>Three graphic animations and a nice game (HTML, CSS, JavaScript - jQuery)
                 <br><br><span style="color: blue">Click here to see<br>these animations!</span>
@@ -210,7 +238,18 @@
 
           <div class="col-sm-4">
             <div class="thumbnail">
-              <h3>Educational<br>quiz</h3>
+              <h3>Learning<br>System</h3>
+              <img src="assets/learning.jpg" alt="Learning system">
+              <h4>A Frontend Development learning system (HTML, CSS, JavaScript-jQuery)
+                <br><br><span style="color: blue">Click here to see this<br>educational web page!</span>
+                <a href="https://cristiangorjeanul.github.io/Learning-System/" target="_blank"><span
+                    class="span-link"></span></a>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <h3>Educational<br>Quiz</h3>
               <img src="assets/astronomy.jpg" alt="Astronomical quiz">
               <h4>This is a short questionnaire about the Solar System (HTML, CSS, JavaScript)
                 <br><br><span style="color: blue">Click here to solve<br>this quiz!</span>
@@ -240,17 +279,6 @@
                 <a href="https://cristiangorjeanul.github.io/Graphic-Design/" target="_blank"><span
                     class="span-link"></span></a>
               </h4>
-            </div>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="thumbnail">
-              <h3>School<br>library</h3>
-              <img src="assets/library.jpg" alt="School library">
-              <h4>This app can be a part of a large school library (HTML, CSS, JavaScript-jQuery)
-                <br><br><span style="color: blue">Click here to see this<br>educational web page!</span>
-                <a href="https://cristiangorjeanul.github.io/School-library/" target="_blank"><span
-                    class="span-link"></span></a>
             </div>
           </div>
 
@@ -290,176 +318,127 @@
             </div>
           </div>
 
+        </div>
+        <!-- Container Skills section-->
+        <div id="skills" class="container-fluid">
+          <div class="text-center">
+            <div class="row slideanim">
+              <div class="col-sm-12 col-xs-12">
+                <div class="panel panel-default text-center">
+                  <div class="panel-heading">
+                    <h3>SKILLS</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><br><br>
+
+          <div class="row slideanim">
+            <div class="col-sm-4 col-xs-12">
+              <div class="panel panel-default text-center">
+                <div class="panel-heading1">
+                  <h3>Frontend<br>Development</h3>
+                </div>
+                <div class="panel-body">
+                  <h4><strong>HTML, CSS</strong> - advanced</h4>
+                  <h4><strong>SASS</strong> - advanced</h4>
+                  <h4><strong>Bootstrap</strong> - medium</h4>
+                  <h4><strong>JavaScript</strong> - medium</h4>
+                  <h4><strong>React, jQuery</strong> - beginner</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-xs-12">
+              <div class="panel panel-default text-center">
+                <div class="panel-heading2">
+                  <h3>Graphic<br>Design</h3>
+                </div>
+                <div class="panel-body">
+                  <h4><strong>Paint</strong> - advanced</h4>
+                  <h4><strong>Photos</strong> - advanced</h4>
+                  <h4><strong>GIMP</strong> - medium</h4>
+                  <h4><strong>Photoshop</strong> - medium</h4>
+                  <h4><strong>UI Design</strong> - medium</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-xs-12">
+              <div class="panel panel-default text-center">
+                <div class="panel-heading3">
+                  <h3>Transferable<br>skills</h3>
+                </div>
+                <div class="panel-body">
+                  <h4><strong>MS Office</strong> - advanced</h4>
+                  <h4><strong>French</strong> - advanced</h4>
+                  <h4><strong>English</strong> -medium</h4>
+                  <h4><strong>Communication</strong> - efficient</h4>
+                  <h4><strong>Teamwork</strong> - efficient</h4>
+                </div>
+              </div>
+            </div>
+          </div>
         </div><br><br><br>
 
 
-
-        <div class="text-center">
+        <div id="experience" class="container-fluid" class="text-center">
           <div class="row slideanim">
             <div class="col-sm-12 col-xs-12">
               <div class="panel panel-default text-center">
                 <div class="panel-heading">
-                  <h3>Intuitive apps</h3>
+                  <h3>EXPERIENCE</h3>
                 </div>
               </div>
             </div>
           </div>
-        </div><br><br>
-
-        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-          <!-- Slider indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <h4>"This quiz is amazing for an educational purpose!</h4>
-              <img src="assets/astronomy.jpg">
-            </div>
-            <div class="item">
-              <h4>"An intuitive shopping list for my mobile phone!"</h4>
-              <img src="assets/shoppinglist.jpg">
-            </div>
-            <div class="item">
-              <h4>"Nice e-shop with beautiful images and is user friendly"</h4>
-              <img src="assets/shop.jpg">
-            </div>
-          </div>
-          <!-- Left and right controls -->
-          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
-      </div>
 
-      <!-- Container Skills section-->
-      <div id="skills" class="container-fluid">
-        <div class="text-center">
+        <div class="container-fluid text-center">
           <div class="row slideanim">
-            <div class="col-sm-12 col-xs-12">
+            <div class="col-sm-4 col-xs-12">
               <div class="panel panel-default text-center">
-                <div class="panel-heading">
-                  <h3>SKILLS</h3>
+                <div class="panel-heading1">
+                  <h3>Frontend<br>Developer</h3>
+                </div>
+                <div class="panel-body">
+                  <h4><strong>Freelance<br>Web Developer</strong></h4>
                 </div>
               </div>
             </div>
-          </div>
-        </div><br><br>
 
-        <div class="row slideanim">
-          <div class="col-sm-4 col-xs-12">
-            <div class="panel panel-default text-center">
-              <div class="panel-heading1">
-                <h3>Frontend<br>Development</h3>
-              </div>
-              <div class="panel-body">
-                <h4><strong>HTML, CSS</strong> - advanced</h4>
-                <h4><strong>SASS</strong> - advanced</h4>
-                <h4><strong>Bootstrap</strong> - medium</h4>
-                <h4><strong>JavaScript</strong> - medium</h4>
-                <h4><strong>React, jQuery</strong> - beginner</h4>
+            <div class="col-sm-4 col-xs-12">
+              <div class="panel panel-default text-center">
+                <div class="panel-heading2">
+                  <h3>Substitute<br>Teacher</h3>
+                </div>
+                <div class="panel-body">
+                  <h4><strong>Primary & secondary<br>schools</strong></h4>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-sm-4 col-xs-12">
-            <div class="panel panel-default text-center">
-              <div class="panel-heading2">
-                <h3>Graphic<br>Design</h3>
-              </div>
-              <div class="panel-body">
-                <h4><strong>Paint</strong> - advanced</h4>
-                <h4><strong>Photos</strong> - advanced</h4>
-                <h4><strong>GIMP</strong> - medium</h4>
-                <h4><strong>Photoshop</strong> - medium</h4>
-                <h4><strong>UI Design</strong> - medium</h4>
+            <div class="col-sm-4 col-xs-12">
+              <div class="panel panel-default text-center">
+                <div class="panel-heading3">
+                  <h3>Sales<br>Manager</h3>
+                </div>
+                <div class="panel-body">
+                  <h4><strong>Multinational<br>companies</strong></h4>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br><br>
+        </div>
 
-          <div class="col-sm-4 col-xs-12">
-            <div class="panel panel-default text-center">
-              <div class="panel-heading3">
-                <h3>Transferable<br>skills</h3>
-              </div>
-              <div class="panel-body">
-                <h4><strong>MS Office</strong> - advanced</h4>
-                <h4><strong>French</strong> - advanced</h4>
-                <h4><strong>English</strong> -medium</h4>
-                <h4><strong>Communication</strong> - efficient</h4>
-                <h4><strong>Teamwork</strong> - efficient</h4>
-              </div>
-            </div>
+        <div class="hourglass">
+          <div class="glass top">
+            <div class="sand"></div>
+          </div>
+          <div class="glass">
+            <div class="sand delayed"></div>
           </div>
         </div>
-      </div>
-
-
-      <div id="experience" class="container-fluid" class="text-center">
-        <div class="row slideanim">
-          <div class="col-sm-12 col-xs-12">
-            <div class="panel panel-default text-center">
-              <div class="panel-heading">
-                <h3>EXPERIENCE</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container-fluid text-center">
-        <div class="row slideanim">
-          <div class="col-sm-4 col-xs-12">
-            <div class="panel panel-default text-center">
-              <div class="panel-heading1">
-                <h3>Frontend<br>Developer</h3>
-              </div>
-              <div class="panel-body">
-                <h4><strong>Freelance<br>Web Developer</strong></h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4 col-xs-12">
-            <div class="panel panel-default text-center">
-              <div class="panel-heading2">
-                <h3>Substitute<br>Teacher</h3>
-              </div>
-              <div class="panel-body">
-                <h4><strong>Primary & secondary<br>schools</strong></h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4 col-xs-12">
-            <div class="panel panel-default text-center">
-              <div class="panel-heading3">
-                <h3>Sales<br>Manager</h3>
-              </div>
-              <div class="panel-body">
-                <h4><strong>Multinational<br>companies</strong></h4>
-              </div>
-            </div>
-          </div>
-        </div><br><br>
-      </div>
-
-      <div class="hourglass">
-        <div class="glass top">
-          <div class="sand"></div>
-        </div>
-        <div class="glass">
-          <div class="sand delayed"></div>
-        </div>
-      </div>
 
       </div>
 
@@ -545,15 +524,9 @@
         <div class="row">
           <div class="col-sm-12">
             <h4><span class="glyphicon glyphicon-map-marker"></span> Bucharest, Romania</h4>
-            <h4><span class="glyphicon glyphicon-envelope"></span> Gmail - <a href="https://mail.google.com/"
-                target="_blank"><span style="color:blue;">https://mail.google.com/</span></a></h4>
-            <h4><span class="glyphicon glyphicon-envelope"></span> SmartRecruiters - <a
-                href="https://www.smartrecruiters.com/" target="_blank"><span
-                  style="color:blue;">https://www.smartrecruiters.com/</span></a></h4>
-            <h4><span class="glyphicon glyphicon-envelope"></span> bestjobs - <a href="https://www.bestjobs.eu/ro/"
-                target="_blank"><span style="color:blue;">https://www.bestjobs.eu/ro/</span></a></h4>
-            <h4><span class="glyphicon glyphicon-envelope"></span> ejobs - <a href="https://www.ejobs.ro/"
-                target="_blank"><span style="color:blue;">https://www.ejobs.ro/</span></a></h4>
+            <h4><span class="fa fa-github-square"></span> Github - <a href="https://github.com/Cristiangorjeanul"
+                target="_blank"><span style="color:blue;">github.com/Cristiangorjeanul</span></a></h4><br>
+
             <iframe id="iframe"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6420701.660770204!2d24.97964010764297!3d47.14706412280103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1f93abf3cad4f%3A0xac0632e37c9ca628!2sBucure%C8%99ti!5e0!3m2!1sro!2sro!4v1599735037524!5m2!1sro!2sro"></iframe>
           </div>

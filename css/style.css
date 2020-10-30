@@ -111,14 +111,14 @@ h5 {
 }
 
 .panel-heading {
-  color: #fff !important;
+  color: white !important;
   background-color: lightskyblue !important;
   padding-bottom: 23px;
 }
 
 .jumbotron {
   background-color: white;
-  color: #fff;
+  color: white;
   padding: 17px 1px 1px 1px;
   font-family: Montserrat, sans-serif;
 }
@@ -190,18 +190,41 @@ h5 {
 #services .glyphicon {
   font-size: 50px;
   margin-bottom: 20px;
-  color: #f4511e;
+  color: red;
 }
 
 .logo-small {
-  color: #f4511e;
+  color: blue;
   font-size: 50px;
 }
 
 .logo {
-  color: #f4511e;
+  color: blue;
   padding-top: 47px;
   font-size: 120px;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+  color: blue;
+}
+
+.carousel-indicators li {
+  border-color: lightskyblue;
+}
+
+.carousel-indicators li.active {
+  background-color: lightskyblue;
+}
+
+main button {
+  background-color: red;
+  text-decoration: none;
+}
+
+main button:hover {
+  background: lightskyblue;
 }
 
 #changeText {
@@ -382,20 +405,6 @@ h5 {
   border: 0.5px solid blue;
 }
 
-.carousel-control.right,
-.carousel-control.left {
-  background-image: none;
-  color: #f4511e;
-}
-
-.carousel-indicators li {
-  border-color: #f4511e;
-}
-
-.carousel-indicators li.active {
-  background-color: #f4511e;
-}
-
 .item h4 {
   font-size: 14px;
   text-align: center;
@@ -434,27 +443,27 @@ h5 {
 }
 
 .panel-footer .btn:hover {
-  border: 1px solid #f4511e;
-  background-color: #fff !important;
+  border: 1px solid red;
+  background-color: white !important;
   color: #f4511e;
 }
 
 .panel-heading1 {
-  color: #fff !important;
+  color: white !important;
   background-color: green !important;
   padding-top: 1px;
   padding-bottom: 25px;
 }
 
 .panel-heading2 {
-  color: #fff !important;
+  color: white !important;
   background-color: red !important;
   padding-top: 1px;
   padding-bottom: 25px;
 }
 
 .panel-heading3 {
-  color: #fff !important;
+  color: white !important;
   background-color: blue !important;
   padding-top: 1px;
   padding-bottom: 25px;
@@ -468,8 +477,8 @@ h5 {
   margin: 15px 0;
   font-size: 18px;
   font-weight: 700;
-  background-color: #f4511e;
-  color: #fff;
+  background-color: red;
+  color: white;
 }
 
 #contact .glyphicon {
