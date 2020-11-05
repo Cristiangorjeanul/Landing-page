@@ -85,7 +85,7 @@ h3 {
 
 @media (min-width: 768px) {
   h3 {
-    font-size: 42px;
+    font-size: 35px;
   }
 }
 
@@ -212,7 +212,6 @@ h5 {
 
 .carousel-indicators li {
   border-color: blue;
-  
 }
 
 .carousel-indicators {
@@ -243,7 +242,7 @@ h5 {
 
 #changeText:after {
   content: "";
-  animation: change 18s linear infinite;
+  animation: change 12s linear infinite;
 }
 
 @keyframes change {
@@ -251,31 +250,31 @@ h5 {
     content: "Landing page";
   }
   2.5% {
-    content: "Resume & portfolio";
+    content: "Biographical Page";
   }
   5% {
-    content: "Cover letter";
+    content: "My Resume";
   }
   7.5% {
-    content: "Funny resume";
+    content: "Cover letter";
   }
   10% {
-    content: "Electric car";
+    content: "Juice Store";
   }
   12.5% {
-    content: "Interstellar navigation";
+    content: "Flower Shop";
   }
   15% {
-    content: "Find antonyms";
+    content: "Photo Blog";
   }
   17.5% {
     content: "Byzantine Empire";
   }
   20% {
-    content: "Coloring pages";
+    content: "Learning System";
   }
   22.5% {
-    content: "Squash game";
+    content: "Graphic animation";
   }
   25% {
     content: "Students` prayers";
@@ -284,7 +283,7 @@ h5 {
     content: "Astronomical quiz";
   }
   30% {
-    content: "Shop in roses";
+    content: "Coloring pages";
   }
   32.5% {
     content: "Seasons photos";
@@ -359,16 +358,16 @@ h5 {
     content: "Green energy";
   }
   92.5% {
-    content: "Landing page";
+    content: "Electric car";
   }
   95% {
-    content: "Landing page";
+    content: "Interstellar navigation";
   }
   97.5% {
-    content: "Landing page";
+    content: "Find antonyms";
   }
   100% {
-    content: "Landing page";
+    content: "Find antonyms";
   }
 }
 
@@ -564,8 +563,8 @@ h5 {
 }
 
 .modal-body {
-  background-color: red;
-  color: blue !important;
+  background-color: lightskyblue;
+  color: white !important;
 }
 
 .modal-header,
