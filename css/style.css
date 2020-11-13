@@ -139,7 +139,7 @@ h5 {
 }
 
 .logo-technologies img {
-  height: 35px;
+  height: 37px;
   padding: 5px;
 }
 
@@ -711,7 +711,7 @@ h5 {
 #timeline ul li div {
   position: relative;
   bottom: 0;
-  width: 153px;
+  width: 157px;
   padding: 0.1rem;
   box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.2);
   transition: all 0.5s ease-in-out;
