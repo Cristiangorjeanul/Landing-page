@@ -540,6 +540,18 @@ h5 {
   }
 }
 
+.button-account {
+  background-color: red;
+  text-shadow: 1px 1px 1px black;
+  font-weight: 800;
+  margin: auto;
+}
+
+.button-account:hover,
+.button-account:active {
+  background-color: lightskyblue;
+}
+
 .button {
   background-color: red;
   text-shadow: 1px 1px 1px black;
@@ -547,8 +559,28 @@ h5 {
   margin: auto;
 }
 
-.button:hover {
+.button:hover,
+.button:active {
   background-color: lightskyblue;
+  animation: shake 0.35s ease-in-out;
+}
+
+@keyframes shake {
+  20% {
+    transform: translateX(8px);
+  }
+  40% {
+    transform: translateX(-6px);
+  }
+  60% {
+    transform: translateX(4px);
+  }
+  80% {
+    transform: translateX(-2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 @media screen and (max-width: 768px) {
