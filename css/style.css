@@ -97,7 +97,7 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 5px;
-  text-shadow: 0.1px 0.1px 0.1px black;
+  text-shadow: 1px 1px 1px black;
 }
 
 @media (min-width: 768px) {

@@ -239,7 +239,7 @@
   left: -41px;
   width: 232px;
   height: 125px;
-  background: blue;
+  background: lightskyblue;
   border-radius: 80px 80px 0 0;
 }
 
@@ -288,9 +288,9 @@
 
 .logo-laptop {
   position: absolute;
-  background-color: cyan;
+  background-color: white;
   border: 5px solid silver;
-  height: 20px;
+  height: 27px;
   width: 27px;
   border-radius: 50%;
   top: 37%;
