@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   setTimeout(function () {
     var element = document.querySelector("body");
     element.classList.add("loaded");
-  }, 0);
+  }, 3500);
 
   //Greeting
   var date = new Date();
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   document.querySelector(".loader").innerHTML = "<br>" + greeting + "!<br>Welcome to:<br>Cristian`s<br>Landing Page";
 
-  //Slide show
+  //Header Slide show
   const photos = document.querySelectorAll(".photo");
   let currentSlide = 0;
   const slideTimer = 2500;
@@ -44,14 +44,14 @@ document.addEventListener('DOMContentLoaded', function () {
   setInterval(changeSlides, slideTimer);
 
   //Button
-  var button = document.querySelector('.button');
+  var button = document.querySelector('#button-2');
   var counter = 1;
   button.addEventListener('click', function () {
-    document.querySelector('.button span').innerText = counter;
+    document.querySelector('#button-2 span').innerText = counter;
     counter++;
   });
 
-//Experience timeline
+  //Experience timeline section
   const items = document.querySelectorAll('#timeline li');
 
   const isInViewport = el => {
@@ -77,7 +77,9 @@ document.addEventListener('DOMContentLoaded', function () {
   window.addEventListener('resize', run);
   window.addEventListener('scroll', run);
 
-
+ // Time bottom line
+ var today = new Date();
+document.getElementById('time').innerHTML=today;
 
 
 

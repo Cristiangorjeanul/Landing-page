@@ -1,14 +1,15 @@
 .container-portrait {
   margin: auto;
-  width: 270px;
-  height: 435px;
+  width: 253px;
+  height: 410px;
+  background-color: white;
 }
 
 .wrapper {
   position: absolute;
   z-index: 0;
-  width: 270px;
-  height: 435px;
+  width: 253px;
+  height: 410px;
   background: white;
   overflow: hidden;
 }
@@ -22,8 +23,8 @@
 .neck {
   position: absolute;
   z-index: 0;
-  top: 203px;
-  left: 53px;
+  top: 170px;
+  left: 43.5px;
   width: 50px;
   height: 21px;
   background: #ffc49c;
@@ -33,31 +34,31 @@
 .beard {
   position: absolute;
   top: 8px;
-  left: 1px;
-  width: 153px;
-  height: 205px;
+  left: 0.5px;
+  width: 135px;
+  height: 170px;
   background: black;
-  border-radius: 135px 135px 95% 95%;
+  border-radius: 100% 100% 100% 100%;
 }
 
 .face {
   position: absolute;
   z-index: 100;
   top: 15px;
-  left: 1px;
-  width: 153px;
-  height: 183px;
+  left: 0.5px;
+  width: 135px;
+  height: 153px;
   background: #ffc49c;
-  border-radius: 135px 135px 95% 95%;
+  border-radius: 100% 100% 100% 100%;
 }
 
 .bangs {
   position: absolute;
   z-index: 100;
-  left: 19px;
-  top: -7px;
-  width: 115px;
-  height: 45px;
+  left: 21px;
+  top: -5px;
+  width: 93px;
+  height: 35px;
   background: black;
   border-radius: 100% 100% 100% 100%;
 }
@@ -66,9 +67,9 @@
   position: absolute;
   z-index: 1;
   top: 1px;
-  left: -3px;
-  width: 160px;
-  height: 160px;
+  left: 1px;
+  width: 134px;
+  height: 153px;
   background: black;
   border-radius: 100%;
 }
@@ -76,10 +77,10 @@
 .ear-left {
   position: absolute;
   z-index: 1;
-  top: 95px;
-  left: 129px;
+  top: 70px;
+  left: 107px;
   width: 35px;
-  height: 35px;
+  height: 39px;
   background: #ffc49c;
   border-radius: 100%;
 }
@@ -87,10 +88,10 @@
 .ear-right {
   position: absolute;
   z-index: 1;
-  top: 95px;
-  left: -7px;
+  top: 70px;
+  left: -6px;
   width: 35px;
-  height: 35px;
+  height: 39px;
   background: #ffc49c;
   border-radius: 100%;
 }
@@ -98,42 +99,46 @@
 .eyebrow-left {
   position: absolute;
   z-index: 1;
-  top: 70px;
+  top: 45px;
   left: 12px;
   width: 35px;
-  height: 4px;
-  background: #2d1002;
-  animation: 3.5s eyebrow infinite;
+  height: 5px;
+  border: 5px solid;
+  border-radius: 100%;
+  border-color: black transparent transparent transparent;
+  animation: 5s eyebrow infinite;
 }
 
 .eyebrow-right {
   position: absolute;
   z-index: 1;
-  top: -1px;
-  left: 95px;
+  top: -7px;
+  left: 73px;
   width: 35px;
-  height: 4px;
-  background: #2d1002;
-  animation: 3.5s eyebrow infinite;
+  height: 5px;
+  border: 5px solid;
+  border-radius: 100%;
+  border-color: black transparent transparent transparent;
+  animation: 5s eyebrow infinite;
 }
 
 @keyframes eyebrow {
   0% {
-    transform: translateY(1%);
+    transform: translateY(15%);
   }
   50% {
-    transform: translateY(35%);
+    transform: translateY(29%);
   }
-  0% {
-    transform: translateY(1%);
+  100% {
+    transform: translateY(15%);
   }
 }
 
 .eye-left {
   position: absolute;
   z-index: 1;
-  top: 83px;
-  left: 21px;
+  top: 58px;
+  left: 19px;
   width: 21px;
   height: 21px;
   background: #2d1002;
@@ -145,8 +150,8 @@
 .eye-right {
   position: absolute;
   z-index: 1;
-  top: -5.3px;
-  left: 90px;
+  top: -4.7px;
+  left: 72px;
   width: 21px;
   height: 21px;
   background-color: #2d1002;
@@ -177,8 +182,8 @@
 .nose {
   position: absolute;
   z-index: 1;
-  top: 100px;
-  left: 71px;
+  top: 61px;
+  left: 61px;
   width: 10px;
   height: 37px;
   border: 4px solid;
@@ -189,44 +194,56 @@
 
 .mouth {
   position: absolute;
-  top: 135px;
-  left: 53px;
+  top: 101px;
+  left: 43px;
   width: 50px;
   height: 25px;
   border: 8px solid;
   border-radius: 100%;
   border-color: transparent transparent #a41648 transparent;
-  animation: 1s mouth linear infinite;
+  animation: 3.5s mouth linear infinite;
 }
 
 @keyframes mouth {
   0% {
-    top: 135px;
-    left: 53px;
+    top: 101px;
+    left: 43px;
     width: 50px;
     height: 35px;
   }
+  10% {
+    top: 101px;
+    left: 45px;
+    width: 47px;
+    height: 35px;
+  }
   25% {
-    top: 135px;
-    left: 49px;
+    top: 101px;
+    left: 39px;
     width: 59px;
     height: 35px;
   }
   50% {
-    top: 135px;
-    left: 53px;
+    top: 101px;
+    left: 43px;
     width: 50px;
     height: 35px;
   }
   75% {
-    top: 135px;
+    top: 101px;
+    left: 39px;
+    width: 59px;
+    height: 35px;
+  }
+  90% {
+    top: 101px;
     left: 45px;
-    width: 65px;
+    width: 45px;
     height: 35px;
   }
   100% {
-    top: 135px;
-    left: 53px;
+    top: 101px;
+    left: 43px;
     width: 50px;
     height: 35px;
   }
@@ -235,9 +252,9 @@
 .body {
   position: absolute;
   z-index: -1;
-  top: 219px;
-  left: -41px;
-  width: 232px;
+  top: 186px;
+  left: -53px;
+  width: 241px;
   height: 125px;
   background: lightskyblue;
   border-radius: 80px 80px 0 0;
@@ -246,10 +263,10 @@
 .glass-left {
   position: absolute;
   z-index: 2;
-  left: 1px;
-  top: 77px;
-  width: 59px;
-  height: 35px;
+  left: 2px;
+  top: 53px;
+  width: 53px;
+  height: 31px;
   border: 4px solid black;
   border-radius: 20% 20% 35% 35%;
 }
@@ -258,9 +275,9 @@
   position: absolute;
   z-index: 2;
   top: -4px;
-  left: 90px;
-  width: 59px;
-  height: 35px;
+  left: 75px;
+  width: 53px;
+  height: 31px;
   border: 4px solid black;
   border-radius: 20% 20% 35% 35%;
 }
@@ -268,19 +285,21 @@
 .glasses-rim {
   position: absolute;
   z-index: 100;
-  top: 5px;
-  left: 54px;
-  width: 37px;
+  top: 1px;
+  left: 45px;
+  width: 35px;
   height: 5px;
-  background: black;
+  border: 5px solid;
+  border-radius: 100%;
+  border-color: black transparent transparent transparent;
 }
 
 .laptop {
   border-radius: 12px;
   background-color: black;
-  height: 110px;
-  width: 235px;
-  top: 305px;
+  height: 121px;
+  width: 241px;
+  top: 259px;
   left: 1px;
   margin: 0 auto -8px auto;
   position: relative;

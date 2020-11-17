@@ -108,6 +108,7 @@ h4 {
 
 h5 {
   font-weight: 500;
+  text-align: center;
 }
 
 .panel-heading {
@@ -214,18 +215,6 @@ h5 {
   color: blue;
   padding-top: 47px;
   font-size: 120px;
-}
-
-.carousel-indicators li {
-  border-color: blue;
-}
-
-.carousel-indicators {
-  bottom: 80px;
-}
-
-.carousel-indicators li.active {
-  background-color: blue;
 }
 
 #changeText {
@@ -528,27 +517,32 @@ h5 {
   }
 }
 
-.button-account {
+#button-1 {
+  color: white;
   background-color: red;
   text-shadow: 1px 1px 1px black;
+  box-shadow: 10px 0 40px rgba(0, 0, 0, 0.2);
   font-weight: 800;
   margin: auto;
 }
 
-.button-account:hover,
-.button-account:active {
+#button-1:hover,
+#button-1:active {
   background-color: lightskyblue;
+  animation: shake 0.35s ease-in-out;
 }
 
-.button {
+#button-2 {
+  color: white;
   background-color: red;
   text-shadow: 1px 1px 1px black;
+  box-shadow: 10px 0 40px rgba(0, 0, 0, 0.2);
   font-weight: 800;
   margin: auto;
 }
 
-.button:hover,
-.button:active {
+#button-2:hover,
+#button-2:active {
   background-color: lightskyblue;
   animation: shake 0.35s ease-in-out;
 }
@@ -614,6 +608,7 @@ h5 {
 .modal-header,
 .modal-body {
   padding: 40px 50px;
+  box-shadow: 10px 0 40px rgba(0, 0, 0, 0.2);
 }
 
 .nav-tabs li a {
@@ -721,8 +716,7 @@ h5 {
 #timeline ul li {
   position: relative;
   width: 5px;
-  padding-top: 50px;
-  margin: 0 auto;
+  margin: auto;
   background: blue;
   list-style: none;
 }
@@ -733,7 +727,7 @@ h5 {
   bottom: 0;
   width: 157px;
   padding: 0.1rem;
-  box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 0 40px rgba(0, 0, 0, 0.2);
   transition: all 0.5s ease-in-out;
   visibility: hidden;
   opacity: 0;
@@ -838,7 +832,7 @@ h5 {
 
 @media (max-width: 600px) {
   #timeline ul li {
-    margin-left: 20px;
+    margin-left: 23px;
   }
 
   #timeline ul li div {
