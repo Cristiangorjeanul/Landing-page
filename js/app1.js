@@ -7,24 +7,34 @@ document.addEventListener('DOMContentLoaded', function () {
     element.classList.add("loaded");
   }, 3500);
 
-  //Greeting
+  //Greetings
   var date = new Date();
   var hour = date.getHours();
-  var greeting;
+  var initialGreeting;
+  var finalGreeting;
 
   if (hour < 10) {
-    greeting = "Good morning";
+    initialGreeting = "Good morning!";
+    finalGreeting = "Have a nice day!!";
+  }
+  else if (hour < 17) {
+    initialGreeting = 'Good afternoon!';
+    finalGreeting = "Have a nice day!";
   }
   else if (hour < 20) {
-    greeting = 'Good afternoon';
+    initialGreeting = 'Good afternoon!';
+    finalGreeting = "All the best!";
   }
   else if (hour < 24) {
-    greeting = "Good evening";
+    initialGreeting = "Good evening!";
+    finalGreeting = "All the best!";
   }
   else {
-    greeting = "Hello";
+    initialGreeting = "Hello!";
+    finalGreeting = "All the best!";
   }
-  document.querySelector(".loader").innerHTML = "<br>" + greeting + "!<br>Welcome to:<br>Cristian`s<br>Landing Page";
+  document.querySelector(".loader").innerHTML = "<br>" + initialGreeting + "<br>Welcome to:<br>Cristian`s<br>Landing Page";
+  document.querySelector("#final-greeting").innerHTML = "GOODBYE!<br>" + finalGreeting + "<br>";
 
   //Header Slide show
   const photos = document.querySelectorAll(".photo");
@@ -44,10 +54,10 @@ document.addEventListener('DOMContentLoaded', function () {
   setInterval(changeSlides, slideTimer);
 
   //Button
-  var button = document.querySelector('#button-2');
+  var button = document.querySelector('#button');
   var counter = 1;
   button.addEventListener('click', function () {
-    document.querySelector('#button-2 span').innerText = counter;
+    document.querySelector('#button span').innerText = counter;
     counter++;
   });
 

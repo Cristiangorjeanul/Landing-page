@@ -517,7 +517,7 @@ h5 {
   }
 }
 
-#button-1 {
+#button {
   color: white;
   background-color: red;
   text-shadow: 1px 1px 1px black;
@@ -526,23 +526,8 @@ h5 {
   margin: auto;
 }
 
-#button-1:hover,
-#button-1:active {
-  background-color: lightskyblue;
-  animation: shake 0.35s ease-in-out;
-}
-
-#button-2 {
-  color: white;
-  background-color: red;
-  text-shadow: 1px 1px 1px black;
-  box-shadow: 10px 0 40px rgba(0, 0, 0, 0.2);
-  font-weight: 800;
-  margin: auto;
-}
-
-#button-2:hover,
-#button-2:active {
+#button:hover,
+#button:active {
   background-color: lightskyblue;
   animation: shake 0.35s ease-in-out;
 }
@@ -766,7 +751,7 @@ h5 {
 
 /* Left Side */
 #timeline ul li:nth-child(even) div {
-  left: -180px;
+  left: -193px;
   transform: translate(-50px, 0);
 }
 
@@ -844,8 +829,23 @@ h5 {
   }
 
   #timeline ul li:nth-child(even) div:before {
-    left: -15px;
+    left: -20px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent blue transparent transparent;
+    border-color: transparent lightskyblue transparent transparent;
   }
+}
+
+#final-greeting {
+  width: 100%;
+  height: 100%;
+  font-size: 29px;
+  color: blue;
+  font-weight: 800;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15), 0 20px 25px rgba(0, 0, 0, 0.25);
+  padding-bottom: 15px;
+  text-align: center;
 }
