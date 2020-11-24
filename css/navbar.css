@@ -47,3 +47,9 @@
   border-color: transparent;
   color: white !important;
 }
+
+.nav-tabs li a {
+  color: #ffdb59;
+  font-size: 15px;
+  font-weight: 700;
+}

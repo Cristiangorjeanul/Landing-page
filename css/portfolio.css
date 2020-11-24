@@ -1,0 +1,261 @@
+
+.logo-technologies {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-technologies img {
+  height: 37px;
+  padding: 5px;
+}
+
+.box {
+  background-color: white;
+  position: relative;
+  width: 270px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  box-shadow: 15px 15px 50px -20px black;
+  border: 1px solid lightskyblue;
+}
+
+@media (min-width: 768px) {
+  .box {
+    width: 500px;
+  }
+}
+
+.box img {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.span-link {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.logo-small {
+  color: blue;
+  font-size: 50px;
+}
+
+.logo {
+  color: blue;
+  padding-top: 47px;
+  font-size: 120px;
+}
+
+#changeText {
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+  color: blue;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15), 0 20px 25px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 768px) {
+  #changeText {
+    font-size: 32px;
+  }
+}
+
+#changeText:after {
+  content: "";
+  animation: change 12s linear infinite;
+}
+
+@keyframes change {
+  0% {
+    content: "Landing page";
+  }
+  2.5% {
+    content: "Biographical Page";
+  }
+  5% {
+    content: "My Resume";
+  }
+  7.5% {
+    content: "Cover letter";
+  }
+  10% {
+    content: "Juice Store";
+  }
+  12.5% {
+    content: "Flower Shop";
+  }
+  15% {
+    content: "Photo Blog";
+  }
+  17.5% {
+    content: "Byzantine Empire";
+  }
+  20% {
+    content: "Learning System";
+  }
+  22.5% {
+    content: "Graphic animation";
+  }
+  25% {
+    content: "Students` prayers";
+  }
+  27.5% {
+    content: "Astronomical quiz";
+  }
+  30% {
+    content: "Coloring pages";
+  }
+  32.5% {
+    content: "Seasons photos";
+  }
+  35% {
+    content: "Quiz Religion";
+  }
+  37.5% {
+    content: "Christmas tree";
+  }
+  40% {
+    content: "Shapes game";
+  }
+  42.5% {
+    content: "My Portfolio";
+  }
+  45% {
+    content: "Educatie tehnologica";
+  }
+  47.5% {
+    content: "Breaking news";
+  }
+  50% {
+    content: "Bungee jumping";
+  }
+  52.5% {
+    content: "Shopping list";
+  }
+  55% {
+    content: "Discover colors";
+  }
+  57.5% {
+    content: "School survey";
+  }
+  60% {
+    content: "Bread recipe";
+  }
+  62.5% {
+    content: "Moving button";
+  }
+  65% {
+    content: "Changing petals";
+  }
+  67.5% {
+    content: "Learn quickly";
+  }
+  70% {
+    content: "Results table";
+  }
+  72.5% {
+    content: "Romanian wines";
+  }
+  75% {
+    content: "Graphic Design";
+  }
+  77.5% {
+    content: "Byzantine music";
+  }
+  80% {
+    content: "Bread recipe";
+  }
+  82.5% {
+    content: "School library";
+  }
+  85% {
+    content: "Meridian clocks";
+  }
+  87.5% {
+    content: "Golden fish";
+  }
+  90% {
+    content: "Green energy";
+  }
+  92.5% {
+    content: "Electric car";
+  }
+  95% {
+    content: "Interstellar navigation";
+  }
+  97.5% {
+    content: "Find antonyms";
+  }
+  100% {
+    content: "Find antonyms";
+  }
+}
+
+.thumbnail {
+  background-color: #fff;
+  text-align: center;
+  margin-top: 25px;
+  transition: box-shadow 0.5s;
+  border: 1px solid lightskyblue;
+  box-shadow: 10px 0 40px rgba(0, 0, 0, 0.2);
+}
+
+.thumbnail h3 {
+  color: blue;
+}
+
+@media (min-width: 768px) {
+  .thumbnail h3 {
+    font-size: 37px;
+  }
+}
+
+.thumbnail img {
+  margin-top: 35px;
+  width: 250px;
+  height: 120px;
+  border: 0.5px solid blue;
+}
+
+.item h4 {
+  font-size: 14px;
+  text-align: center;
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  .item h4 {
+    font-size: 25px;
+  }
+}
+
+.item img {
+  width: 70%;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .item img {
+    width: 59%;
+  }
+}
+
+.item span {
+  font-style: normal;
+}

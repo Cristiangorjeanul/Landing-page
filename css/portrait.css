@@ -31,7 +31,7 @@
   border-radius: 0% 0% 100% 100% / 100% 100% 50% 50%;
 }
 
-.beard-1 {
+.beard {
   position: absolute;
   top: 12px;
   left: 0.5px;
@@ -41,36 +41,13 @@
   border-radius: 100% 100% 100% 100%;
 }
 
-.beard-2 {
-  position: absolute;
-  z-index: 100;
-  top: 134px;
-  left: 41px;
-  width: 53px;
-  height: 23px;
-  background: black;
-  border-radius: 100% 100% 100% 100%;
-}
-
-.mustache {
-  position: absolute;
-  top: 109px;
-  left: 37px;
-  width: 60px;
-  height: 47px;
-  border: 8px solid;
-  border-radius: 100% 100% 50% 50%;
-  border-color: black black transparent black;
-  animation: s mouth linear infinite;
-}
-
 .face {
   position: absolute;
   z-index: 100;
   top: 15px;
   left: 0.5px;
   width: 135px;
-  height: 147px;
+  height: 153px;
   background: #ffc49c;
   border-radius: 100% 100% 100% 100%;
 }
@@ -216,42 +193,30 @@
   box-shadow: 0 1em 1em rgba(200, 160, 80, 0.35);
 }
 
-.top-lip {
+.mouth {
   position: absolute;
-  top: 120px;
-  left: 49px;
-  width: 35px;
-  height: 10px;
-  border: 5px solid;
-  border-radius: 100%;
-  border-color: #a41648 transparent transparent transparent;
-  animation: 5s mouth linear infinite;
-}
-
-.bottom-lip {
-  position: absolute;
-  top: 107px;
+  top: 110px;
   left: 45px;
   width: 44px;
   height: 23px;
   border: 7px solid;
   border-radius: 100%;
   border-color: transparent transparent #a41648 transparent;
-  animation: 5s mouth linear infinite;
+  animation: 3.5s mouth linear infinite;
 }
 
 @keyframes mouth {
   0% {
-    transform: scaleX(0.9);
+    transform: scaleX(0.85);
   }
   10% {
     transform: scaleX(0.95);
   }
   25% {
-    transform: scaleX(0.9);
+    transform: scaleX(0.8);
   }
   50% {
-    transform: scaleX(1.1);
+    transform: scaleX(1.15);
   }
   75% {
     transform: scaleX(0.9);
@@ -260,7 +225,7 @@
     transform: scaleX(1);
   }
   100% {
-    transform: scaleX(0.9);
+    transform: scaleX(0.85);
   }
 }
 
