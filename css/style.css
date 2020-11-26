@@ -25,7 +25,7 @@ h1 {
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 80px;
+    font-size: 73px;
   }
 }
 
@@ -36,16 +36,16 @@ h1 {
   transition: all 1.5s ease;
   filter: drop-shadow(1px 3px 5px black);
   top: 260px;
-  width: 320px;
+  width: 325px;
   height: 150px;
 }
 
 @media (min-width: 768px) {
   .photo {
     left: 50%;
-    top: 287px;
-    width: 390px;
-    height: 180px;
+    top: 291px;
+    width: 423px;
+    height: 185px;
   }
 }
 
@@ -66,7 +66,7 @@ h2 {
   h2 {
     padding-top: 147px;
     margin: 1px auto;
-    font-size: 45px;
+    font-size: 37px;
   }
 }
 
@@ -129,19 +129,7 @@ h5 {
 }
 
 .col-sm-12 {
-  padding-top: 10px;
-}
-
-.logo-technologies {
-  margin: auto;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.logo-technologies img {
-  height: 37px;
-  padding: 5px;
+  padding-top: 15px;
 }
 
 #myCarousel img {
@@ -185,6 +173,11 @@ h5 {
   margin-top: 5px;
 }
 
+.thumbnail {
+  padding-right: 1px;
+  padding-left: 1px;
+}
+
 .panel {
   border: 1px solid lightskyblue;
   border-radius: 0 !important;
@@ -224,6 +217,18 @@ h5 {
   border: 1px solid lightskyblue;
 }
 
+.col-sm-4 {
+  padding-right: 29px;
+  padding-left: 29px;
+}
+
+.panel-heading5 {
+  color: black !important;
+  background-color: white !important;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
 .slideanim {
   visibility: hidden;
 }
@@ -256,6 +261,10 @@ h5 {
     opacity: 1;
     -webkit-transform: translateY(0%);
   }
+}
+
+.logo-small {
+  font-size: 53px;
 }
 
 #button {
