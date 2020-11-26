@@ -111,6 +111,11 @@ h5 {
   text-align: center;
 }
 
+.panel p {
+  font-size: 15px; 
+  font-weight: 800;
+}
+
 .panel-heading {
   color: white !important;
   background-color: lightskyblue !important;
@@ -120,7 +125,7 @@ h5 {
 .jumbotron {
   background-color: white;
   color: white;
-  padding: 17px 1px 1px 1px;
+  padding: 12px 1px 1px 1px;
   font-family: Montserrat, sans-serif;
 }
 
