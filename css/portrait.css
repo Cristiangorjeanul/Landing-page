@@ -127,7 +127,7 @@
     transform: translateY(15%);
   }
   50% {
-    transform: translateY(27%);
+    transform: translateY(21%);
   }
   100% {
     transform: translateY(15%);
@@ -202,7 +202,7 @@
   border: 7px solid;
   border-radius: 100%;
   border-color: transparent transparent #a41648 transparent;
-  animation: 3.5s mouth linear infinite;
+  animation: 3.2s mouth linear infinite;
 }
 
 @keyframes mouth {
