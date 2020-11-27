@@ -43,7 +43,7 @@ h1 {
 @media (min-width: 768px) {
   .photo {
     left: 50%;
-    top: 291px;
+    top: 284px;
     width: 423px;
     height: 185px;
   }
@@ -112,7 +112,7 @@ h5 {
 }
 
 .panel p {
-  font-size: 15px; 
+  font-size: 15px;
   font-weight: 800;
 }
 
@@ -134,7 +134,7 @@ h5 {
 }
 
 .col-sm-12 {
-  padding-top: 15px;
+  padding-top: 8px;
 }
 
 #myCarousel img {
@@ -171,7 +171,7 @@ h5 {
 }
 
 #skills {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #contact {
@@ -223,15 +223,15 @@ h5 {
 }
 
 .col-sm-4 {
-  padding-right: 29px;
-  padding-left: 29px;
+  padding-right: 21px;
+  padding-left: 21px;
 }
 
 .panel-heading5 {
   color: black !important;
   background-color: white !important;
   padding-top: 21px;
-  padding-bottom: 21px;
+  padding-bottom: 5px;
 }
 
 .slideanim {
@@ -305,16 +305,9 @@ h5 {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .col-sm-4 {
-    text-align: center;
-    margin: 25px 0;
-  }
-
-  .btn-lg {
-    width: 100%;
-    margin-bottom: 35px;
-  }
+.btn-lg {
+  width: 100%;
+  margin-bottom: 35px;
 }
 
 .btn-lg:hover {

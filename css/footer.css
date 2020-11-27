@@ -88,3 +88,18 @@ button {
   margin-bottom: 20px;
   color: blue;
 }
+
+button-top {
+  margin: 23px;
+  font-size: 29px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 7px 7px 14px #cccccc, -7px -7px 14px white;
+  cursor: pointer;
+  transition: ease all 500ms;
+}
+
+button-top:hover {
+  box-shadow: inset 7px 7px 14px #cccccc, inset -7px -7px 14px white;
+}
+

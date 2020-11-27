@@ -151,7 +151,7 @@
   position: absolute;
   z-index: 1;
   top: -4.7px;
-  left: 73px;
+  left: 71px;
   width: 17px;
   height: 17px;
   background-color: #2d1002;
@@ -182,15 +182,15 @@
 .nose {
   position: absolute;
   top: 79px;
-  height: 27px;
+  height: 35px;
   width: 27px;
   left: 67px;
   z-index: 1;
   background: #ffc49c;
   transform: translateX(-50%);
   border-radius: 0 0 23% 23%;
-  border-bottom: solid 2px #261505;
-  box-shadow: 0 1em 1em rgba(200, 160, 80, 0.35);
+  border-bottom: solid 2.1px #261505;
+  box-shadow: 0 15px 15px rgba(200, 160, 80, 0.35);
 }
 
 .mouth {
@@ -243,7 +243,7 @@
 .glass-left {
   position: absolute;
   z-index: 2;
-  left: 2px;
+  left: 1px;
   top: 53px;
   width: 53px;
   height: 27px;
@@ -288,7 +288,7 @@
 .logo-laptop {
   position: absolute;
   background-color: white;
-  border: 5px solid silver;
+  border: 5px solid lightskyblue;
   height: 29px;
   width: 29px;
   border-radius: 50%;
