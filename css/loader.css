@@ -69,6 +69,7 @@
   top: 0;
   width: 51%;
   height: 100%;
+  color: blue;
   background: lightskyblue;
   z-index: 1000;
 }
