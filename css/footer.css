@@ -90,6 +90,8 @@ button {
 }
 
 button-top {
+  width: 35px;
+  height: 35px;
   margin: 23px;
   font-size: 29px;
   border-radius: 50%;

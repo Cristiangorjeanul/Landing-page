@@ -45,9 +45,8 @@ $(document).ready(function () {
   });
 
   // Animated texts
-  var words = ['This is My Landing Page!', 'On this page you can see:',
-    'Greeting message - loader', 'Animated menu & buttons', 'Hamburger button & modal',
-    'Slider, carousel & clock', 'Animated texts & timeline', ' Responsive web design! '],
+  var words = ['This is My Landing Page!', 'Responsive designed page!',
+    'HTML-CSS-JS-Bootstrap!', 'I hope you like this page!'],
     part,
     i = 0,
     offset = 0,

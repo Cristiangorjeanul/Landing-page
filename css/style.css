@@ -79,7 +79,8 @@ h3 {
     0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
     0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
     0 20px 20px rgba(0, 0, 0, 0.15), 0 20px 25px rgba(0, 0, 0, 0.25);
-  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 1px;
   text-align: center;
 }
 
@@ -98,7 +99,7 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 5px;
-  text-shadow: 0.1px 0.1px 0.1px black;
+  text-shadow: 0.5px 0.5px 0.5px black;
 }
 
 @media (min-width: 768px) {
@@ -126,12 +127,12 @@ h5 {
 .jumbotron {
   background-color: white;
   color: white;
-  padding: 12px 1px 1px 1px;
+  padding: 25px 1px 1px 1px;
   font-family: Montserrat, sans-serif;
 }
 
 .container-fluid {
-  padding: 25px;
+  padding: 15px;
 }
 
 .col-sm-12 {
@@ -143,15 +144,16 @@ h5 {
   height: 55px;
   margin: 10px auto;
   color: blue;
-  font-size: 19px;
+  font-size: 17px;
   text-shadow: 0.1px 0.1px 0.1px black;
   font-weight: 800;
-  padding: 12px;
+  padding-top: 23px;
+  padding-bottom: 23px;
   text-align: center;
 }
 
 #myCarousel img {
-  width: 80%;
+  width: 90%;
   margin-bottom: 15px;
 }
 
@@ -163,7 +165,7 @@ h5 {
 .carousel-control.left,
 .carousel-control.right {
   background: white;
-  width: 10%;
+  width: 5%;
 }
 
 .glyphicon-chevron-left,
@@ -189,11 +191,6 @@ h5 {
 
 #contact {
   margin-top: 5px;
-}
-
-.thumbnail {
-  padding-right: 1px;
-  padding-left: 1px;
 }
 
 .panel {
@@ -236,8 +233,8 @@ h5 {
 }
 
 .col-sm-4 {
-  padding-right: 21px;
-  padding-left: 21px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .panel-heading5 {
