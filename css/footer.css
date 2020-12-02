@@ -15,16 +15,16 @@
 
 #display {
   width: 335px;
-  height: 232px;
+  height: 231px;
   margin: auto;
   border-radius: 5px;
   background-color: blue;
-  margin-top: -170px;
+  margin-top: -178px;
 }
 
 #screen {
-  width: 305px;
-  height: 195px;
+  width: 319px;
+  height: 215px;
   margin: auto;
   background-color: transparent;
 }
@@ -104,4 +104,3 @@ button-top {
 button-top:hover {
   box-shadow: inset 7px 7px 14px #cccccc, inset -7px -7px 14px white;
 }
-
