@@ -14,7 +14,7 @@
 }
 
 #display {
-  width: 335px;
+  width: 350px;
   height: 231px;
   margin: auto;
   border-radius: 5px;
@@ -23,7 +23,7 @@
 }
 
 #screen {
-  width: 319px;
+  width: 335px;
   height: 215px;
   margin: auto;
   background-color: transparent;

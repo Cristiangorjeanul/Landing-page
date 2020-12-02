@@ -46,7 +46,7 @@ $(document).ready(function () {
 
   // Animated texts
   var words = ['This is My Landing Page!', 'Responsive designed page!',
-    'HTML-CSS-JS-Bootstrap!', 'I hope you like this page!'],
+    'Html-Css-JS-Bootstrap tech', 'I hope you like this page!'],
     part,
     i = 0,
     offset = 0,
