@@ -24,67 +24,57 @@
 }
 
 .card1 .front span {
-  background-image: url(/assets/photo-1.jpg);
+  background-image: url(/assets/photo-3.jpg);
   width: 25%;
   height: 100%;
-  transform: translateY(-100.5%);
+  opacity: 0;
   transition: 0.5s;
 }
 
 .card2 .front span {
-  background-image: url(/assets/photo-2.jpg);
+  background-image: url(/assets/photo-4.jpg);
   width: 25%;
   height: 100%;
-  transform: translateY(-100.5%);
+  opacity: 0;
   transition: 0.5s;
 }
 
 .front:hover span {
-  transform: translateY(0);
+  opacity: 1;
 }
 
 .front span:first-of-type {
   background-position: 0%;
-  transition-delay: 0.05s;
+  transition-delay: 0.1s;
 }
 
 .card1 .front span:nth-of-type(2) {
-  background-position: 7%;
-  transition-delay: 0.1s;
-}
-
-.card2 .front span:nth-of-type(2) {
-  background-position: 7.5%;
-  transition-delay: 0.1s;
-}
-
-.front span:nth-of-type(3) {
-  background-position: 14%;
-  transition-delay: 0.15s;
-}
-
-.front span:nth-of-type(4) {
-  background-position: 21%;
+  background-position: 16.7%;
   transition-delay: 0.2s;
 }
 
-.front span:nth-of-type(5) {
-  background-position: 28%;
-  transition-delay: 0.25s;
+.card2 .front span:nth-of-type(2) {
+  background-position: 16.3%;
+  transition-delay: 0.2s;
 }
 
-.front span:nth-of-type(6) {
-  background-position: 35%;
+.card1 .front span:nth-of-type(3) {
+  background-position: 32.8%;
   transition-delay: 0.3s;
 }
 
-.front span:nth-of-type(7) {
-  background-position: 42%;
-  transition-delay: 0.35s;
+.card2 .front span:nth-of-type(3) {
+  background-position: 32.5%;
+  transition-delay: 0.3s;
+}
+
+.front span:nth-of-type(4) {
+  background-position: 50%;
+  transition-delay: 0.4s;
 }
 
 .front span:last-of-type {
-  background-position: 49%;
+  background-position: 66%;
   transition-delay: 0.4s;
 }
 
@@ -124,11 +114,11 @@
 }
 
 .left-section {
-  background: rgba(255, 51, 0, 0.15);
-  border: none;
+  background: green;
+  border: 1px solid lightskyblue;
 }
 
 .right-section {
-  background: rgba(0, 102, 0, 0.15);
-  border: none;
+  background: red;
+  border: 1px solid lightskyblue;
 }
