@@ -62,10 +62,10 @@
 .bangs {
   position: absolute;
   z-index: 100;
-  left: 12px;
+  left: 15px;
   top: -10px;
-  width: 91px;
-  height: 41px;
+  width: 85px;
+  height: 31px;
   background: black;
   border-radius: 100% 100% 100% 100%;
 }
@@ -249,7 +249,7 @@
   left: 36px;
   width: 44px;
   height: 23px;
-  border: 7px solid;
+  border: 9px solid;
   border-radius: 100%;
   border-color: transparent transparent #943526 transparent;
   animation: 2.5s mouth linear infinite;
@@ -274,11 +274,14 @@
   50% {
     transform: scaleX(1.05);
   }
-  75% {
+  70% {
     transform: scaleX(0.9);
   }
-  90% {
+  80% {
     transform: scaleX(1);
+  }
+  90% {
+    transform: scaleX(0.8);
   }
   100% {
     transform: scaleX(0.85);
