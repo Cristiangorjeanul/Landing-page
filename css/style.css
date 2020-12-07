@@ -93,7 +93,6 @@ h3 {
 h4 {
   font-size: 19px;
   text-align: center;
-  color: black;
   width: 90%;
   font-weight: 800;
   margin-left: auto;
@@ -190,12 +189,17 @@ h5 {
   box-shadow: 10px 1px 50px rgba(0, 0, 0, 0.2);
 }
 
+.panel:hover {
+  animation: shake 0.35s ease-in-out;
+}
+
 .panel-heading1 {
   color: white !important;
   background-color: blue !important;
   padding-top: 1px;
   padding-bottom: 25px;
   border: 1px solid lightskyblue;
+  cursor: grabbing;
 }
 
 .panel-heading2 {
@@ -204,6 +208,7 @@ h5 {
   padding-top: 1px;
   padding-bottom: 25px;
   border: 1px solid lightskyblue;
+  cursor: grabbing;
 }
 
 .panel-heading3 {
@@ -212,6 +217,7 @@ h5 {
   padding-top: 1px;
   padding-bottom: 25px;
   border: 1px solid lightskyblue;
+  cursor: grabbing;
 }
 
 .panel-heading4 {
@@ -220,6 +226,7 @@ h5 {
   padding-top: 1px;
   padding-bottom: 25px;
   border: 1px solid lightskyblue;
+  cursor: grabbing;
 }
 
 .col-sm-4 {
@@ -266,6 +273,52 @@ h5 {
     opacity: 1;
     -webkit-transform: translateY(0%);
   }
+}
+
+.panel-body1 {
+  background-color: white;
+  color: black;
+  padding: 1px;
+}
+
+.panel-body1:hover {
+  background-color: blue;
+  color: white;
+  cursor: grabbing;
+}
+
+.panel-body2 {
+  background-color: white;
+  color: black;
+  padding: 1px;
+}
+
+.panel-body2:hover {
+  background-color: yellow;
+   cursor: grabbing;
+}
+
+.panel-body3 {
+  background-color: white;
+  color: black;
+  padding: 1px;
+}
+
+.panel-body3:hover {
+  background-color: red;
+  cursor: grabbing;
+}
+
+.panel-body4 {
+  background-color: white;
+  color: black;
+  padding: 1px;
+}
+
+.panel-body4:hover {
+  background-color: green;
+  color: white;
+  cursor: grabbing;
 }
 
 .logo-small {

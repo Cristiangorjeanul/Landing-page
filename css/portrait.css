@@ -168,10 +168,10 @@
     black 9%,
     green,
     darkgreen,
-    #ffffff 50%,
-    #ffffff 100%
+    white 39%,
+    white 100%
   );
-  animation: 2.5s blink-eyes1 infinite;
+  animation: 2.5s blink-left infinite;
 }
 
 .eye-right {
@@ -189,13 +189,13 @@
     black 9%,
     green,
     darkgreen,
-    #ffffff 50%,
-    #ffffff 100%
+    white 39%,
+    white 100%
   );
-  animation: 2.5s blink-eyes2 infinite;
+  animation: 2.5s blink-right infinite;
 }
 
-@keyframes blink-eyes1 {
+@keyframes blink-left {
   0% {
     height: 7%;
   }
@@ -212,7 +212,7 @@
   }
 }
 
-@keyframes blink-eyes2 {
+@keyframes blink-right {
   0% {
     height: 7%;
   }
@@ -231,9 +231,9 @@
 
 .nose {
   position: absolute;
-  top: 59px;
+  top: 55px;
   height: 35px;
-  width: 27px;
+  width: 21px;
   left: 57.5px;
   z-index: 1;
   background: #ffc49c;
