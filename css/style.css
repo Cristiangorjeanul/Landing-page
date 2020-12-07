@@ -191,6 +191,7 @@ h5 {
 
 .panel:hover {
   animation: shake 0.35s ease-in-out;
+  cursor: grabbing;
 }
 
 .panel-heading1 {
@@ -199,7 +200,6 @@ h5 {
   padding-top: 1px;
   padding-bottom: 25px;
   border: 1px solid lightskyblue;
-  cursor: grabbing;
 }
 
 .panel-heading2 {
@@ -208,7 +208,6 @@ h5 {
   padding-top: 1px;
   padding-bottom: 25px;
   border: 1px solid lightskyblue;
-  cursor: grabbing;
 }
 
 .panel-heading3 {
@@ -217,7 +216,6 @@ h5 {
   padding-top: 1px;
   padding-bottom: 25px;
   border: 1px solid lightskyblue;
-  cursor: grabbing;
 }
 
 .panel-heading4 {
@@ -226,7 +224,6 @@ h5 {
   padding-top: 1px;
   padding-bottom: 25px;
   border: 1px solid lightskyblue;
-  cursor: grabbing;
 }
 
 .col-sm-4 {
@@ -284,7 +281,6 @@ h5 {
 .panel-body1:hover {
   background-color: blue;
   color: white;
-  cursor: grabbing;
 }
 
 .panel-body2 {
@@ -295,7 +291,6 @@ h5 {
 
 .panel-body2:hover {
   background-color: yellow;
-   cursor: grabbing;
 }
 
 .panel-body3 {
@@ -306,7 +301,6 @@ h5 {
 
 .panel-body3:hover {
   background-color: red;
-  cursor: grabbing;
 }
 
 .panel-body4 {
@@ -318,7 +312,6 @@ h5 {
 .panel-body4:hover {
   background-color: green;
   color: white;
-  cursor: grabbing;
 }
 
 .logo-small {
