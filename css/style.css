@@ -191,6 +191,7 @@ h5 {
 
 .panel:hover {
   animation: shake 0.35s ease-in-out;
+  cursor: grab;
 }
 
 .panel-heading1 {
