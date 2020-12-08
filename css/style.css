@@ -35,7 +35,7 @@ h1 {
   transform: translate(-50%, -50%);
   transition: all 1.5s ease;
   filter: drop-shadow(1px 3px 5px black);
-  top: 271px;
+  top: 273px;
   width: 325px;
   height: 150px;
 }
@@ -43,7 +43,7 @@ h1 {
 @media (min-width: 768px) {
   .photo {
     left: 50%;
-    top: 297px;
+    top: 301px;
     width: 423px;
     height: 185px;
   }
@@ -51,7 +51,7 @@ h1 {
 
 h2 {
   padding-top: 132px;
-  font-size: 23px;
+  font-size: 21px;
   text-align: center;
   font-weight: 700;
   color: white;
@@ -64,7 +64,7 @@ h2 {
 
 @media (min-width: 768px) {
   h2 {
-    padding-top: 147px;
+    padding-top: 145px;
     margin: 1px auto;
     font-size: 35px;
   }
@@ -73,11 +73,11 @@ h2 {
 .texts {
   width: 100%;
   margin: auto;
-  height: 37px;
+  height: 35px;
 }
 
 h3 {
-  font-size: 21px;
+  font-size: 19px;
   font-weight: 700;
   color: white;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
@@ -97,7 +97,7 @@ h3 {
 }
 
 h4 {
-  font-size: 19px;
+  font-size: 17px;
   text-align: center;
   width: 90%;
   font-weight: 800;
@@ -126,8 +126,8 @@ h5 {
 .panel-heading {
   color: white !important;
   background-color: lightskyblue !important;
-  padding-top: 17px;
-  padding-bottom: 27px;
+  padding-top: 19px;
+  padding-bottom: 29px;
 }
 
 .jumbotron {
@@ -177,6 +177,7 @@ h5 {
 }
 
 .panel {
+  margin-top: 5px;
   border: 1px solid lightskyblue;
   border-radius: 0 !important;
   transition: box-shadow 0.5s;
