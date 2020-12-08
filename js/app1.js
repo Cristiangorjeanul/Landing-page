@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   setTimeout(function () {
     var element = document.querySelector("body");
     element.classList.add("loaded");
-  }, 3100);
+  }, 0);
 
   //Greetings
   var date = new Date();
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
   //Header Slide show
   const photos = document.querySelectorAll(".photo");
   let currentSlide = 0;
-  const slideTimer = 2500;
+  const slideTimer = 2535;
 
   const changeSlides = () => {
     photos.forEach((photo) => photo.style.opacity = 0)
@@ -87,9 +87,9 @@ document.addEventListener('DOMContentLoaded', function () {
   window.addEventListener('resize', run);
   window.addEventListener('scroll', run);
 
- // Time bottom line
- var today = new Date();
-document.getElementById('time').innerHTML=today;
+  // Time bottom line
+  var today = new Date();
+  document.getElementById('time').innerHTML = today;
 
 
 }); 

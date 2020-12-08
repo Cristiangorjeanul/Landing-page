@@ -51,7 +51,7 @@ h1 {
 
 h2 {
   padding-top: 132px;
-  font-size: 32px;
+  font-size: 23px;
   text-align: center;
   font-weight: 700;
   color: white;
@@ -66,12 +66,18 @@ h2 {
   h2 {
     padding-top: 147px;
     margin: 1px auto;
-    font-size: 37px;
+    font-size: 35px;
   }
 }
 
+.texts {
+  width: 100%;
+  margin: auto;
+  height: 37px;
+}
+
 h3 {
-  font-size: 29px;
+  font-size: 21px;
   font-weight: 700;
   color: white;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
@@ -98,7 +104,7 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 5px;
-  text-shadow: 0.5px 0.5px 0.5px black;
+  text-shadow: 0.9px 0.9px 0.9px black;
 }
 
 @media (min-width: 768px) {
@@ -139,21 +145,9 @@ h5 {
   padding-top: 8px;
 }
 
-.texts {
-  width: 100%;
-  height: 55px;
-  margin: 10px auto;
-  color: red;
-  font-size: 17px;
-  text-shadow: 0.5px 0.5px 0.5px black;
-  font-weight: 800;
-  padding-top: 23px;
-  padding-bottom: 23px;
-  text-align: center;
-}
-
 #myCarousel img {
   width: 90%;
+  margin-top: 39px;
   margin-bottom: 15px;
 }
 
@@ -191,7 +185,7 @@ h5 {
 
 .panel:hover {
   animation: shake 0.35s ease-in-out;
-  cursor: grabbing;
+  cursor: grab;
 }
 
 .panel-heading1 {

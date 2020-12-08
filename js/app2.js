@@ -45,16 +45,16 @@ $(document).ready(function () {
   });
 
   // Animated texts
-  var words = ['This is My Landing Page!', 'A responsive designed page!',
-    'Html-Css-JS-Bootstrap page', 'I hope you like this page!'],
+  var words = ['FRONTEND PROJECTS', 'WEB DESIGN',
+    'eLEARNING & TRAINING'],
     part,
     i = 0,
     offset = 0,
     len = words.length,
     forwards = true,
     skip_count = 0,
-    skip_delay = 150,
-    speed = 8;
+    skip_delay = 135,
+    speed = 15;
   var animatedWord = function () {
     setInterval(function () {
       if (forwards) {
