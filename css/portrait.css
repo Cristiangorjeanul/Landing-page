@@ -245,11 +245,11 @@
 
 .mouth {
   position: absolute;
-  top: 95px;
+  top: 93px;
   left: 36px;
   width: 44px;
   height: 23px;
-  border: 9px solid;
+  border: 7px solid;
   border-radius: 100%;
   border-color: transparent transparent #943526 transparent;
   animation: 2.5s mouth linear infinite;

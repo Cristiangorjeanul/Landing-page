@@ -93,6 +93,47 @@ $(document).ready(function () {
     animatedWord();
   });
 
-  
+  //h2 text effect
+  $(document).ready(function(){
+    var letters = "ABCDEFGHIJKLMNOPQRSTUVXYZ"; //You can customize what letters it will cycle through
+    var text = "FRONTEND PROJECTS"; // Your text goes here
+    var speed = 15; // ms per frame
+    var increment = 35; // frames per step. Must be >2
+    
+        
+    var textLenght = text.length;       
+    var si = 0;
+    var string = 0;
+    var block = "";
+    var fixed = "";
+    //Call self x times, whole function wrapped in setTimeout
+    (function rustle (i) {          
+    setTimeout(function () {
+      if (--i){rustle(i);}
+      nextFrame(i);
+      si = si + 1;        
+    }, speed);
+    })(textLenght*increment+1); 
+    function nextFrame(pos){
+      for (var i=0; i<textLenght-string; i++) {
+        //Random number
+        var num = Math.floor(letters.length * Math.random());
+        //Get random letter
+        var letter = letters.charAt(num);
+        block = block + letter;
+      }
+      if (si == (increment-1)){
+        string++;
+      }
+      if (si == increment){
+      // Add a letter; 
+      // every speed*10 ms
+      fixed = fixed +  text.charAt(string - 1);
+      si = 0;
+      }
+      $("h2").html(fixed + block);
+      block = "";
+    }
+    });
   
 })
