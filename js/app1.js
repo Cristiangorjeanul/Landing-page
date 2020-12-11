@@ -92,37 +92,4 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('time').innerHTML = today;
 
 
-  //Switch button JS code
-  var switcher = document.getElementById("switch")
-  switcher.onclick = function () {
-    switcher.classList.toggle('active')
-    document.body.classList.toggle('dark')
-  }
-
-  //Music in background
-  var audio, soundButton;
-  function initAudioPlayer() {
-    audio = new Audio();
-    audio.src = "../assets/sound.mp3";
-    audio.loop = true;
-    audio.play();
-    // Set object references
-    soundButton = document.getElementById("soundButton");
-    // Add Event Handling
-    soundButton.addEventListener("click", playPause);
-    // Functions
-    function playPause() {
-      if (audio.paused) {
-        audio.play();
-        soundButton.style.background = "url(https://image.flaticon.com/icons/svg/189/189889.svg) no-repeat";
-      } else {
-        audio.pause();
-        soundButton.style.background = "url(https://image.flaticon.com/icons/svg/148/148744.svg) no-repeat";
-      }
-    }
-
-  }
-  window.addEventListener("load", initAudioPlayer);
-
-
 }); 
