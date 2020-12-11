@@ -1,0 +1,58 @@
+.switch-buttons {
+  margin: 1px auto;
+  width: max-content;
+  padding: 1px;
+  text-align: center;
+}
+
+button#soundButton {
+  background: url(https://image.flaticon.com/icons/svg/148/148744.svg) no-repeat;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+body.dark {
+  background-color: lightskyblue;
+  transition: 1s ease;
+}
+
+.switcher {
+  padding: 1px;
+  width: 100px;
+  height: 35px;
+  position: relative;
+  border: 1.7px solid black;
+  border-radius: 5px;
+  background-color: lightskyblue;
+  cursor: pointer;
+}
+
+.switcher #colorButton {
+  width: 27px;
+  height: 27px;
+  border: none;
+  border: 1px solid black;
+  border-radius: 3.5px;
+  background-color: white;
+  position: absolute;
+  left: 3.5px;
+  bottom: -12px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1), -1px -1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.switcher.active {
+  background-color: white;
+  transition: 1s ease-in-out;
+}
+
+.switcher.active #colorButton {
+  background-color: lightskyblue;
+  left: auto;
+  right: 3.5px;
+  transition: 1s ease-in-out;
+}

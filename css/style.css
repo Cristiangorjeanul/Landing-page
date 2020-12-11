@@ -5,9 +5,10 @@ body {
   box-sizing: border-box;
   width: 100%;
   min-height: 100vh;
-  background: white;
+  background-color: white;
   font: 400 15px Lato, Montserrat, sans-serif, Times New Roman;
   line-height: 1.8;
+  transition: .8s ease
 }
 
 h1 {

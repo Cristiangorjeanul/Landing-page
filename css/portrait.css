@@ -1,8 +1,9 @@
 .container-portrait {
   margin: auto;
   margin-top: 12px;
+  margin-bottom: 19px;
   width: 253px;
-  height: 370px;
+  height: 347px;
   background-color: white;
 }
 
@@ -10,7 +11,7 @@
   position: absolute;
   z-index: 0;
   width: 253px;
-  height: 370px;
+  height: 347px;
   background: white;
   overflow: hidden;
 }
@@ -36,10 +37,10 @@
 
 .beard {
   position: absolute;
-  top: 5px;
+  top: 7px;
   left: 9px;
   width: 117px;
-  height: 160px;
+  height: 157px;
   background: black;
   border-top-right-radius: 50% 50%;
   border-top-left-radius: 50% 50%;
@@ -65,7 +66,7 @@
   position: absolute;
   z-index: 100;
   left: 15px;
-  top: -10px;
+  top: -7px;
   width: 85px;
   height: 31px;
   background: black;
@@ -75,7 +76,7 @@
 .hair {
   position: absolute;
   z-index: 1;
-  top: -1px;
+  top: 3px;
   left: 8px;
   width: 119px;
   height: 115px;
