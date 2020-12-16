@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/portrait.css">
   <link rel="stylesheet" href="css/portfolio.css">
   <link rel="stylesheet" href="css/experience.css">
+  <link rel="stylesheet" href="css/letter.css">
   <link rel="stylesheet" href="css/footer.css">
   <script src="js/app1.js"></script>
   <script src="js/app2.js"></script>
@@ -51,6 +52,7 @@
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#experience">Experience</a></li>
+            <li><a href="#letter">Letter</a></li>
             <li><a href="https://cristiangorjeanul.github.io/My-resume/" target="_blank">Resume</a></li>
           </ul>
         </div>
@@ -65,19 +67,17 @@
             <div class="panel-heading">
               <img src="./assets/Cristian.jpg" class="img-circle person" width="100">
               <h1>CRISTIAN T.</h1>
-            </div>
-            <div class="panel-heading">
-              <div class="photos">
+              <div class="panel-heading">
+                <div class="photos">
+                  <img class="photo" src="assets/blog.png" alt="Photo blog">
+                  <img class="photo" src="assets/store.png" alt="Juice store">
+                  <img class="photo" src="assets/shop.png" alt="Flower shop">
+                  <img class="photo" src="assets/learning.png" alt="Learning system">
+                  <h2>
+                    <div class="texts"></div>
+                  </h2>
 
-                <img class="photo" src="assets/blog.png" alt="Photo blog">
-                <img class="photo" src="assets/store.png" alt="Juice store">
-                <img class="photo" src="assets/shop.png" alt="Flower shop">
-                <img class="photo" src="assets/learning.png" alt="Learning system">
-
-                <h2>
-                  <div class="texts"></div>
-                </h2>
-
+                </div>
               </div>
             </div>
           </div>
@@ -95,11 +95,11 @@
           </div>
         </div>
       </div>
+      </div>
 
       <!-- Welcome message -->
       <div class="container-fluid text-center">
         <div class="col-sm-12">
-          <br>
           <h3 style="color: blue;">WELCOME!</h3><br>
           <div class="container-portrait">
             <div class="wrapper">
@@ -125,7 +125,10 @@
                 <div class="body"></div>
               </div>
               <div class="laptop">
-                <div class="logo-laptop"><span class="glyphicon glyphicon-star" style="color: lightskyblue;"></span>
+                <div class="logo-laptop">
+                  <span class="glyphicon glyphicon-star" style="color: lightskyblue; font-size: 23px; 
+                  padding-left: 1.7px; padding-bottom: 1px;">
+                  </span>
                 </div>
               </div>
             </div>
@@ -158,191 +161,195 @@
                 <span class="sr-only">Next</span>
               </a>
             </div>
-            <h4 style="color: blue;">
+            <h5 style="color: blue;">
               Presentation of my project<br>
-              Frontend Developer course<br>
-              Bucharest, Jan. - Feb. 2020
-            </h4>
+              <span style="font-weight: 500;"">
+                Frontend Developer course<br>
+                Bucharest, Jan. - Feb. 2020
+              </span>
+            </h5>
 
           </div>
         </div>
       </div>
 
       <!-- Container portfolio -->
-      <div id="portfolio" class="container-fluid text-center">
-        <div class="text-center">
-          <div class="row slideanim">
-            <div class="col-sm-12 col-xs-12">
-              <div class="panel panel-default text-center">
-                <div class="panel-heading">
-                  <h3>PORTFOLIO</h3>
+      <div id=" portfolio" class="container-fluid text-center">
+                <div class="text-center">
+                  <div class="row slideanim">
+                    <div class="col-sm-12 col-xs-12">
+                      <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                          <h3>PORTFOLIO</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row slideanim">
+                  <br><br>
+                  <h3 style="color: blue;">I designed and built</h3>
+                  <h5 id="appNumber" style="color: red; font-size: 53px; font-weight: 900;">
+                    55</h5>
+
+                  <h3 style="color: blue; font-size: 21px;">user friendly web pages using:<br></h3>
+
+                  <div class="logo-technologies">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/9/9e/JQuery_logo.svg">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Javascript_badge.svg">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg">
+                  </div>
+
+                  <b id="changeText"></b>
+
+                  <h5 style="color: red; margin-top: 15px;">
+                    Click on thumbnails,<br>to see my apps!
+                  </h5>
+                </div>
+
+                <div class="container-fluid" class="text-center">
+                  <div class="row text-center slideanim">
+                    <div class="col-sm-12">
+                      <div class="col-sm-3 col-xs-12">
+                        <div class="thumbnail">
+                          <h3>Photo<br>Blog</h3>
+                          <img src="assets/blog.png" alt="Photo Blog">
+                          <strong style="font-size: 12px; color: black;">
+                            HTML, CSS, JavaScript, AJAX
+                            <br><br><span
+                              style="font-size: 15px; font-weight: 900; color: blue; text-shadow: .1px .1px .1px black;">
+                              Click here to follow this blog!</span>
+                            <a href="https://cristiangorjeanul.github.io/Photo-Blog/" target="_blank"><span
+                                class="span-link"></span></a>
+                          </strong><br><br>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-3 col-xs-12">
+                        <div class="thumbnail">
+                          <h3>Juice<br>Store</h3>
+                          <img src="assets/store.png" alt="Juice Store">
+                          <strong style="font-size: 12px; color: black;">
+                            HTML, CSS, JavaScript, Bootstrap
+                            <br><br><span
+                              style="font-size: 15px; font-weight: 900; color: blue; text-shadow: .1px .1px .1px black;">
+                              Click here to see this e-Store!</span>
+                            <a href="https://cristiangorjeanul.github.io/Juice-Store/" target="_blank"><span
+                                class="span-link"></span></a>
+                          </strong><br><br>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-3 col-xs-12">
+                        <div class="thumbnail">
+                          <h3>Flower<br>Shop</h3>
+                          <img src="assets/shop.png" alt="Flower shop">
+                          <strong style="font-size: 12px; color: black;">
+                            HTML, CSS, JavaScript, Bootstrap
+                            <br><br><span
+                              style="font-size: 15px; font-weight: 900; color: blue; text-shadow: .1px .1px .1px black;">
+                              Click here to see this e-Shop!</span>
+                            <a href="https://cristiangorjeanul.github.io/Flower-Shop/" target="_blank"><span
+                                class="span-link"></span></a>
+                          </strong><br><br>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-3 col-xs-12">
+                        <div class="thumbnail">
+                          <h3>Learning<br>System</h3>
+                          <img src="assets/learning.png" alt="Learning system">
+                          <strong style="font-size: 12px; color: black;">
+                            HTML, CSS, JavaScript, jQuery
+                            <br><br><span
+                              style="font-size: 15px; font-weight: 900; color: blue; text-shadow: .1px .1px .1px black;">
+                              Click here to read e-books!</span>
+                            <a href="https://cristiangorjeanul.github.io/Learning-System/" target="_blank"><span
+                                class="span-link"></span></a>
+                          </strong><br><br>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+
+          <!-- Container skills -->
+          <div id="skills" class="container-fluid">
+            <div class="text-center">
+              <div class="row slideanim">
+                <div class="col-sm-12 col-xs-12">
+                  <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                      <h3>SKILLS</h3>
+                    </div>
+                  </div>
+                </div>
+              </div><br><br>
+
+              <div class="row slideanim text-center">
+                <div class="col-sm-3 col-xs-12">
+                  <div class="panel panel-default text-center">
+                    <div class="panel-heading1">
+                      <h3>Software</h3>
+                    </div>
+                    <div class="panel-body1">
+                      <h5><strong>Html, Css, Sass</strong></h5>
+                      <h5><strong>Bootstrap</strong></h5>
+                      <h5><strong>JavaScript</strong></h5>
+                      <h5><strong>jQuery, React</strong></h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-3 col-xs-12">
+                  <div class="panel panel-default text-center">
+                    <div class="panel-heading2">
+                      <h3>Learning</h3>
+                    </div>
+                    <div class="panel-body2">
+                      <h5><strong>Creativity</strong></h5>
+                      <h5><strong>Kahoot</strong></h5>
+                      <h5><strong>Adservio</strong></h5>
+                      <h5><strong>G-Classroom</strong></h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-3 col-xs-12">
+                  <div class="panel panel-default text-center">
+                    <div class="panel-heading3">
+                      <h3>Transferable</h3>
+                    </div>
+                    <div class="panel-body3">
+                      <h5><strong>MS Office</strong></h5>
+                      <h5><strong>French</strong></h5>
+                      <h5><strong>English</strong></h5>
+                      <h5><strong>Teamwork</strong></h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-3 col-xs-12">
+                  <div class="panel panel-default text-center">
+                    <div class="panel-heading4">
+                      <h3>Design</h3>
+                    </div>
+                    <div class="panel-body4">
+                      <h5><strong>Paint 3D</strong></h5>
+                      <h5><strong>Photos</strong></h5>
+                      <h5><strong>GIMP</strong></h5>
+                      <h5><strong>Photoshop</strong></h5>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="row slideanim">
-          <br><br>
-          <h4>I have already created</h4>
-          <h4 id="appNumber" style="color: red; font-size: 53px; font-weight: 900;">
-            55</h4>
-
-          <h4>user friendly web pages using:<br></h4>
-
-          <div class="logo-technologies">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg">
-            <img src="https://upload.wikimedia.org/wikipedia/en/9/9e/JQuery_logo.svg">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Javascript_badge.svg">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg">
-          </div>
-
-          <br><b id="changeText"></b><br>
-
-          <h4 style="color: red;">Click on thumbnails,<br>to see my apps!</h4>
-        </div>
-
-        <div class="container-fluid" class="text-center">
-          <div class="row text-center slideanim">
-            <div class="col-sm-12">
-              <div class="col-sm-3 col-xs-12">
-                <div class="thumbnail">
-                  <h3>Photo<br>Blog</h3>
-                  <img src="assets/blog.png" alt="Photo Blog">
-                  <strong style="font-size: 12px; color: black;">
-                    HTML, CSS, JavaScript, AJAX
-                    <br><br><span
-                      style="font-size: 15px; font-weight: 800; color: blue; text-shadow: .1px .1px .1px black;">
-                      Click here to follow this blog!</span>
-                    <a href="https://cristiangorjeanul.github.io/Photo-Blog/" target="_blank"><span
-                        class="span-link"></span></a>
-                  </strong><br><br>
-                </div>
-              </div>
-
-              <div class="col-sm-3 col-xs-12">
-                <div class="thumbnail">
-                  <h3>Juice<br>Store</h3>
-                  <img src="assets/store.png" alt="Juice Store">
-                  <strong style="font-size: 12px; color: black;">
-                    HTML, CSS, JavaScript, Bootstrap
-                    <br><br><span
-                      style="font-size: 15px; font-weight: 800; color: blue; text-shadow: .1px .1px .1px black;">
-                      Click here to see this e-Store!</span>
-                    <a href="https://cristiangorjeanul.github.io/Juice-Store/" target="_blank"><span
-                        class="span-link"></span></a>
-                  </strong><br><br>
-                </div>
-              </div>
-
-              <div class="col-sm-3 col-xs-12">
-                <div class="thumbnail">
-                  <h3>Flower<br>Shop</h3>
-                  <img src="assets/shop.png" alt="Flower shop">
-                  <strong style="font-size: 12px; color: black;">
-                    HTML, CSS, JavaScript, Bootstrap
-                    <br><br><span
-                      style="font-size: 15px; font-weight: 800; color: blue; text-shadow: .1px .1px .1px black;">
-                      Click here to see this e-Shop!</span>
-                    <a href="https://cristiangorjeanul.github.io/Flower-Shop/" target="_blank"><span
-                        class="span-link"></span></a>
-                  </strong><br><br>
-                </div>
-              </div>
-
-              <div class="col-sm-3 col-xs-12">
-                <div class="thumbnail">
-                  <h3>Learning<br>System</h3>
-                  <img src="assets/learning.png" alt="Learning system">
-                  <strong style="font-size: 12px; color: black;">
-                    HTML, CSS, JavaScript, jQuery
-                    <br><br><span
-                      style="font-size: 15px; font-weight: 800; color: blue; text-shadow: .1px .1px .1px black;">
-                      Click here to read e-books!</span>
-                    <a href="https://cristiangorjeanul.github.io/Learning-System/" target="_blank"><span
-                        class="span-link"></span></a>
-                  </strong><br><br>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Container skills -->
-      <div id="skills" class="container-fluid">
-        <div class="text-center">
-          <div class="row slideanim">
-            <div class="col-sm-12 col-xs-12">
-              <div class="panel panel-default text-center">
-                <div class="panel-heading">
-                  <h3>SKILLS</h3>
-                </div>
-              </div>
-            </div>
-          </div><br><br>
-
-          <div class="row slideanim text-center">
-            <div class="col-sm-3 col-xs-12">
-              <div class="panel panel-default text-center">
-                <div class="panel-heading1">
-                  <h3>Software</h3>
-                </div>
-                <div class="panel-body1">
-                  <h4><strong>Html, Css, Sass</strong></h4>
-                  <h4><strong>Bootstrap</strong></h4>
-                  <h4><strong>JavaScript</strong></h4>
-                  <h4><strong>jQuery, React</strong></h4>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-3 col-xs-12">
-              <div class="panel panel-default text-center">
-                <div class="panel-heading2">
-                  <h3>eLearning</h3>
-                </div>
-                <div class="panel-body2">
-                  <h4><strong>Creativity</strong></h4>
-                  <h4><strong>Kahoot</strong></h4>
-                  <h4><strong>Adservio</strong></h4>
-                  <h4><strong>G-Classroom</strong></h4>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-3 col-xs-12">
-              <div class="panel panel-default text-center">
-                <div class="panel-heading3">
-                  <h3>Transferable</h3>
-                </div>
-                <div class="panel-body3">
-                  <h4><strong>MS Office</strong></h4>
-                  <h4><strong>French</strong></h4>
-                  <h4><strong>English</strong></h4>
-                  <h4><strong>Teamwork</strong></h4>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-3 col-xs-12">
-              <div class="panel panel-default text-center">
-                <div class="panel-heading4">
-                  <h3>Design</h3>
-                </div>
-                <div class="panel-body4">
-                  <h4><strong>Paint 3D</strong></h4>
-                  <h4><strong>Photos</strong></h4>
-                  <h4><strong>GIMP</strong></h4>
-                  <h4><strong>Photoshop</strong></h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
       </div>
     </main>
 
@@ -369,44 +376,44 @@
           </div>
         </div>
       </div>
-      </div>
 
       <!-- Experience timeline -->
       <div id="timeline">
         <ul>
           <li>
             <div>
-              <h4>
+              <h5 style="color: white;">
                 2020<br>present<br><br>
                 IT<br>Freelance<br>Developer
-              </h4>
+              </h5>
             </div>
           </li>
 
           <li>
             <div>
-              <h4>
+              <h5 style="color: white;
+              text-shadow: 1px 1px 1px black;">
                 2015<br>2019<br><br>
                 LEARNING<br>Middle<br>schools
-              </h4>
+              </h5>
             </div>
           </li>
 
           <li>
             <div>
-              <h4>
+              <h5 style="color: white;">
                 1996<br>2012<br><br>
                 SALES<br>Multinational<br>companies
-              </h4>
+              </h5>
             </div>
           </li>
 
           <li>
             <div>
-              <h4>
-                1992<br>1996<br><br>
+              <h5 style="color: white;">
+                1994<br>1996<br><br>
                 ENGINEERING<br>Local<br>company
-              </h4>
+              </h5>
             </div>
           </li>
 
@@ -416,7 +423,39 @@
     </section><br><br>
 
     <!-- Goodbye message -->
-    <footer class="slideanim text-center">
+    <footer id="letter" class="container-fluid text-center">
+      <div class="row slideanim">
+        <div class="col-sm-12 col-xs-12">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h3>COVER LETTER</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="envelope">
+        <div class="interior">
+          <div class="letter">
+            <h5 style="text-align: center; font-weight: 900;">
+              Dear Hiring Manager,
+            </h5>
+            <h5 style="text-align: justify; text-justify: inter-word; font-weight: 500; font-size: 15px;">
+              &nbsp; It would be an honor for me to implement my skills,
+              to develop successful IT projects for the benefit of your company.<br>
+              <span style="text-align: left;">Sincerely,</span><br>
+              <span style="text-align: left;">
+                Cristian T.</span>
+            </h5>
+          </div>
+          <div class="lid"> </div>
+          <div class="exterior"></div>
+        </div>
+      </div>
+      </div>
+      <h5 style="font-weight: 500; font-size: 15px;">
+        Touch the envelope to read the letter!
+      </h5>
+
       <div id="computer">
         <div id="screen">
           <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif"
@@ -427,7 +466,8 @@
 
           <button id="button" data-toggle="modal" data-target="#myModal">
             Like!<br><span id="counter"></span></button><br><br>
-          <h5 style="color:blue; font-size: 5px; margin-top: -23px;">Gif file from
+          <h5 style="color:blue; font-size: 5px; margin-top: -23px;">
+            Gif file from
             <a style="font-size: 5px;"
               href="https://en.wikipedia.org/wiki/Matrix_digital_rain#/media/File:Digital_rain_animation_medium_letters_shine.gif"
               target="_blank">
@@ -441,17 +481,27 @@
       </div>
       </div>
       <!-- Container contact-->
-      <div id="contact" class="container-fluid slideanim text-center">
-        <h3>CONTACT</h3>
+      <div id="contact">
+        <div class="row slideanim">
+          <div class="col-sm-12 col-xs-12">
+            <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <h3>CONTACT</h3>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <h4><span class="glyphicon glyphicon-map-marker"
-            style="color:blue; padding-top: 20px;">Tg-Jiu-Bucharest-Romania</span>
-        </h4>
-        <h4><span class="fa fa-github-square" style="color:blue;"></span>
-          <a style="color:blue;" href="https://github.com/Cristiangorjeanul" target="_blank">GitHub:
-            github.com/Cristiangorjeanul</a>
-        </h4>
-        </h4>
+        <h5><span class="glyphicon glyphicon-map-marker" style="color:red;"></span><span style="color:black;"> Tg-Jiu or
+            Bucharest, Romania</span>
+        </h5>
+        <h5><span class="fa fa-github-square" style="color:black;"></span>
+          <span>GitHub:</span>
+          <a href="https://github.com/Cristiangorjeanul" target="_blank">
+
+            <span style="color:blue; font-weight: 500;">github.com/Cristiangorjeanul</span>
+          </a>
+        </h5>
 
         <iframe id="iframe" style="width: 100%; margin: 10px auto;"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6420701.660770204!2d24.97964010764297!3d47.14706412280103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1f93abf3cad4f%3A0xac0632e37c9ca628!2sBucure%C8%99ti!5e0!3m2!1sro!2sro!4v1599735037524!5m2!1sro!2sro"></iframe>
@@ -474,7 +524,8 @@
               <b style="color:blue; font-size: 18px;">
                 <span class="glyphicon glyphicon-heart" style="color:red; font-size: 18px;"></span>&nbsp;
                 Thank you
-                <span class="glyphicon glyphicon-heart" style="color:red; font-size: 18px;"></span><br>very much for
+                <span class="glyphicon glyphicon-heart" style="color:red; font-size: 18px;">
+                </span><br>very much for
                 <br>your consideration!</b>
             </div>
             <div class="modal-body text-center">

@@ -46,7 +46,7 @@ $(document).ready(function () {
 
   // Animated texts
   var words = ['FRONTEND PROJECTS', 'WEB DESIGN',
-    'eLEARNING & TRAINING'],
+    'LEARNING & TRAINING', 'INSTRUCTIONAL DESIGN',],
     part,
     i = 0,
     offset = 0,

@@ -1,6 +1,6 @@
 .container-portrait {
   margin: auto;
-  margin-top: 12px;
+  margin-top: 31px;
   margin-bottom: 19px;
   width: 253px;
   height: 347px;
@@ -350,8 +350,8 @@
   position: absolute;
   background-color: white;
   border: 5px solid lightskyblue;
-  height: 37px;
-  width: 37px;
+  height: 35px;
+  width: 35px;
   border-radius: 50%;
   top: 37%;
   left: 43%;
