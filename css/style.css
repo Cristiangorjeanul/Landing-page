@@ -8,7 +8,7 @@ body {
   background-color: white;
   font: 400 15px Lato, Montserrat, sans-serif, Times New Roman;
   line-height: 1.8;
-  transition: .8s ease
+  transition: 0.8s ease;
 }
 
 h1 {
@@ -20,8 +20,7 @@ h1 {
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
     0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
     0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
-    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
-    0 20px 20px rgba(0, 0, 0, 0.15), 0 20px 25px rgba(0, 0, 0, 0.25);
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 768px) {
@@ -36,7 +35,7 @@ h1 {
   transform: translate(-50%, -50%);
   transition: all 1.5s ease;
   filter: drop-shadow(1px 3px 5px black);
-  top: 271px;
+  top: 287px;
   width: 325px;
   height: 150px;
 }
@@ -44,7 +43,7 @@ h1 {
 @media (min-width: 768px) {
   .photo {
     left: 50%;
-    top: 301px;
+    top: 315px;
     width: 423px;
     height: 185px;
   }
@@ -59,19 +58,18 @@ h2 {
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
     0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
     0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
-    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
-    0 20px 20px rgba(0, 0, 0, 0.15), 0 20px 25px rgba(0, 0, 0, 0.25);
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 768px) {
   h2 {
-    padding-top: 173px;
+    padding-top: 171px;
     margin: 1px auto;
     font-size: 35px;
   }
 }
 
-.texts {
+.skills {
   width: 100%;
   margin: auto;
   height: 35px;
@@ -84,8 +82,7 @@ h3 {
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
     0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
     0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
-    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
-    0 20px 20px rgba(0, 0, 0, 0.15), 0 20px 25px rgba(0, 0, 0, 0.25);
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2);
   margin-top: 5px;
   margin-bottom: 1px;
   text-align: center;
@@ -96,6 +93,77 @@ h3 {
     font-size: 35px;
   }
 }
+
+/*Jobs words animation*/
+
+#my-jobs {
+  font-size: 31px;
+ text-align: center;
+  color: blue;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  #my-jobs {
+    font-size: 35px;
+  }
+}
+
+#my-jobs:after {
+  content: "";
+  animation: myJobs 5s linear infinite;
+}
+
+@keyframes myJobs {
+  0% {
+    content: "Frontend Developer";
+    color: blue;
+  }
+  15% {
+    content: "Frontend Developer";
+    color: blue;
+  }
+  20% {
+    content: "Web Designer";
+    color: yellow;
+  }
+  35% {
+    content: "Web Designer";
+    color: yellow;
+  }
+  40% {
+    content: "Instructional Designer";
+    color: green;
+  }
+  55% {
+    content: "Instructional Designer";
+    color: green;
+  }
+  60% {
+    content: "Trainer";
+    color: black;
+  }
+  75% {
+    content: "Trainer";
+    color: black;
+  }
+  80% {
+    content: "Teacher";
+    color: white;
+  }
+  95% {
+    content: "Teacher";
+    color: white;
+  }
+  100% {
+    content: "Frontend Developer";
+    color: blue;
+  }
+}
+
 
 h4 {
   font-size: 19px;
@@ -127,7 +195,7 @@ h5 {
 .jumbotron {
   background-color: white;
   color: white;
-  padding: 25px 1px 1px 1px;
+  padding: 15px 1px 1px 1px;
   font-family: Montserrat, sans-serif;
 }
 
@@ -215,9 +283,14 @@ h5 {
   border: 1px solid lightskyblue;
 }
 
-.col-sm-4 {
-  padding-right: 15px;
-  padding-left: 15px;
+.col-sm-3 {
+  padding: 9px;
+}
+
+@media (min-width: 769px) {
+  #portfolio .col-sm-3 {
+    width: 20%;
+  }
 }
 
 .panel-heading5 {

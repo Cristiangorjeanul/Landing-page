@@ -11,6 +11,10 @@
   transition: all 1s ease-in-out;
 }
 
+.envelope:hover {
+cursor: grab;
+}
+
 .envelope .lid {
   position: absolute;
   left: 50%;

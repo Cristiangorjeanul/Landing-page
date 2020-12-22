@@ -45,20 +45,21 @@ $(document).ready(function () {
   });
 
   // Animated texts
-  var words = ['FRONTEND PROJECTS', 'WEB DESIGN',
-    'LEARNING & TRAINING', 'INSTRUCTIONAL DESIGN',],
+  //h2 occupations
+  var skills = ['FRONTEND PROJECTS', 'WEB DESIGN',
+    'TEACHING & LEARNING', 'INSTRUCTIONAL DESIGN', 'TRAINING & COACHING',],
     part,
     i = 0,
     offset = 0,
-    len = words.length,
+    len = skills.length,
     forwards = true,
     skip_count = 0,
     skip_delay = 135,
     speed = 15;
-  var animatedWord = function () {
+  var wordsSkills = function () {
     setInterval(function () {
       if (forwards) {
-        if (offset >= words[i].length) {
+        if (offset >= skills[i].length) {
           ++skip_count;
           if (skip_count == skip_delay) {
             forwards = false;
@@ -76,7 +77,7 @@ $(document).ready(function () {
           }
         }
       }
-      part = words[i].substr(0, offset);
+      part = skills[i].substr(0, offset);
       if (skip_count == 0) {
         if (forwards) {
           offset++;
@@ -85,14 +86,15 @@ $(document).ready(function () {
           offset--;
         }
       }
-      $('.texts').text(part);
+      $('.skills').text(part);
     }, speed);
   };
 
   $(document).ready(function () {
-    animatedWord();
+    wordsSkills();
   });
 
+  
 
 
 })

@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   setTimeout(function () {
     var element = document.querySelector("body");
     element.classList.add("loaded");
-  }, 3500);
+  }, 0);
 
   //Greetings
   var date = new Date();
@@ -92,4 +92,6 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('time').innerHTML = today;
 
 
+
+  
 }); 
