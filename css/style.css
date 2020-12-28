@@ -513,8 +513,10 @@ h5 {
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
 
 #clock {
-  width: 123px;
-  height: 35px;
+  width: 131px;
+  height: 39px;
+  padding-top: 5px;
+  padding-bottom: 10px;
   margin: auto;
   font-family: "Orbitron", sans-serif;
   font-size: 25px;
