@@ -158,8 +158,11 @@
   }
 }
 
+
+@media (min-width: 768px) {
 .col-sm-2 {
   width: 20%;
+}
 }
 
 .thumbnail {
