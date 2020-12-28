@@ -13,7 +13,7 @@
 
 #my-apps {
   font-size: 31px;
- text-align: center;
+  text-align: center;
   color: blue;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
     0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
@@ -158,6 +158,10 @@
   }
 }
 
+.col-sm-2 {
+  width: 20%;
+}
+
 .thumbnail {
   padding: 1px;
   border-radius: 35px;
@@ -183,7 +187,17 @@
   margin-left: auto;
   margin-right: auto;
   width: 91%;
-  height: 120px;
+  height: 91px;
+  border: 0.5px solid blue;
+}
+
+.thumbnail video {
+  display: block;
+  margin-top: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  height: 79px;
   border: 0.5px solid blue;
 }
 
@@ -208,7 +222,6 @@
   padding-top: 47px;
   font-size: 120px;
 }
-
 
 .item h5 {
   font-size: 12px;

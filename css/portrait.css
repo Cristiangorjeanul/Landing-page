@@ -355,4 +355,50 @@
   border-radius: 50%;
   top: 37%;
   left: 43%;
+  animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.flash-light {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1px;
+  background-color: white;
+  height: 1px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 white;
+  animation: 2.5s flash-light-animation linear infinite;
+}
+
+@keyframes flash-light-animation {
+  0% {
+    box-shadow: 0 0 0 0 blue;
+  }
+  50% {
+    box-shadow: 0 0 0 0 blue;
+  }
+  51% {
+    box-shadow: 0 0 0 0 white;
+  }
+  55% {
+    box-shadow: 0 0 35px 35px white;
+  }
+  71% {
+    box-shadow: 0 0 0 0 white;
+  }
+  92% {
+    box-shadow: 0 0 0 0 blue;
+  }
+  100% {
+    box-shadow: 0 0 0 0 blue;
+  }
 }

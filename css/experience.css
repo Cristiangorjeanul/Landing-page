@@ -92,6 +92,7 @@
 /* Experience time line */
 #timeline ul {
   padding: 5px;
+  margin-bottom: 95px;
 }
 
 #timeline ul li {

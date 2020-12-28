@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   setTimeout(function () {
     var element = document.querySelector("body");
     element.classList.add("loaded");
-  }, 3500);
+  }, 0);
 
   //Greetings
   var date = new Date();
@@ -21,9 +21,9 @@ document.addEventListener('DOMContentLoaded', function () {
     initialGreeting = 'Good afternoon!';
     finalGreeting = "Have a nice day!";
   }
-  else if (hour < 20) {
+  else if (hour < 19) {
     initialGreeting = 'Good afternoon!';
-    finalGreeting = "All the best!";
+    finalGreeting = "Have a nice evening!";
   }
   else if (hour < 24) {
     initialGreeting = "Good evening!";
@@ -54,10 +54,10 @@ document.addEventListener('DOMContentLoaded', function () {
   setInterval(changeSlides, slideTimer);
 
   //Button
-  var button = document.querySelector('#button');
+  var button = document.querySelector('#buttonLike');
   var counter = 1;
   button.addEventListener('click', function () {
-    document.querySelector('#button span').innerText = counter;
+    document.querySelector('#buttonLike span').innerText = counter;
     counter++;
   });
 
@@ -91,7 +91,43 @@ document.addEventListener('DOMContentLoaded', function () {
   var today = new Date();
   document.getElementById('time').innerHTML = today;
 
+  //Clock 
+  function showTime() {
+
+    'use strict';
+
+    var now = new Date(),
+
+      hours = now.getHours(),
+
+      minutes = now.getMinutes(),
+
+      seconds = now.getSeconds();
+
+    if (hours < 10) {
+      hours = "0" + hours;
+    }
+
+    if (minutes < 10) {
+      minutes = "0" + minutes;
+    }
+
+    if (seconds < 10) {
+      seconds = "0" + seconds;
+    }
+
+    document.getElementById('clock').textContent = hours + ":" + minutes + ":" + seconds;
+
+  }
+
+  window.onload = function () {
+
+    'use strict';
+
+    setInterval(showTime, 500);
+
+  };
 
 
-  
+
 }); 
