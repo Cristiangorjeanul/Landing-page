@@ -506,20 +506,20 @@ h5 {
 
 .drawing:nth-of-type(6) {
   background: black;
-  width: 295px;
+  width: 315px;
   height: 155px;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
 
 #clock {
-  width: 131px;
+  width: 100px;
   height: 39px;
   padding-top: 5px;
   padding-bottom: 10px;
   margin: auto;
   font-family: "Orbitron", sans-serif;
-  font-size: 25px;
+  font-size: 21px;
   font-weight: 900;
   color: magenta;
 }
@@ -529,7 +529,7 @@ h5 {
   height: 59px;
   margin: 1px auto;
   font-family: "Orbitron", sans-serif;
-  font-size: 25px;
+  font-size: 23px;
   color: lime;
   text-align: center;
 }
