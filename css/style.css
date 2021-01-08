@@ -182,15 +182,6 @@ h5 {
   text-shadow: 0.5px 0.5px 0.5px black;
 }
 
-.panel-heading {
-  color: white !important;
-  background-color: lightskyblue !important;
-  padding-top: 19px;
-  padding-bottom: 29px;
-  padding-left: 1px;
-  padding-right: 1px;
-}
-
 .jumbotron {
   background-color: white;
   color: white;
@@ -204,6 +195,15 @@ h5 {
 
 .col-sm-12 {
   padding-top: 8px;
+}
+
+.panel-heading {
+  color: white !important;
+  background-color: lightskyblue !important;
+  padding-top: 19px;
+  padding-bottom: 29px;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 #myCarousel img {
@@ -597,4 +597,40 @@ h5 {
   0% {
     transform: rotateX(360deg);
   }
+}
+
+#platforms-logos {
+  width: 180px;
+  height: 27px;
+  background-color: white;
+  margin: 35px auto;
+  padding-bottom: 15px;
+}
+
+.logo-bar a {
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  width: 27px;
+  height: 27px;
+  transition: all 0.2s;
+}
+
+.logo-bar a:hover {
+  transform: scale(1.15);
+}
+
+.disc {
+  background: cornflowerblue;
+  color: white;
+}
+
+.link {
+  background: blue;
+  color: white;
+}
+
+.yout {
+  background: red;
+  color: white;
 }
