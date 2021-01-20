@@ -1,57 +1,3 @@
-#holder {
-  width: 150px;
-  height: 15px;
-  margin: auto;
-  border-radius: 15px 15px 0 0;
-  background-color: blue;
-}
-
-#foot {
-  width: 35px;
-  height: 15px;
-  margin: auto;
-  background-color: blue;
-}
-
-#display {
-  width: 350px;
-  height: 231px;
-  margin: auto;
-  border-radius: 5px;
-  background-color: blue;
-  margin-top: -178px;
-}
-
-#screen {
-  width: 335px;
-  height: 215px;
-  margin: auto;
-  background-color: transparent;
-}
-
-#computer img {
-  width: 100%;
-  height: 100%;
-  margin-top: 45px;
-}
-
-#final-greeting {
-  width: 100%;
-  height: 110px;
-}
-
-.panel-footer .btn:hover {
-  border: 1px solid red;
-  background-color: white !important;
-  color: #f4511e;
-  border: 1px solid lightskyblue;
-}
-
-.modal-header {
-  background-color: white;
-  text-align: center;
-  font-size: 32px;
-}
 
 .close {
   background-color: black;
@@ -103,4 +49,59 @@ button-top {
 
 button-top:hover {
   box-shadow: inset 7px 7px 14px #cccccc, inset -7px -7px 14px white;
+}
+
+#iframe {
+  align-self: center;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  height: 250px;
+}
+
+.glyphicon glyphicon-thumbs-up {
+  width: 25px;
+  height: 25px;
+  animation: glyphicon 5s linear infinite;
+}
+
+@keyframes glyphicon {
+  0% {
+    transform: rotateX(360deg);
+  }
+}
+
+#platforms-logos {
+  width: 180px;
+  height: 27px;
+  background-color: white;
+  margin: 35px auto;
+  padding-bottom: 15px;
+}
+
+.logo-bar a {
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  width: 27px;
+  height: 27px;
+  transition: all 0.2s;
+}
+
+.logo-bar a:hover {
+  transform: scale(1.15);
+}
+
+.disc {
+  background: cornflowerblue;
+  color: white;
+}
+
+.git {
+  background: black;
+  color: white;
+}
+
+.yout {
+  background: red;
+  color: white;
 }
