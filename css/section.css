@@ -1,6 +1,6 @@
 .image-background {
   width: 100%;
-  height: 770px;
+  height: 392px;
 }
 
 #digital-rain {
@@ -12,8 +12,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 275px;
-  padding-bottom: 135px;
+  padding-top: 127px;
+  padding-bottom: 104px;
   width: 100%;
   height: 153px;
   display: flex;
@@ -117,7 +117,7 @@
 .button-container {
   display: flex;
   justify-content: space-around;
-  margin: 35px;
+  margin: 5px;
 }
 
 @media (max-width: 768px) {
@@ -154,7 +154,7 @@
   box-shadow: inset 0 0.25em 0.125em rgba(255, 255, 255, 0.35),
     inset 0 -0.25em 0.125em rgba(0, 0, 0, 0.35);
   display: block;
-  margin-top: 5px;
+  margin-top: 1px;
   padding: 5px;
   width: 161px;
   height: 85px;
