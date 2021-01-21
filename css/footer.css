@@ -1,4 +1,3 @@
-
 .close {
   background-color: black;
   color: red !important;
@@ -40,6 +39,8 @@ button-top {
   height: 35px;
   margin: 23px;
   font-size: 29px;
+  padding-top: 5px;
+  padding-left: 3px;
   border-radius: 50%;
   background: white;
   box-shadow: 7px 7px 14px #cccccc, -7px -7px 14px white;
@@ -56,18 +57,6 @@ button-top:hover {
   margin-bottom: 1.5rem;
   width: 100%;
   height: 250px;
-}
-
-.glyphicon glyphicon-thumbs-up {
-  width: 25px;
-  height: 25px;
-  animation: glyphicon 5s linear infinite;
-}
-
-@keyframes glyphicon {
-  0% {
-    transform: rotateX(360deg);
-  }
 }
 
 #platforms-logos {
