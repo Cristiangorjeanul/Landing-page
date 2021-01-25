@@ -94,3 +94,13 @@ button-top:hover {
   background: red;
   color: white;
 }
+
+.content .thumbnail {
+  padding: 14px;
+  border-radius: 0;
+  margin: 1px auto;
+}
+
+iframe {
+  width: 100%;
+}
