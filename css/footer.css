@@ -96,6 +96,7 @@ button-top:hover {
 }
 
 .content .thumbnail {
+  background: white;
   padding: 14px;
   border-radius: 0;
   margin: 1px auto;
@@ -104,3 +105,4 @@ button-top:hover {
 iframe {
   width: 100%;
 }
+

@@ -128,6 +128,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
   };
 
+  //Mouse circles
+  document.addEventListener('mousemove', e=> {
 
+    let circles = document.createElement('circles');
+    let a = e.pageX;
+    let b = e.pageY;
+    circles.style.left = a + "px";
+    circles.style.top = b + "px";
+    let size = Math.random() * 100;
+    circles.style.width = 5 + size + "px";
+    circles.style.height = 5 + size + "px";
+    
+    document.body.appendChild(circles);
+    setTimeout(function() {
+      circles.remove();
+    }, 500);
+  });
+  
+  
+  
+  
 
 }); 

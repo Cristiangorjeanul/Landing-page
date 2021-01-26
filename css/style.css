@@ -43,9 +43,9 @@ h1 {
 @media (min-width: 768px) {
   .photo {
     left: 50%;
-    top: 315px;
-    width: 423px;
-    height: 185px;
+    top: 318px;
+    width: 455px;
+    height: 205px;
   }
 }
 
@@ -63,7 +63,7 @@ h2 {
 
 @media (min-width: 768px) {
   h2 {
-    padding-top: 171px;
+    padding-top: 181px;
     margin: 1px auto;
     font-size: 35px;
   }
@@ -340,7 +340,7 @@ h5 {
 
 .panel-body1:hover {
   background-color: blue;
-  color: white;
+  color: yellow;
 }
 
 .panel-body2 {
@@ -351,6 +351,7 @@ h5 {
 
 .panel-body2:hover {
   background-color: yellow;
+  color: blue;
 }
 
 .panel-body3 {
@@ -361,6 +362,7 @@ h5 {
 
 .panel-body3:hover {
   background-color: red;
+  color: green;
 }
 
 .panel-body4 {
@@ -371,7 +373,7 @@ h5 {
 
 .panel-body4:hover {
   background-color: green;
-  color: white;
+  color: red;
 }
 
 .logo-small {
@@ -419,3 +421,28 @@ h5 {
 .btn-lg:hover {
   background-color: lightskyblue;
 }
+
+/*Mouse circles*/
+circles {
+  border-radius:50%;
+  position: absolute;
+  pointer-events: none;
+  background: cyan;
+  box-shadow:  5px 5px 5px yellow, 
+             5px 5px 5px lime;
+  transform: translate(135%, 135%);
+  animation: colors-animation 1s infinite;
+}
+
+@keyframes colors-animation {
+  0% {
+    opacity: 1;
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    filter: hue-rotate(275deg);
+  }
+}
+
+
