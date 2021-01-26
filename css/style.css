@@ -430,7 +430,7 @@ circles {
   background: cyan;
   box-shadow:  5px 5px 5px yellow, 
              5px 5px 5px lime;
-  transform: translate(135%, 135%);
+  transform: translate(356%, 356%);
   animation: colors-animation 1s infinite;
 }
 
