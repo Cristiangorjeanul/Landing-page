@@ -1,19 +1,24 @@
 .image-background {
   width: 100%;
-  height: 341px;
+  height: 273px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
 }
 
 #digital-rain {
   width: 100vw;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif");
+  background-image: url("../assets/photo-2.jpg");
 }
 
 .message-container {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 109px;
-  padding-bottom: 80px;
+  padding-top: 95px;
+  padding-bottom: 77px;
   width: 100%;
   height: 153px;
   display: flex;
@@ -43,22 +48,21 @@
   background-size: cover;
   background-position: center;
   border-radius: 50%;
-  border: 3.5px solid lime;
+  border: 1px solid blue;
 }
 
 .rotating-message:nth-of-type(1) {
-  width: 329px;
+  width: 335px;
   height: 153px;
-  color: lime;
-  text-shadow: 0.5px 0.5px 0.5px white;
-  background: black;
+  color: white;
+  background: lightskyblue;
   transform: rotateY(180deg) translateZ(5px);
 }
 
 .rotating-message:nth-of-type(2) {
-  width: 329px;
+  width: 335px;
   height: 153px;
-  background: black;
+  background: lightskyblue;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
@@ -71,8 +75,8 @@
   margin: auto;
   font-family: "Orbitron", sans-serif;
   font-size: 19px;
-  color: magenta;
-  text-shadow: 0.5px 0.5px 0.5px white;
+  color: white;
+  text-shadow: 0.5px 0.5px 0.5px blue;
 }
 
 #final-greeting {
@@ -82,8 +86,8 @@
   font-family: "Orbitron", sans-serif;
   font-size: 19px;
   font-weight: 500;
-  color: lime;
-  text-shadow: 0.5px 0.5px 0.5px white;
+  color: white;
+  text-shadow: 0.5px 0.5px 0.5px blue;
   text-align: center;
 }
 
@@ -96,7 +100,7 @@
 .button-container {
   display: flex;
   justify-content: space-around;
-  margin: 5px;
+  margin: 1px;
 }
 
 @media (max-width: 768px) {
@@ -107,13 +111,13 @@
 }
 
 #buttonLike {
-  background-color: #cc1123;
+  background-color: lightskyblue;
   color: white;
-  text-shadow: 3.5px 3.5px 1.5px black;
-  width: 139px;
-  height: 71px;
+  width: 102px;
+  height: 45px;
   margin-top: -0.1px;
-  font-size: 21px;
+  font-size: 14px;
+  text-shadow: 0.5px 0.5px 0.5px blue;
   font-weight: 700;
   text-align: center;
   border-radius: 5px;
@@ -130,14 +134,14 @@
 }
 
 .button-frame {
-  background: red;
-  box-shadow: inset 0 0.25em 0.125em rgba(255, 255, 255, 0.35),
-    inset 0 -0.25em 0.125em rgba(0, 0, 0, 0.35);
+  background: lightskyblue;
+  box-shadow: inset 0 0.25em 0.125em rgba(32, 144, 255, 0.35),
+    inset 0 -0.25em 0.125em rgba(0, 0, 255, 0.35);
   display: block;
   border-radius: 8px;
   margin-top: 1px;
   padding: 5px;
-  width: 149px;
-  height: 81px;
+  width: 112px;
+  height: 55px;
   z-index: 20;
 }
