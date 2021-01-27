@@ -8,9 +8,9 @@
   color: white;
 }
 
-#picture-background {
+#gif-background {
   width: 100vw;
-  background-image: url("../assets/photo-2.jpg");
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif");
 }
 
 .message-container {
@@ -68,7 +68,7 @@
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
 
 #clock {
-  width: 83px;
+  width: 102px;
   height: 53px;
   padding-top: 18px;
   align-items: center;
@@ -113,7 +113,7 @@
 #buttonLike {
   background-color: lightskyblue;
   color: white;
-  width: 102px;
+  width: 115px;
   height: 45px;
   margin-top: -0.1px;
   font-size: 14px;
@@ -141,7 +141,7 @@
   border-radius: 8px;
   margin-top: 1px;
   padding: 5px;
-  width: 112px;
+  width: 125px;
   height: 55px;
   z-index: 20;
 }
