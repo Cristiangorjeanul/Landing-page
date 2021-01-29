@@ -119,47 +119,31 @@ h3 {
 @keyframes myJobs {
   0% {
     content: "Frontend Developer";
-    color: blue;
+    color: lightcyan;
   }
-  15% {
+  25% {
     content: "Frontend Developer";
-    color: blue;
+    color: cyan;
   }
-  20% {
+  34% {
     content: "Web Designer";
     color: yellow;
   }
-  35% {
+  59% {
     content: "Web Designer";
-    color: yellow;
-  }
-  40% {
-    content: "Instructional Designer";
     color: lime;
   }
-  55% {
+  68% {
     content: "Instructional Designer";
-    color: lime;
+    color: pink;
   }
-  60% {
-    content: "Trainer";
-    color: cyan;
-  }
-  75% {
-    content: "Trainer";
-    color: cyan;
-  }
-  80% {
-    content: "Teacher";
-    color: magenta;
-  }
-  95% {
-    content: "Teacher";
+  93% {
+    content: "Instructional Designer";
     color: magenta;
   }
   100% {
     content: "Frontend Developer";
-    color: blue;
+    color: lightskyblue;
   }
 }
 

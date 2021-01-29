@@ -46,8 +46,7 @@ $(document).ready(function () {
 
   // Animated texts
   //h2 occupations
-  var skills = ['FRONTEND PROJECTS', 'WEB DESIGN',
-    'TEACHING & LEARNING', 'INSTRUCTIONAL DESIGN', 'TRAINING & COACHING',],
+  var skills = ['FRONTEND PROJECTS', 'WEB DESIGN', 'INSTRUCTIONAL DESIGN'],
     part,
     i = 0,
     offset = 0,
