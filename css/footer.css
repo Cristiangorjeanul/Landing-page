@@ -1,9 +1,3 @@
-.close {
-  background-color: black;
-  color: red !important;
-  font-size: 32px;
-}
-
 .modal-body {
   background-color: lightskyblue;
   color: white !important;
@@ -17,15 +11,6 @@
 
 .panel-footer {
   background-color: white !important;
-}
-
-button {
-  width: 80px;
-  margin: 15px 0;
-  font-size: 18px;
-  font-weight: 700;
-  background-color: red;
-  color: white;
 }
 
 #contact .glyphicon {
