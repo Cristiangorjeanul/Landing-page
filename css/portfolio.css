@@ -221,17 +221,6 @@
   z-index: 9999;
 }
 
-.logo-small {
-  color: blue;
-  font-size: 50px;
-}
-
-.logo {
-  color: blue;
-  padding-top: 47px;
-  font-size: 120px;
-}
-
 .item h5 {
   font-size: 12px;
   text-align: center;
