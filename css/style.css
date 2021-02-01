@@ -29,6 +29,18 @@ h1 {
   }
 }
 
+.portrait-picture {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+}
+
+.portrait-picture:hover {
+  transform: scale(1.15);
+  border-radius: 0;
+  cursor: grab;
+}
+
 .photo {
   left: 50%;
   position: absolute;

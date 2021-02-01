@@ -2,9 +2,59 @@
   background-color: white !important;
 }
 
+.rotating-picture { 
+  margin-top: 35px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+#picture {
+  width: 305px;
+  height: 305px;
+  position:relative;
+  transform-style: preserve-3d; 
+  transition: transform .5s; 
+}
+
+#picture div {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  filter: drop-shadow(1px 1px 3px blue);
+}
+
+#picture .front {
+  overflow: hidden;
+  cursor:pointer;
+}
+
+#picture .front img {
+    height: 100%;
+  }
+
+
+#picture .back {
+  background:white;
+  transform: rotateY( 180deg );
+  cursor:pointer;
+}
+
+#picture.flipped {
+  transform: rotateY( 180deg );
+}
+
 #contact .glyphicon {
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 21px;
+  margin-bottom: 21px;
   color: blue;
 }
 
@@ -34,24 +84,24 @@ button-top:hover {
 }
 
 #platforms-logos {
-  width: 180px;
-  height: 27px;
+  width: 280px;
+  height: 35px;
   background-color: white;
-  margin: 35px auto;
-  padding-bottom: 15px;
+  margin: 5px auto;
+  padding-bottom: 14px;
 }
 
 .logo-bar a {
   display: inline-block;
   text-align: center;
-  font-size: 15px;
-  width: 27px;
-  height: 27px;
-  transition: all 0.2s;
+  font-size: 19px;
+  width: 35px;
+  height: 35px;
+  transition: all 0.35s;
 }
 
 .logo-bar a:hover {
-  transform: scale(1.15);
+  transform: scale(1.35);
 }
 
 .disc {

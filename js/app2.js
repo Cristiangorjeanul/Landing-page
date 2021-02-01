@@ -94,6 +94,10 @@ $(document).ready(function () {
   });
 
   
+  //Rotating picture at click
+  $('#picture').on('click', function(){
+    $(this).toggleClass('flipped');
+  })
 
 
 })
