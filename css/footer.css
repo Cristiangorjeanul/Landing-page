@@ -43,7 +43,7 @@
 
 
 #picture .back {
-  background:white;
+  background:lightskyblue;
   transform: rotateY( 180deg );
   cursor:pointer;
 }
