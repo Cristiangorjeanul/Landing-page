@@ -63,7 +63,7 @@ h1 {
 
 h2 {
   padding-top: 157px;
-  font-size: 23px;
+  font-size: 20px;
   text-align: center;
   font-weight: 700;
   color: white;
@@ -88,7 +88,7 @@ h2 {
 }
 
 h3 {
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 700;
   color: white;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
@@ -108,7 +108,7 @@ h3 {
 
 /*Jobs words animation*/
 #my-jobs {
-  font-size: 31px;
+  font-size: 25px;
   text-align: center;
   color: blue;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
@@ -160,7 +160,7 @@ h3 {
 }
 
 h4 {
-  font-size: 19px;
+  font-size: 16px;
   text-align: center;
   width: 90%;
   font-weight: 800;
@@ -170,7 +170,7 @@ h4 {
 }
 
 h5 {
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 900;
   text-align: center;
 }
