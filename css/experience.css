@@ -103,7 +103,7 @@
   list-style: none;
 }
 
-/* Boxes */
+/* Job boxes */
 #timeline ul li div h4 {
   color: white;
   text-align: center;
@@ -188,7 +188,7 @@
   transform: translate(-50px, 0);
 }
 
-/* Dots */
+/* Circles */
 #timeline ul li:after {
   content: "";
   position: absolute;
@@ -202,7 +202,7 @@
   transition: 0.5s ease-in-out;
 }
 
-/* Arrows Base */
+/* Arrows base */
 #timeline div:before {
   content: "";
   position: absolute;

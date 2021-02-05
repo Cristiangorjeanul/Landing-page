@@ -8,11 +8,11 @@ document.addEventListener('DOMContentLoaded', function () {
   }, 3500);
 
 //Menu toggle burger button
-  let menu = document.getElementById('burger-menu');
+  let menuButton = document.getElementById('burger-menu');
 
-  menu.addEventListener('click', function () {
-    menu.classList.toggle('fa-times');
-    menu.classList.toggle('fa-bars');
+  menuButton.addEventListener('click', function () {
+    menuButton.classList.toggle('fa-times');
+    menuButton.classList.toggle('fa-bars');
   });
 
   //Greetings
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   };
 
-  //Mouse circles
+  //Mouse cursor circles
   document.addEventListener('mousemove', e => {
 
     let circles = document.createElement('circles');
@@ -153,7 +153,6 @@ document.addEventListener('DOMContentLoaded', function () {
       circles.remove();
     }, 500);
   });
-
 
 
 }); 

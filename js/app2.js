@@ -32,7 +32,7 @@ $(document).ready(function () {
     });
   });
 
-  // Blink - apps number
+  // Blink websites number
   function blink(selector) {
     $(selector).fadeOut(100, function () {
       $(this).fadeIn(1000, function () {
@@ -44,8 +44,7 @@ $(document).ready(function () {
     blink('#appNumber');
   });
 
-  // Animated texts
-  //h2 occupations
+  //h2 activity fields animated text
   var skills = ['FRONTEND PROJECTS', 'WEB DESIGN', 'INSTRUCTIONAL DESIGN'],
     part,
     i = 0,

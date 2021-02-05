@@ -1,7 +1,7 @@
 .panel-footer {
   background-color: white !important;
 }
-
+/* My pictures that rotates at a click */
 .rotating-picture { 
   margin-top: 35px;
   width: 100%;
@@ -41,7 +41,6 @@
     height: 100%;
   }
 
-
 #picture .back {
   background:lightskyblue;
   transform: rotateY( 180deg );
@@ -57,7 +56,7 @@
   margin-bottom: 21px;
   color: blue;
 }
-
+/* To top button */
 button-top {
   width: 35px;
   height: 35px;
@@ -75,14 +74,14 @@ button-top {
 button-top:hover {
   box-shadow: inset 7px 7px 14px #cccccc, inset -7px -7px 14px white;
 }
-
+/* Googlemap iframe */
 #iframe {
   align-self: center;
   margin-bottom: 1.5rem;
   width: 100%;
   height: 250px;
 }
-
+/* GitHub, YouTube & Discord signs */
 #platforms-logos {
   width: 280px;
   height: 35px;
@@ -128,7 +127,7 @@ button-top:hover {
   border-radius: 0;
   margin: 1px auto;
 }
-
+/* YouTube iframe for my video */
 iframe {
   width: 100%;
 }

@@ -1,3 +1,4 @@
+/* Developer portrait */
 .container-portrait {
   margin: auto;
   margin-top: 31px;
@@ -301,7 +302,7 @@
   background: lightskyblue;
   border-radius: 80px 80px 0 0;
 }
-
+/* Glasses */
 .glass-left {
   position: absolute;
   z-index: 2;
@@ -335,7 +336,7 @@
   border-radius: 100%;
   border-color: black transparent transparent transparent;
 }
-
+/* Laptop */
 .laptop {
   border-radius: 12px;
   background-color: black;
