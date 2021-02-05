@@ -25,11 +25,12 @@ h1 {
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 73px;
+    font-size: 71px;
   }
 }
 
 .portrait-picture {
+  margin-top: -9px;
   width: 115px;
   height: 115px;
   border-radius: 50%;
@@ -41,28 +42,28 @@ h1 {
   cursor: grab;
 }
 
-.photo {
+.my-website-screen-shoot {
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
   transition: all 1.5s ease;
   filter: drop-shadow(1px 1px 3px blue);
-  top: 287px;
+  top: 259px;
   width: 325px;
   height: 150px;
 }
 
 @media (min-width: 768px) {
-  .photo {
+  .my-website-screen-shoot {
     left: 50%;
-    top: 318px;
+    top: 307px;
     width: 455px;
-    height: 205px;
+    height: 203px;
   }
 }
 
 h2 {
-  padding-top: 157px;
+  padding-top: 153px;
   font-size: 20px;
   text-align: center;
   font-weight: 700;
@@ -75,13 +76,13 @@ h2 {
 
 @media (min-width: 768px) {
   h2 {
-    padding-top: 181px;
+    padding-top: 195px;
     margin: 1px auto;
     font-size: 35px;
   }
 }
 
-.skills {
+.activity-fields {
   width: 100%;
   margin: auto;
   height: 35px;
@@ -178,12 +179,13 @@ h5 {
 .jumbotron {
   background-color: white;
   color: white;
-  padding: 15px 1px 1px 1px;
+  margin-top: -6px;
+  padding: 5px 1px 1px 1px;
   font-family: Montserrat, sans-serif;
 }
 
 .container-fluid {
-  padding: 15px;
+  padding-left: 14px;
 }
 
 .col-sm-12 {
@@ -243,55 +245,6 @@ h5 {
   cursor: grab;
 }
 
-.panel-heading1 {
-  color: white !important;
-  background-color: blue !important;
-  padding-top: 1px;
-  padding-bottom: 25px;
-  border: 1px solid lightskyblue;
-}
-
-.panel-heading2 {
-  color: white !important;
-  background-color: yellow !important;
-  padding-top: 1px;
-  padding-bottom: 25px;
-  border: 1px solid lightskyblue;
-}
-
-.panel-heading3 {
-  color: white !important;
-  background-color: red !important;
-  padding-top: 1px;
-  padding-bottom: 25px;
-  border: 1px solid lightskyblue;
-}
-
-.panel-heading4 {
-  color: white !important;
-  background-color: green !important;
-  padding-top: 1px;
-  padding-bottom: 25px;
-  border: 1px solid lightskyblue;
-}
-
-.col-sm-3 {
-  padding: 9px;
-}
-
-@media (min-width: 769px) {
-  #portfolio .col-sm-3 {
-    width: 20%;
-  }
-}
-
-.panel-heading5 {
-  color: black !important;
-  background-color: white !important;
-  padding-top: 21px;
-  padding-bottom: 5px;
-}
-
 .slideanim {
   visibility: hidden;
 }
@@ -324,54 +277,6 @@ h5 {
     opacity: 1;
     -webkit-transform: translateY(0%);
   }
-}
-
-.panel-body1 {
-  background-color: white;
-  color: black;
-  padding: 1px;
-}
-
-.panel-body1:hover {
-  background-color: blue;
-  color: yellow;
-}
-
-.panel-body2 {
-  background-color: white;
-  color: black;
-  padding: 1px;
-}
-
-.panel-body2:hover {
-  background-color: yellow;
-  color: blue;
-}
-
-.panel-body3 {
-  background-color: white;
-  color: black;
-  padding: 1px;
-}
-
-.panel-body3:hover {
-  background-color: red;
-  color: green;
-}
-
-.panel-body4 {
-  background-color: white;
-  color: black;
-  padding: 1px;
-}
-
-.panel-body4:hover {
-  background-color: green;
-  color: red;
-}
-
-.logo-small {
-  font-size: 53px;
 }
 
 #button {

@@ -247,3 +247,13 @@
 .item span {
   font-style: normal;
 }
+
+.col-sm-3 {
+  padding: 9px;
+}
+
+@media (min-width: 769px) {
+  #portfolio .col-sm-3 {
+    width: 20%;
+  }
+}

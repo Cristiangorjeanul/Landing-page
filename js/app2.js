@@ -85,7 +85,7 @@ $(document).ready(function () {
           offset--;
         }
       }
-      $('.skills').text(part);
+      $('.activity-fields').text(part);
     }, speed);
   };
 

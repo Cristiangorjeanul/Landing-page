@@ -7,6 +7,14 @@ document.addEventListener('DOMContentLoaded', function () {
     element.classList.add("loaded");
   }, 3500);
 
+//Menu toggle burger button
+  let menu = document.getElementById('burger-menu');
+
+  menu.addEventListener('click', function () {
+    menu.classList.toggle('fa-times');
+    menu.classList.toggle('fa-bars');
+  });
+
   //Greetings
   var date = new Date();
   var hour = date.getHours();
@@ -37,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
   document.querySelector("#final-greeting").innerHTML = "GOODBYE!<br>" + finalGreeting + "<br>";
 
   //Header Slide show
-  const photos = document.querySelectorAll(".photo");
+  const photos = document.querySelectorAll(".my-website-screen-shoot");
   let currentSlide = 0;
   const slideTimer = 2535;
 
@@ -129,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function () {
   };
 
   //Mouse circles
-  document.addEventListener('mousemove', e=> {
+  document.addEventListener('mousemove', e => {
 
     let circles = document.createElement('circles');
     let a = e.pageX;
@@ -139,15 +147,13 @@ document.addEventListener('DOMContentLoaded', function () {
     let size = Math.random() * 100;
     circles.style.width = 5 + size + "px";
     circles.style.height = 5 + size + "px";
-    
+
     document.body.appendChild(circles);
-    setTimeout(function() {
+    setTimeout(function () {
       circles.remove();
     }, 500);
   });
-  
-  
-  
-  
+
+
 
 }); 

@@ -104,19 +104,22 @@ button-top:hover {
   transform: scale(1.35);
 }
 
-.disc {
+.discord {
   background: cornflowerblue;
   color: white;
+  margin: 5px;
 }
 
-.git {
+.github {
   background: black;
   color: white;
+  margin: 5px;
 }
 
-.yout {
+.youtube {
   background: red;
   color: white;
+  margin: 5px;
 }
 
 .content .thumbnail {
@@ -129,4 +132,3 @@ button-top:hover {
 iframe {
   width: 100%;
 }
-
