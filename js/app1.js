@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
   let menuButton = document.getElementById('burger-menu');
 
   menuButton.addEventListener('click', function () {
-    menuButton.classList.toggle('fa-times');
     menuButton.classList.toggle('fa-bars');
+    menuButton.classList.toggle('fa-times');
   });
 
   //Greetings

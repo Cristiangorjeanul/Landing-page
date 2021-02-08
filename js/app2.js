@@ -92,10 +92,20 @@ $(document).ready(function () {
     wordsSkills();
   });
 
-  
+
   //Rotating picture at click
-  $('#picture').on('click', function(){
+  $('#picture').on('click', function () {
     $(this).toggleClass('flipped');
+  })
+
+  //Social media buttons at hover
+  $(".share").hover(function () {
+    $(".social").toggleClass("visible");
+  });
+  $(".social").hover(function () {
+    $(".social").addClass("visible")
+  }, function () {
+    $(".social").removeClass("visible")
   })
 
 
