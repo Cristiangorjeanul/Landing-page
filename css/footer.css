@@ -68,15 +68,16 @@
 .share {
   z-index: 99;
   position: absolute;
-  width: 95px;
+  width: 81px;
   height: 35px;
   background: lightskyblue;
   border: 1px solid blue;
   border-radius: 50px;
+  margin-left: 1px;
   color: white;
   font-size: 17px;
   text-align: center;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   font-weight: 800;
   transition: all 0.5s ease;
   cursor: pointer;
@@ -84,20 +85,19 @@
 
 .share:hover {
   box-shadow: 1px 1px 12px lightskyblue;
-  transform: scale(1.08);
+  transform: scale(1.07);
 }
 
 .social {
   opacity: 0;
   position: relative;
-  width: 32px;
-  height: 32px;
+  width: 35px;
+  height: 35px;
   border: 1px solid blue;
   border-radius: 50%;
-  margin-left: 3px;
   display: inline-block;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   letter-spacing: 1px;
   font-weight: 900;
@@ -124,7 +124,7 @@
 }
 
 .cycling {
-  margin-left: 107px;
+  margin-left: 93px;
   background: lightgreen;
 }
 
