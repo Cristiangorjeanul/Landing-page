@@ -75,10 +75,9 @@
   border-radius: 50px;
   margin-left: 1px;
   color: white;
-  font-size: 17px;
+  font-size: 18px;
   text-align: center;
-  letter-spacing: 1px;
-  font-weight: 800;
+  font-weight: 500;
   transition: all 0.5s ease;
   cursor: pointer;
 }
