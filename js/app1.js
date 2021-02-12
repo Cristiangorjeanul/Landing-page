@@ -139,13 +139,13 @@ document.addEventListener('DOMContentLoaded', function () {
   document.addEventListener('mousemove', e => {
 
     let circles = document.createElement('circles');
-    let a = e.pageX;
-    let b = e.pageY;
-    circles.style.left = a + "px";
-    circles.style.top = b + "px";
-    let size = Math.random() * 100;
-    circles.style.width = 5 + size + "px";
-    circles.style.height = 5 + size + "px";
+    var x = e.pageX;
+    var y = e.pageY;
+    circles.style.left = x + "px";
+    circles.style.top = y + "px";
+    var circleSize = Math.random() * 100;
+    circles.style.width = 5 + circleSize + "px";
+    circles.style.height = 5 + circleSize + "px";
 
     document.body.appendChild(circles);
     setTimeout(function () {
@@ -156,30 +156,32 @@ document.addEventListener('DOMContentLoaded', function () {
   //Colored balloons
   function coloredBalloons() {
     var balloon = document.createElement('div');
-    var balloonColors = ["silver", "gold", "magenta", "cyan", "lime"];
-    balloon.className = "balloons";
-    balloon.style.left = Math.floor(Math.random() * window.innerWidth) + "px";
+    var balloonColors = ["silver", "gold", "magenta", "cyan", "lime", "violet", "red", "orange"];
+    balloon.className = "balloon";
+    balloon.style.left = Math.floor(Math.random() * window.innerWidth * .93) + "px";
     balloon.style.animationDelay = Math.floor(Math.random() * 25) + "s";
-    balloon.style.width = Math.floor(Math.random() * 35) + "px";
+    balloon.style.width = Math.floor(Math.random() * 71) + "px";
     balloon.style.height = balloon.style.width;
     balloon.style.backgroundColor = balloonColors[Math.floor(Math.random() * balloonColors.length)];
     balloon.onmouseover = function () {
-      balloon.style.animation = 'none'
+      balloon.style.animation = 'none';
       setTimeout(function () {
-        balloon.style.animation = 'balloons-movement 17s linear infinite'
-      }, 35)
+        balloon.style.animation = 'balloon-movement 35s linear infinite'
+      }, 35);
     }
-    if (parseInt(balloon.style.width) < 23) {
+
+
+    if (parseInt(balloon.style.width) < 35) {
       balloon.style.zIndex = "-1";
       balloon.style.filter = "blur(1px)";
     }
-    if (parseInt(balloon.style.width) > 53) {
+    if (parseInt(balloon.style.width) > 71) {
       balloon.style.zIndex = "-1";
       balloon.style.filter = "blur(1px)";
     }
     document.body.appendChild(balloon);
 
-    if (document.getElementsByClassName('balloons').length > 32) {
+    if (document.getElementsByClassName('balloon').length > 35) {
       clearInterval(balloonsAnimation);
     }
   };
