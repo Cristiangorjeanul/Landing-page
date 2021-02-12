@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function () {
 
   //Loader
@@ -7,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     element.classList.add("loaded");
   }, 3500);
 
-//Menu toggle burger button
+  //Menu toggle burger button
   let menuButton = document.getElementById('burger-menu');
 
   menuButton.addEventListener('click', function () {
@@ -154,5 +153,36 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 500);
   });
 
+  //Colored balloons
+  function coloredBalloons() {
+    var balloon = document.createElement('div');
+    var balloonColors = ["silver", "gold", "magenta", "cyan", "lime"];
+    balloon.className = "balloons";
+    balloon.style.left = Math.floor(Math.random() * window.innerWidth) + "px";
+    balloon.style.animationDelay = Math.floor(Math.random() * 25) + "s";
+    balloon.style.width = Math.floor(Math.random() * 35) + "px";
+    balloon.style.height = balloon.style.width;
+    balloon.style.backgroundColor = balloonColors[Math.floor(Math.random() * balloonColors.length)];
+    balloon.onmouseover = function () {
+      balloon.style.animation = 'none'
+      setTimeout(function () {
+        balloon.style.animation = 'balloons-movement 17s linear infinite'
+      }, 35)
+    }
+    if (parseInt(balloon.style.width) < 23) {
+      balloon.style.zIndex = "-1";
+      balloon.style.filter = "blur(1px)";
+    }
+    if (parseInt(balloon.style.width) > 53) {
+      balloon.style.zIndex = "-1";
+      balloon.style.filter = "blur(1px)";
+    }
+    document.body.appendChild(balloon);
 
+    if (document.getElementsByClassName('balloons').length > 32) {
+      clearInterval(balloonsAnimation);
+    }
+  };
+
+  var balloonsAnimation = setInterval(coloredBalloons, 1);
 }); 
