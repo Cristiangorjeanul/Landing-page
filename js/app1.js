@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function () {
     balloon.className = "balloon";
     balloon.style.left = Math.floor(Math.random() * window.innerWidth * .93) + "px";
     balloon.style.animationDelay = Math.floor(Math.random() * 25) + "s";
-    balloon.style.width = Math.floor(Math.random() * 71) + "px";
+    balloon.style.width = Math.floor(Math.random() * 53) + "px";
     balloon.style.height = balloon.style.width;
     balloon.style.backgroundColor = balloonColors[Math.floor(Math.random() * balloonColors.length)];
     balloon.onmouseover = function () {
@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function () {
       balloon.style.zIndex = "-1";
       balloon.style.filter = "blur(1px)";
     }
-    if (parseInt(balloon.style.width) > 71) {
+    if (parseInt(balloon.style.width) > 53) {
       balloon.style.zIndex = "-1";
       balloon.style.filter = "blur(1px)";
     }

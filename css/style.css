@@ -16,7 +16,7 @@ circles {
   position: absolute;
   pointer-events: none;
   background: cyan;
-  box-shadow: 5px 5px 5px yellow, 5px 5px 5px lime;
+  box-shadow: 5px 5px 5px gold, 5px 5px 5px lime, 5px 5px 5px magenta;
   transform: translate(356%, 356%);
   animation: colors-animation 1s infinite;
 }
@@ -131,87 +131,87 @@ h2 {
     opacity: 0;
   }
   10% {
-    transform: translateX(95%);
+    transform: translateX(50%);
     opacity: 1;
   }
   15% {
-    transform: translateX(-95%);
+    transform: translateX(-50%);
     opacity: 1;
   }
   20% {
-    transform: translateX(95%);
+    transform: translateX(50%);
     opacity: 1;
   }
   25% {
-    transform: translateX(-95%);
+    transform: translateX(-50%);
     opacity: 1;
   }
   30% {
-    transform: translateX(95%);
+    transform: translateX(50%);
     opacity: 1;
   }
   35% {
-    transform: translateX(-95%);
+    transform: translateX(-50%);
     opacity: 1;
   }
   40% {
-    transform: translateX(95%);
+    transform: translateX(50%);
     opacity: 1;
   }
   45% {
-    transform: translateX(-95%);
+    transform: translateX(-32%);
     opacity: 1;
   }
   50% {
-    transform: translateX(95%);
+    transform: translateX(32%);
     opacity: 1;
   }
   55% {
-    transform: translateX(-95%);
+    transform: translateX(-32%);
     opacity: 1;
   }
   60% {
-    transform: translateX(95%);
+    transform: translateX(32%);
     opacity: 1;
   }
   65% {
-    transform: translateX(-95%);
+    transform: translateX(-32%);
     opacity: 1;
   }
   70% {
-    transform: translateX(95%);
+    transform: translateX(17%);
     opacity: 1;
   }
   75% {
-    transform: translateX(-53%);
-    opacity: 1;
-  }
-  80% {
-    transform: translateX(53%);
-    opacity: 1;
-  }
-  85% {
-    transform: translateX(-35%);
-    opacity: 1;
-  }
-  90% {
-    transform: translateX(35%);
-    opacity: 1;
-  }
-  93% {
-    transform: translateX(-35%);
-    opacity: 1;
-  }
-  95% {
-    transform: translateX(17%);
-    opacity: 1;
-  }
-  97% {
     transform: translateX(-17%);
     opacity: 1;
   }
-  99% {
+  80% {
     transform: translateX(17%);
+    opacity: 1;
+  }
+  85% {
+    transform: translateX(-8%);
+    opacity: 1;
+  }
+  90% {
+    transform: translateX(8%);
+    opacity: 1;
+  }
+  93% {
+    transform: translateX(-8%);
+    opacity: 1;
+  }
+  95% {
+    transform: translateX(5%);
+    opacity: 1;
+  }
+  97% {
+    transform: translateX(-5%);
+    opacity: 1;
+  }
+  99% {
+    transform: translateX(5%);
     opacity: 1;
   }
   100% {
