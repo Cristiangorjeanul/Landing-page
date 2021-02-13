@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function () {
   //Colored balloons
   function coloredBalloons() {
     var balloon = document.createElement('div');
-    var balloonColors = ["silver", "gold", "magenta", "cyan", "lime", "violet", "red", "orange"];
+    var balloonColors = ["silver", "gold", "magenta", "cyan", "lime"];
     balloon.className = "balloon";
     balloon.style.left = Math.floor(Math.random() * window.innerWidth * .93) + "px";
     balloon.style.animationDelay = Math.floor(Math.random() * 25) + "s";
@@ -167,9 +167,8 @@ document.addEventListener('DOMContentLoaded', function () {
       balloon.style.animation = 'none';
       setTimeout(function () {
         balloon.style.animation = 'balloon-movement 35s linear infinite'
-      }, 35);
+      }, 1000);
     }
-
 
     if (parseInt(balloon.style.width) < 35) {
       balloon.style.zIndex = "-1";
