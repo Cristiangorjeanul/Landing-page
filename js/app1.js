@@ -156,17 +156,19 @@ document.addEventListener('DOMContentLoaded', function () {
   //Colored balloons
   function coloredBalloons() {
     var balloon = document.createElement('div');
-    var balloonColors = ["silver", "gold", "magenta", "cyan", "lime"];
+    var balloonColors = ["gold", "magenta", "cyan", "lime"];
+    
     balloon.className = "balloon";
     balloon.style.left = Math.floor(Math.random() * window.innerWidth * .93) + "px";
     balloon.style.animationDelay = Math.floor(Math.random() * 25) + "s";
     balloon.style.width = Math.floor(Math.random() * 53) + "px";
     balloon.style.height = balloon.style.width;
     balloon.style.backgroundColor = balloonColors[Math.floor(Math.random() * balloonColors.length)];
-    balloon.onmouseover = function () {
+    balloon.onmouseenter = function () {
       balloon.style.animation = 'none';
+     
       setTimeout(function () {
-        balloon.style.animation = 'balloon-movement 35s linear infinite'
+        balloon.style.animation = 'balloon-movement 71s linear infinite'
       }, 1000);
     }
 
@@ -180,7 +182,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     document.body.appendChild(balloon);
 
-    if (document.getElementsByClassName('balloon').length > 35) {
+    if (document.getElementsByClassName('balloon').length > 32) {
       clearInterval(balloonsAnimation);
     }
   };
