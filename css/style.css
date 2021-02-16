@@ -58,7 +58,7 @@ h1 {
 }
 
 .portrait-picture:hover {
-  transform: scale(1.15);
+  transform: scale(1.07);
   border-radius: 0;
   cursor: grab;
 }
@@ -127,17 +127,17 @@ h2 {
 
 @keyframes balloon-movement {
   0% {
-    top: 1053%;
+    top: 953%;
     opacity: 0;
   }
   15% {
     opacity: 1;
   }
-  95% {
+  53% {
     opacity: 1;
   }
   100% {
-    top: 53%;
+    top: 377%;
     opacity: 0;
   }
 }
