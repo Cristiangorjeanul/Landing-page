@@ -109,8 +109,8 @@ h2 {
   height: 35px;
 }
 
-/*Colored balloons*/
-.balloon {
+/*Multicolored flying bubbles*/
+.bubble {
   position: absolute;
   top: 1053%;
   border-radius: 50%;
@@ -122,22 +122,22 @@ h2 {
   box-shadow: inset 0 23px 35px rgba(255, 255, 255, 0.35),
     inset 1em 1em 1em rgba(255, 255, 255, 0.35), 0 1em 2em rgba(0, 0, 0, 0.14);
   cursor: pointer;
-  animation: balloon-movement 71s linear infinite;
+  animation: bubble-movement 71s linear infinite;
 }
 
-@keyframes balloon-movement {
+@keyframes bubble-movement {
   0% {
     top: 953%;
     opacity: 0;
   }
-  35% {
+  43% {
     opacity: 1;
   }
   53% {
     opacity: 1;
   }
   100% {
-    top: 377%;
+    top: 570%;
     opacity: 0;
   }
 }

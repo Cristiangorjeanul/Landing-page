@@ -153,39 +153,109 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 500);
   });
 
-  //Colored balloons
-  function coloredBalloons() {
-    var balloon = document.createElement('div');
-    var balloonColors = ["gold", "magenta", "cyan", "lime"];
-    
-    balloon.className = "balloon";
-    balloon.style.left = Math.floor(Math.random() * window.innerWidth * .93) + "px";
-    balloon.style.animationDelay = Math.floor(Math.random() * 25) + "s";
-    balloon.style.width = Math.floor(Math.random() * 53) + "px";
-    balloon.style.height = balloon.style.width;
-    balloon.style.backgroundColor = balloonColors[Math.floor(Math.random() * balloonColors.length)];
-    balloon.onmouseenter = function () {
-      balloon.style.animation = 'none';
-     
+  //Multicolored flying bubbles
+  function coloredBubbles() {
+    var bubble = document.createElement('div');
+    var bubbleColors = ["gold", "magenta", "cyan", "lime"];
+
+    bubble.className = "bubble";
+    bubble.style.left = Math.floor(Math.random() * window.innerWidth * .93) + "px";
+    bubble.style.animationDelay = Math.floor(Math.random() * 25) + "s";
+    bubble.style.width = Math.floor(Math.random() * 53) + "px";
+    bubble.style.height = bubble.style.width;
+    bubble.style.backgroundColor = bubbleColors[Math.floor(Math.random() * bubbleColors.length)];
+    bubble.onmouseenter = function () {
+      bubble.style.animation = 'none';
+
       setTimeout(function () {
-        balloon.style.animation = 'balloon-movement 71s linear infinite'
+        bubble.style.animation = 'bubble-movement 71s linear infinite'
       }, 1000);
     }
 
-    if (parseInt(balloon.style.width) < 35) {
-      balloon.style.zIndex = "-1";
-      balloon.style.filter = "blur(1px)";
+    if (parseInt(bubble.style.width) < 35) {
+      bubble.style.zIndex = "-1";
+      bubble.style.filter = "blur(1px)";
     }
-    if (parseInt(balloon.style.width) > 53) {
-      balloon.style.zIndex = "-1";
-      balloon.style.filter = "blur(1px)";
+    if (parseInt(bubble.style.width) > 53) {
+      bubble.style.zIndex = "-1";
+      bubble.style.filter = "blur(1px)";
     }
-    document.body.appendChild(balloon);
+    document.body.appendChild(bubble);
 
-    if (document.getElementsByClassName('balloon').length > 32) {
-      clearInterval(balloonsAnimation);
+    if (document.getElementsByClassName('bubble').length > 32) {
+      clearInterval(bubblesAnimation);
     }
   };
 
-  var balloonsAnimation = setInterval(coloredBalloons, 1);
+  var bubblesAnimation = setInterval(coloredBubbles, 1);
+
+  //Relaxation area
+  //Balloons game
+  const balloons = document.querySelectorAll('.balloon');
+  const scoreBoard = document.querySelector('.score');
+  const newGame = document.querySelector('#newGame');
+  const blackBalloon = document.querySelectorAll('.blackBalloon');
+  let lastBalloon;
+  let timeUp = false;
+  let score = 0;
+
+  function randomTime(min, max) {
+    return Math.round(Math.random() * (max - min) + min);
+  }
+
+  function randomBalloon(balloons) {
+    const idx = Math.floor(Math.random() * balloons.length);
+    const balloon = balloons[idx];
+    if (balloon === lastBalloon) {
+      return randomBalloon(balloons);
+    }
+    lastBalloon = balloon;
+    return balloon;
+  }
+
+  function flyingBalloon() {
+    const time = randomTime(500, 1000);
+    const balloon = randomBalloon(balloons);
+    balloon.classList.add('up');
+    setTimeout(() => {
+      balloon.classList.remove('up');
+      if (!timeUp) flyingBalloon();
+    }, time);
+  }
+
+  function start() {
+    scoreBoard.textContent = 0;
+    timeUp = false;
+    score = 0;
+    flyingBalloon();
+    newGame.style.display = 'none';
+    setTimeout(() => {
+      timeUp = true;
+      newGame.style.display = 'block';
+
+    }, 18000)
+  }
+
+  document.getElementById("newGame").addEventListener("click", start);
+
+  function clickedBalloon(e) {
+    if (!e.isTrusted) return;
+    score++;
+    this.parentNode.classList.remove('up');
+    scoreBoard.textContent = score;
+  }
+
+  function hideBalloon(e) {
+    if (!e.isTrusted) return;
+    this.style.display = 'none';
+    setTimeout(() => {
+      this.style.display = 'block';
+    }, 1000)
+
+  }
+
+  blackBalloon.forEach(mole => mole.addEventListener('click', clickedBalloon));
+  blackBalloon.forEach(mole => mole.addEventListener('click', hideBalloon));
+
+
 }); 
