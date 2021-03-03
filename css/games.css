@@ -4,6 +4,35 @@
 *:after {
   box-sizing: inherit;
 }
+
+/* Click on all the numbers game */
+/* Reset button */
+.numbersButton {
+  height: 37px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  justify-content: center;
+}
+
+.numbersButton #resetGame {
+  margin: auto;
+  outline: none;
+  cursor: pointer;
+  width: 120px;
+  height: 37px;
+  border-radius: 5px;
+  background: lightskyblue;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+#resetGame:hover {
+  background: red;
+}
+
+/* Click on the black balloons game */
 /* Start button */
 .gameButton {
   height: 35px;
