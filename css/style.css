@@ -162,8 +162,8 @@ h3 {
 }
 
 /* My jobs text animation */
-#my-jobs {
-  font-size: 25px;
+.my-jobs {
+  font-size: 23px;
   text-align: center;
   color: blue;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
@@ -173,14 +173,14 @@ h3 {
 }
 
 @media (min-width: 768px) {
-  #my-jobs {
+  .my-jobs {
     font-size: 35px;
   }
 }
 
-#my-jobs:after {
+.my-jobs:after {
   content: "";
-  animation: myJobs 5s linear infinite;
+  animation: myJobs 8s linear infinite;
 }
 
 @keyframes myJobs {
@@ -188,29 +188,45 @@ h3 {
     content: "Frontend Developer";
     color: lightcyan;
   }
-  25% {
+  15% {
     content: "Frontend Developer";
     color: cyan;
   }
-  34% {
+  20% {
     content: "Web Designer";
     color: yellow;
   }
-  59% {
+  35% {
     content: "Web Designer";
     color: lime;
   }
-  68% {
+  40% {
     content: "Instructional Designer";
     color: pink;
   }
-  93% {
+  55% {
     content: "Instructional Designer";
     color: magenta;
   }
+  60% {
+    content: "Middle School Teacher";
+    color: gold;
+  }
+  75% {
+    content: "Middle School Teacher";
+    color: blue;
+  }
+  80% {
+    content: "Technical Trainer";
+    color: springgreen;
+  }
+  95% {
+    content: "Technical Trainer";
+    color: green;
+  }
   100% {
     content: "Frontend Developer";
-    color: lightskyblue;
+    color: lightcyan;
   }
 }
 
