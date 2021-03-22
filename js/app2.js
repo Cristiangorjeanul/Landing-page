@@ -92,6 +92,35 @@ $(document).ready(function () {
     wordsSkills();
   });
 
+  //My SVG CT logo
+  var iterationCount = $('.ct-logo').css("animation-iteration-count");
+  animate(iterationCount - 1)
+
+  function animate(count) {
+    if (count == 0) {
+      $('.ct-logo').css({
+        'animation': 'draw1 2.3s',
+      });
+    }
+    if (count == 1) {
+      $('.ct-logo').css({
+        'animation': 'draw2 2.3s',
+      });
+    }
+    if (count == 2) {
+      $('.ct-logo').css({
+        'animation': 'draw3 2.3s',
+      });
+    }
+    $('.ct-logo:first').one("animationend", function () {
+      if (count > 0)
+        animate(count - 1)
+      else
+        animate(iterationCount - 1)
+    })
+  }
+
+
 
   //Rotating picture at click
   $('#picture').on('click', function () {

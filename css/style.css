@@ -161,6 +161,80 @@ h3 {
   }
 }
 
+
+/*My SVG CT logo*/
+#ct-logo {
+  width: 170px;
+  height: 150px;
+  margin: auto;
+}
+
+.ct-logo {
+  animation-fill-mode: forwards;
+  animation-iteration-count: 3;
+}
+
+
+@keyframes draw1 {
+  0% {
+    stroke: blue;
+  }
+  25% {
+    stroke: blue;
+  }
+  50% {
+    stroke: blue;
+  }
+  75% {
+    stroke: blue;
+  }
+  100% {
+    stroke: blue;
+    fill: none;
+    stroke-dashoffset: 100;
+  }
+}
+
+@keyframes draw2 {
+  0% {
+    stroke: green;
+  }
+  25% {
+    stroke: green;
+  }
+  50% {
+    stroke: green;
+  }
+  75% {
+    stroke: green;
+  }
+  100% {
+    stroke: green;
+    fill: none;
+    stroke-dashoffset: 100;
+  }
+}
+
+@keyframes draw3 {
+  0% {
+    stroke: red;
+  }
+  25% {
+    stroke: red;
+  }
+  50% {
+    stroke: red;
+  }
+  75% {
+    stroke: red;
+  }
+  100% {
+    stroke: red;
+    fill: none;
+    stroke-dashoffset: 100;
+  }
+}
+
 /* My jobs text animation */
 .my-jobs {
   font-size: 23px;
