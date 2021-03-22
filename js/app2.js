@@ -99,17 +99,17 @@ $(document).ready(function () {
   function animate(count) {
     if (count == 0) {
       $('.ct-logo').css({
-        'animation': 'draw1 2.3s',
+        'animation': 'draw1 2.5s',
       });
     }
     if (count == 1) {
       $('.ct-logo').css({
-        'animation': 'draw2 2.3s',
+        'animation': 'draw2 2.5s',
       });
     }
     if (count == 2) {
       $('.ct-logo').css({
-        'animation': 'draw3 2.3s',
+        'animation': 'draw3 2.5s',
       });
     }
     $('.ct-logo:first').one("animationend", function () {

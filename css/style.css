@@ -79,7 +79,7 @@ h1 {
     left: 50%;
     top: 307px;
     width: 455px;
-    height: 203px;
+    height: 197px;
   }
 }
 
@@ -164,7 +164,7 @@ h3 {
 /*My SVG CT logo*/
 #ct-logo {
   width: 170px;
-  height: 135px;
+  height: 170px;
   margin: auto;
 }
 
@@ -173,22 +173,26 @@ h3 {
   animation-iteration-count: 3;
 }
 
-
 @keyframes draw1 {
   0% {
     stroke: blue;
+    stroke-width: 1px;
   }
   25% {
     stroke: blue;
+    stroke-width: 1.2px;
   }
   50% {
     stroke: blue;
+    stroke-width: 1.4px;
   }
   75% {
     stroke: blue;
+    stroke-width: 1.5px;
   }
   100% {
     stroke: blue;
+    stroke-width: 1.7px;
     fill: none;
     stroke-dashoffset: 100;
   }
@@ -197,18 +201,23 @@ h3 {
 @keyframes draw2 {
   0% {
     stroke: green;
+    stroke-width: 1px;
   }
   25% {
     stroke: green;
+    stroke-width: 1.2px;
   }
   50% {
     stroke: green;
+    stroke-width: 1.4px;
   }
   75% {
     stroke: green;
+    stroke-width: 1.5px;
   }
   100% {
     stroke: green;
+    stroke-width: 1.7px;
     fill: none;
     stroke-dashoffset: 100;
   }
@@ -217,18 +226,23 @@ h3 {
 @keyframes draw3 {
   0% {
     stroke: red;
+    stroke-width: 1px;
   }
   25% {
     stroke: red;
+    stroke-width: 1.2px;
   }
   50% {
     stroke: red;
+    stroke-width: 1.4px;
   }
   75% {
     stroke: red;
+    stroke-width: 1.5px;
   }
   100% {
     stroke: red;
+    stroke-width: 1.7px;
     fill: none;
     stroke-dashoffset: 100;
   }
