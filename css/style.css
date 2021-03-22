@@ -380,10 +380,6 @@ h5 {
   cursor: grab;
 }
 
-.slideanim {
-  visibility: hidden;
-}
-
 .slide {
   animation-name: slide;
   -webkit-animation-name: slide;
