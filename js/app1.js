@@ -1,10 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-  //Loader
-  setTimeout(function () {
-    var element = document.querySelector("body");
-    element.classList.add("loaded");
-  }, 3500);
 
   //Menu toggle burger button
   let menuButton = document.getElementById('burger-menu');
@@ -40,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
     initialGreeting = "Hello!";
     finalGreeting = "All the best!";
   }
-  document.querySelector(".loader").innerHTML = "<br>" + initialGreeting + "<br>Welcome to:<br>Cristian`s<br>Landing Page";
+  document.querySelector("#initial-greeting").innerHTML = "<br>" + initialGreeting + "<br>";
   document.querySelector("#final-greeting").innerHTML = "GOODBYE!<br>" + finalGreeting + "<br>";
 
   //Header Slide show
@@ -323,4 +318,4 @@ document.addEventListener('DOMContentLoaded', function () {
   blackBalloon.forEach(mole => mole.addEventListener('click', hideBalloon));
 
 
-}); 
+});
