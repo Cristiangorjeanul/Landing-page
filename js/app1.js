@@ -129,24 +129,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   };
 
-  //Mouse cursor circles
-  document.addEventListener('mousemove', e => {
-
-    let circles = document.createElement('circles');
-    var x = e.pageX;
-    var y = e.pageY;
-    circles.style.left = x + "px";
-    circles.style.top = y + "px";
-    var circleSize = Math.random() * 100;
-    circles.style.width = 5 + circleSize + "px";
-    circles.style.height = 5 + circleSize + "px";
-
-    document.body.appendChild(circles);
-    setTimeout(function () {
-      circles.remove();
-    }, 500);
-  });
-
   //Relaxation area
   //Click on all the numbers game
   //Timer initialization

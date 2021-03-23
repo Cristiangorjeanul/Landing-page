@@ -70,3 +70,45 @@
   border-radius: 5px;
   text-align: center;
 }
+
+/* Balloons game */
+.balloonsGame {
+  width: 335px;
+  height: 375px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+/* Multicolored balloons */
+.balloon {
+  flex: 1 0 33.33%;
+  overflow: hidden;
+  position: relative;
+}
+
+.balloon:after {
+  display: block;
+  background: url(../assets/balloons.png) bottom center no-repeat;
+  background-size: contain;
+  content: "";
+  width: 135px;
+  height: 75px;
+  position: absolute;
+  z-index: 2;
+  bottom: -21px;
+}
+/* Black flying balloon */
+.blackBalloon {
+  background: url(../assets/balloon.png) bottom center no-repeat;
+  background-size: 120%;
+  position: absolute;
+  margin-left: -5%;
+  top: 3%;
+  width: 135%;
+  height: 135%;
+  transition: all 1s;
+}
+
+.balloon.up .blackBalloon {
+  top: -50%;
+}

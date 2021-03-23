@@ -10,27 +10,6 @@ body {
   line-height: 1.8;
   transition: 0.8s ease;
 }
-/*Mouse cursor circles*/
-circles {
-  border-radius: 50%;
-  position: absolute;
-  pointer-events: none;
-  background: cyan;
-  box-shadow: 5px 5px 5px gold, 5px 5px 5px lime, 5px 5px 5px magenta;
-  transform: translate(356%, 356%);
-  animation: colors-animation 1s infinite;
-}
-
-@keyframes colors-animation {
-  0% {
-    opacity: 1;
-    filter: hue-rotate(0deg);
-  }
-  100% {
-    opacity: 0;
-    filter: hue-rotate(275deg);
-  }
-}
 
 h1 {
   text-align: center;
