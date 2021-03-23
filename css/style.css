@@ -145,7 +145,7 @@ h3 {
 @keyframes draw1 {
   0% {
     stroke: lightskyblue;
-    stroke-width: 1.5px;
+    stroke-width: 1.7px;
   }
   50% {
     stroke: cyan;
@@ -160,7 +160,7 @@ h3 {
 @keyframes draw2 {
   0% {
     stroke: lime;
-    stroke-width: 1.5px;
+    stroke-width: 1.7px;
   }
   50% {
     stroke: lime;
@@ -175,7 +175,7 @@ h3 {
 @keyframes draw3 {
   0% {
     stroke: magenta;
-    stroke-width: 1.5px;
+    stroke-width: 1.7px;
   }
   50% {
     stroke: magenta;
