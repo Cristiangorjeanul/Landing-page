@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-
   //Menu toggle burger button
   let menuButton = document.getElementById('burger-menu');
 
@@ -147,42 +146,6 @@ document.addEventListener('DOMContentLoaded', function () {
       circles.remove();
     }, 500);
   });
-
-  //Multicolored flying bubbles
-  function coloredBubbles() {
-    var bubble = document.createElement('div');
-    var bubbleColors = ["gold", "magenta", "cyan", "lime"];
-
-    bubble.className = "bubble";
-    bubble.style.left = Math.floor(Math.random() * window.innerWidth * .93) + "px";
-    bubble.style.animationDelay = Math.floor(Math.random() * 25) + "s";
-    bubble.style.width = Math.floor(Math.random() * 53) + "px";
-    bubble.style.height = bubble.style.width;
-    bubble.style.backgroundColor = bubbleColors[Math.floor(Math.random() * bubbleColors.length)];
-    bubble.onmouseenter = function () {
-      bubble.style.animation = 'none';
-
-      setTimeout(function () {
-        bubble.style.animation = 'bubble-movement 71s linear infinite'
-      }, 1000);
-    }
-
-    if (parseInt(bubble.style.width) < 35) {
-      bubble.style.zIndex = "-1";
-      bubble.style.filter = "blur(1px)";
-    }
-    if (parseInt(bubble.style.width) > 53) {
-      bubble.style.zIndex = "-1";
-      bubble.style.filter = "blur(1px)";
-    }
-    document.body.appendChild(bubble);
-
-    if (document.getElementsByClassName('bubble').length > 32) {
-      clearInterval(bubblesAnimation);
-    }
-  };
-
-  var bubblesAnimation = setInterval(coloredBubbles, 1);
 
   //Relaxation area
   //Click on all the numbers game

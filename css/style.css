@@ -109,39 +109,6 @@ h2 {
   height: 35px;
 }
 
-/*Multicolored flying bubbles*/
-.bubble {
-  position: absolute;
-  top: 1053%;
-  border-radius: 50%;
-  background: radial-gradient(
-    ellipse at center,
-    rgba(255, 255, 255, 0.5) 0%,
-    rgba(255, 255, 255, 0) 53%
-  );
-  box-shadow: inset 0 23px 35px rgba(255, 255, 255, 0.35),
-    inset 1em 1em 1em rgba(255, 255, 255, 0.35), 0 1em 2em rgba(0, 0, 0, 0.14);
-  cursor: pointer;
-  animation: bubble-movement 71s linear infinite;
-}
-
-@keyframes bubble-movement {
-  0% {
-    top: 953%;
-    opacity: 0;
-  }
-  43% {
-    opacity: 1;
-  }
-  53% {
-    opacity: 1;
-  }
-  100% {
-    top: 570%;
-    opacity: 0;
-  }
-}
-
 h3 {
   font-size: 18px;
   font-weight: 700;
@@ -163,8 +130,9 @@ h3 {
 
 /*My SVG CT logo*/
 #ct-logo {
-  width: 170px;
-  height: 170px;
+  width: 171px;
+  height: 171px;
+  padding-left: 1px;
   margin: auto;
 }
 
@@ -175,24 +143,20 @@ h3 {
 
 @keyframes draw1 {
   0% {
-    stroke: blue;
-    stroke-width: 1px;
+    stroke: lightskyblue;
+    stroke-width: 1.5px;
   }
   25% {
-    stroke: blue;
-    stroke-width: 1.2px;
+    stroke: cornflowerblue;
   }
   50% {
-    stroke: blue;
-    stroke-width: 1.2px;
+    stroke: cyan;
   }
   75% {
     stroke: blue;
-    stroke-width: 1.2px;
   }
   100% {
     stroke: blue;
-    stroke-width: 1.2px;
     fill: none;
     stroke-dashoffset: 100;
   }
@@ -200,24 +164,20 @@ h3 {
 
 @keyframes draw2 {
   0% {
-    stroke: green;
-    stroke-width: 1px;
+    stroke: gold;
+    stroke-width: 1.5px;
   }
   25% {
-    stroke: green;
-    stroke-width: 1.2px;
+    stroke: lightgreen;
   }
   50% {
-    stroke: green;
-    stroke-width: 1.2px;
+    stroke: lime;
   }
   75% {
     stroke: green;
-    stroke-width: 1.2px;
   }
   100% {
     stroke: green;
-    stroke-width: 1.2px;
     fill: none;
     stroke-dashoffset: 100;
   }
@@ -225,24 +185,20 @@ h3 {
 
 @keyframes draw3 {
   0% {
-    stroke: red;
-    stroke-width: 1px;
+    stroke: pink;
+    stroke-width: 1.5px;
   }
   25% {
-    stroke: red;
-    stroke-width: 1.2px;
+    stroke: orangered;
   }
   50% {
-    stroke: red;
-    stroke-width: 1.2px;
+    stroke: magenta;
   }
   75% {
     stroke: red;
-    stroke-width: 1.2px;
   }
   100% {
     stroke: red;
-    stroke-width: 1.2px;
     fill: none;
     stroke-dashoffset: 100;
   }
