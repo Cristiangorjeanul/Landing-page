@@ -147,11 +147,9 @@ h3 {
     stroke: lightskyblue;
     stroke-width: 1.7px;
   }
-  50% {
-    stroke: cyan;
-  }
   100% {
     stroke: cyan;
+    stroke-width: 1.7px;
     fill: none;
     stroke-dashoffset: 100;
   }
@@ -162,11 +160,9 @@ h3 {
     stroke: lime;
     stroke-width: 1.7px;
   }
-  50% {
-    stroke: lime;
-  }
   100% {
     stroke: lime;
+    stroke-width: 1.7px;
     fill: none;
     stroke-dashoffset: 100;
   }
@@ -177,11 +173,9 @@ h3 {
     stroke: magenta;
     stroke-width: 1.7px;
   }
-  50% {
-    stroke: magenta;
-  }
   100% {
     stroke: magenta;
+    stroke-width: 1.7px;
     fill: none;
     stroke-dashoffset: 100;
   }
