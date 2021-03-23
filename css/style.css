@@ -133,6 +133,7 @@ h3 {
   width: 171px;
   height: 171px;
   padding-left: 1px;
+  padding-bottom: 5px;
   margin: auto;
 }
 
@@ -146,17 +147,11 @@ h3 {
     stroke: lightskyblue;
     stroke-width: 1.5px;
   }
-  25% {
-    stroke: cornflowerblue;
-  }
   50% {
     stroke: cyan;
   }
-  75% {
-    stroke: blue;
-  }
   100% {
-    stroke: blue;
+    stroke: cyan;
     fill: none;
     stroke-dashoffset: 100;
   }
@@ -164,20 +159,14 @@ h3 {
 
 @keyframes draw2 {
   0% {
-    stroke: gold;
+    stroke: lime;
     stroke-width: 1.5px;
-  }
-  25% {
-    stroke: lightgreen;
   }
   50% {
     stroke: lime;
   }
-  75% {
-    stroke: green;
-  }
   100% {
-    stroke: green;
+    stroke: lime;
     fill: none;
     stroke-dashoffset: 100;
   }
@@ -185,20 +174,14 @@ h3 {
 
 @keyframes draw3 {
   0% {
-    stroke: pink;
+    stroke: magenta;
     stroke-width: 1.5px;
-  }
-  25% {
-    stroke: orangered;
   }
   50% {
     stroke: magenta;
   }
-  75% {
-    stroke: red;
-  }
   100% {
-    stroke: red;
+    stroke: magenta;
     fill: none;
     stroke-dashoffset: 100;
   }
