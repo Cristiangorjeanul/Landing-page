@@ -104,14 +104,21 @@
             <h3 style="color: blue;">Welcome to</h3><br>
             <!-- My SVG CT logo -->
             <div id="ct-logo">
-              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="171px" height="171px"
-                viewBox="0 0 171 171" enable-background="new 0 0 171 171" xml:space="preserve">
+              <svg xmlns="http://www.w3.org/2000/svg" width="171px" height="171px">
+                <defs>
+                  <filter id="f1" width="170%" height="170%">
+                    <feOffset result="offOut" in="SourceGraphic" dx="1" dy="1" />
+                    <feGaussianBlur result="blurOut" in="offOut" stdDeviation=".5" />
+                    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+                  </filter>
+                </defs>
                 <!-- C  -->
                 <path class="ct-logo" fill="none" stroke-width="1" stroke-dasharray="550" stroke-dashoffset="550"
+                  filter="url(#f1)"
                   d="M 70 39 L 33 39 L 21 53 L 21 75 L 32 89 L 70 89 L 82 106 L 21 106 L 1 80 L 1 46 L 21 23 L 82 23 L 70 39 Z" />
                 <!-- T -->
                 <path class="ct-logo" fill="none" stroke-width="1" stroke-dasharray="550" stroke-dashoffset="550"
+                  filter="url(#f1)"
                   d="M 135 39 L 135 106 L 118 106 L 118 39 L 80 39 L 92 23 L 161 23 L 171 39 L 135 39 Z" />
                 <!-- L -->
                 <path class="ct-logo" fill="none" stroke-width="1" stroke-dasharray="550" stroke-dashoffset="550"
@@ -532,7 +539,7 @@
       <div class="message-container">
         <div class="oval-shape">
           <div class="rotating-message">
-            <h5 style=" font-size: 16px; text-shadow: .5px .5px .5px blue;"><br><br>
+            <h5 style=" font-size: 16px; text-shadow: 1px 1px 1px blue;"><br><br>
               This Landing Page was built using:<br>
               HTML 5, CSS 3, JavaScript,<br>
               jQuery & Bootstrap technologies!</h5>
@@ -709,12 +716,12 @@
       <!-- Click on all the numbers game -->
       <h3 style="color:blue;">Twisted numbers!</h3>
       <h5>Train your attention and memory!<br>
-        Click on numbers (1-50), in ascending order!</h5>
+        Click on 50 numbers in ascending order!</h5>
       <h5 style="text-align: center; margin: 3px;">
-        <span>Click on the number: </span>
-        <span id="next" style="color: red; font-size: 21px;"></span>
+        <span>Click the number: </span>
+        <span id="next" style="color: magenta; font-size: 23px; text-shadow: 1px 1px 1px blue;"></span>
         &nbsp;&nbsp;&nbsp;
-        <span>Time: </span><span id="timer" style="color: blue;"></span>
+        <span>Time: </span><span id="timer" style="color: blue; font-size: 17px;"></span>
       </h5>
 
       <!-- Board image settings -->
@@ -773,10 +780,8 @@
       </map>
 
       <h5>Result analysis:<br>
-        3-5 min - Excellent<br>
-        5-7 min - Good<br>
-        7-10 min - Normal<br>
-        10-15 min - Poor<br>
+        3-5 min - Excellent; &nbsp; 5-7 min - Good<br>
+        7-10 min - Normal; &nbsp; 10-15 min - Poor<br>
       </h5>
       <!-- Reset button -->
       <div class="numbersButton">
