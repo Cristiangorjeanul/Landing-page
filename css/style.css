@@ -106,8 +106,53 @@ h3 {
     font-size: 31px;
   }
 }
+/*Initial greeting*/
+#initial-greeting {
+  text-shadow: 1px 1px 1px blue;
+  animation: greeting 8s linear infinite;
+}
 
-/*My SVG CT logo*/
+@keyframes greeting {
+  0% {
+    color: lightcyan;
+  }
+  15% {
+    color: cyan;
+  }
+  20% {
+    color: yellow;
+  }
+  35% {
+    color: lime;
+  }
+  40% {
+    color: pink;
+  }
+  55% {
+    color: magenta;
+  }
+  60% {
+    color: violet;
+  }
+  75% {
+    color: blue;
+  }
+  80% {
+    color: springgreen;
+  }
+  95% {
+    color: green;
+  }
+  100% {
+    color: lightcyan;
+  }
+}
+
+#welcome {
+  text-shadow: 1px 1px 1px blue;
+  animation: greeting 8s linear infinite;
+}
+/*My SVG CT animation logo*/
 #ct-logo {
   width: 171px;
   height: 171px;
@@ -375,4 +420,9 @@ h5 {
   100% {
     transform: translateX(0);
   }
+}
+
+#final-greeting {
+  text-shadow: 1px 1px 1px blue;
+  animation: greeting 5s linear infinite;
 }

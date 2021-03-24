@@ -8,7 +8,7 @@
 /* Click on all the numbers game */
 /* Reset button */
 .numbersButton {
-  height: 37px;
+  height: 57px;
   display: flex;
   align-items: center;
   padding: 12px;
@@ -20,7 +20,7 @@
   outline: none;
   cursor: pointer;
   width: 120px;
-  height: 37px;
+  height: 50px;
   border-radius: 5px;
   background: lightskyblue;
   color: black;
@@ -35,7 +35,7 @@
 /* Click on the black balloons game */
 /* Start button */
 .gameButton {
-  height: 35px;
+  height: 57px;
   display: flex;
   align-items: center;
   padding: 12px;
@@ -47,13 +47,13 @@
   outline: none;
   cursor: pointer;
   width: 120px;
-  height: 45px;
+  height: 50px;
   border-radius: 5px;
   background: lightskyblue;
   color: black;
   font-size: 18px;
   font-weight: 800;
-  margin-bottom: 5px;
+  margin-bottom: 35px;
 }
 
 #newGame:hover {
@@ -92,7 +92,7 @@
   background-size: contain;
   content: "";
   width: 135px;
-  height: 75px;
+  height: 77px;
   position: absolute;
   z-index: 2;
   bottom: -21px;
