@@ -106,51 +106,41 @@ h3 {
     font-size: 31px;
   }
 }
-/*Initial greeting*/
+/*Greetings animation*/
 #initial-greeting {
+  font-family: "Times New Roman", "Lato", "Montserrat";
   text-shadow: 1px 1px 1px blue;
-  animation: greeting 8s linear infinite;
+  animation: greeting 9s linear infinite;
 }
 
 @keyframes greeting {
   0% {
-    color: lightcyan;
-  }
-  15% {
     color: cyan;
   }
-  20% {
-    color: yellow;
+  32% {
+    color: cyan;
   }
-  35% {
-    color: lime;
-  }
-  40% {
-    color: pink;
-  }
-  55% {
+  33% {
     color: magenta;
   }
-  60% {
-    color: violet;
+  65% {
+    color: magenta;
   }
-  75% {
-    color: blue;
-  }
-  80% {
+  66% {
     color: springgreen;
   }
-  95% {
-    color: green;
+  99% {
+    color: springgreen;
   }
   100% {
-    color: lightcyan;
+    color: cyan;
   }
 }
 
 #welcome {
+  font-family: "Pacifico", "Lato", "Times New Roman";
   text-shadow: 1px 1px 1px blue;
-  animation: greeting 8s linear infinite;
+  animation: greeting 5s linear infinite;
 }
 /*My SVG CT animation logo*/
 #ct-logo {

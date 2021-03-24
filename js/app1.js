@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   else if (hour < 24) {
     initialGreeting = "Good evening!";
-    finalGreeting = "All the best!";
+    finalGreeting = "Good night!";
   }
   else {
     initialGreeting = "Hello!";
