@@ -1,7 +1,7 @@
 /* Prallax section  */
 .image-background {
   width: 100%;
-  height: 305px;
+  height: 570px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -21,7 +21,7 @@
   padding-top: 109px;
   padding-bottom: 77px;
   width: 100%;
-  height: 153px;
+  height: 435px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,8 +30,8 @@
 }
 
 .oval-shape {
-  width: 329px;
-  height: 153px;
+  width: 185px;
+  height: 363px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -48,30 +48,37 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 50%;
   border: 1px solid blue;
 }
 
 .rotating-message:nth-of-type(1) {
-  width: 335px;
-  height: 153px;
+  width: 185px;
+  height: 345px;
   color: white;
-  background: lightskyblue;
+  font-family: "Orbitron", sans-serif;
+  background: transparent;
+  background-image: url("..//assets/phone.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
   transform: rotateY(180deg) translateZ(5px);
 }
 
 .rotating-message:nth-of-type(2) {
-  width: 335px;
-  height: 153px;
-  background: lightskyblue;
+  width: 185px;
+  height: 345px;
+  background: transparent;
+  background-image: url("..//assets/phone.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
 
 #clock {
-  width: 97px;
+  width: 85px;
   height: 53px;
-  padding-top: 18px;
+  padding-top: 35px;
+  padding-bottom: 35px;
   align-items: center;
   margin: auto;
   font-family: "Orbitron", sans-serif;
@@ -81,8 +88,8 @@
 }
 
 #final-greeting {
-  width: 305px;
-  height: 85px;
+  width: 100px;
+  height: 100px;
   margin: 1px auto;
   font-family: "Orbitron", sans-serif;
   font-size: 19px;

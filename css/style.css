@@ -108,7 +108,7 @@ h3 {
 }
 /*Greetings animation*/
 #initial-greeting {
-  font-family: "Times New Roman", "Lato", "Montserrat";
+  font-family: "Pacifico", "Lato", "Times New Roman";
   text-shadow: 1px 1px 1px blue;
   animation: greeting 7.5s linear infinite;
 }
