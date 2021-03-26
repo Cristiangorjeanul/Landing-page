@@ -110,37 +110,37 @@ h3 {
 #initial-greeting {
   font-family: "Times New Roman", "Lato", "Montserrat";
   text-shadow: 1px 1px 1px blue;
-  animation: greeting 9s linear infinite;
+  animation: greeting 7.5s linear infinite;
 }
 
 @keyframes greeting {
   0% {
-    color: cyan;
+    color: magenta;
   }
-  32% {
-    color: cyan;
+  32.8% {
+    color: magenta;
   }
   33% {
-    color: magenta;
+    color: springgreen;
   }
-  65% {
-    color: magenta;
+  65.8% {
+    color: springgreen;
   }
   66% {
-    color: springgreen;
+    color: cyan;
   }
-  99% {
-    color: springgreen;
+  99.8% {
+    color: cyan;
   }
   100% {
-    color: cyan;
+    color: magenta;
   }
 }
 
 #welcome {
   font-family: "Pacifico", "Lato", "Times New Roman";
   text-shadow: 1px 1px 1px blue;
-  animation: greeting 5s linear infinite;
+  animation: greeting 7.5s linear infinite;
 }
 /*My SVG CT animation logo*/
 #ct-logo {
