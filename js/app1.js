@@ -14,9 +14,13 @@ document.addEventListener('DOMContentLoaded', function () {
   var initialGreeting;
   var finalGreeting;
 
+  if (hour < 5) {
+    initialGreeting = "Hello!";
+    finalGreeting = "All the best!";
+  }
   if (hour < 10) {
     initialGreeting = "Good morning!";
-    finalGreeting = "Have a nice day!!";
+    finalGreeting = "Have a nice day!";
   }
   else if (hour < 17) {
     initialGreeting = 'Good afternoon!';
@@ -30,12 +34,9 @@ document.addEventListener('DOMContentLoaded', function () {
     initialGreeting = "Good evening!";
     finalGreeting = "Good night!";
   }
-  else {
-    initialGreeting = "Hello!";
-    finalGreeting = "All the best!";
-  }
+  
   document.querySelector("#initial-greeting").innerHTML = "<br>" + initialGreeting + "<br>";
-  document.querySelector("#final-greeting").innerHTML = "GOODBYE!<br>" + finalGreeting + "<br>";
+  document.querySelector("#final-greeting").innerHTML = "Bye!<br>" + finalGreeting + "<br>";
 
   //Header Slide show
   const photos = document.querySelectorAll(".my-website-screen-shoot");
