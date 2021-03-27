@@ -16,27 +16,23 @@ document.addEventListener('DOMContentLoaded', function () {
 
   if (hour < 5) {
     initialGreeting = "Hello!";
-    finalGreeting = "All the best!";
+    finalGreeting = "Good night!";
   }
   if (hour < 10) {
     initialGreeting = "Good morning!";
-    finalGreeting = "Have a nice day!";
+    finalGreeting = "Have a nice morning!";
   }
-  else if (hour < 17) {
+  else if (hour < 18) {
     initialGreeting = 'Good afternoon!';
-    finalGreeting = "Have a nice day!";
-  }
-  else if (hour < 19) {
-    initialGreeting = 'Good afternoon!';
-    finalGreeting = "Have a nice evening!";
+    finalGreeting = "Have a nice afternoon!";
   }
   else if (hour < 24) {
     initialGreeting = "Good evening!";
-    finalGreeting = "Good night!";
+    finalGreeting = "Have a nice evening!";
   }
-  
+
   document.querySelector("#initial-greeting").innerHTML = "<br>" + initialGreeting + "<br>";
-  document.querySelector("#final-greeting").innerHTML = "Bye!<br>" + finalGreeting + "<br>";
+  document.querySelector("#final-greeting").innerHTML = "Bye!<br><br>" + finalGreeting + "<br>";
 
   //Header Slide show
   const photos = document.querySelectorAll(".my-website-screen-shoot");
