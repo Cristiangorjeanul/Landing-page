@@ -14,7 +14,7 @@ $(document).ready(function () {
   });
 
   //h2 activity fields animated text
-  var skills = ['FRONTEND PROJECTS', 'WEB DESIGN', 'INSTRUCTIONAL DESIGN', 'E-LEARNING & TRAINING', 'E-COMMERCE WEBSITES'],
+  var skills = ['FRONTEND PROJECTS', 'INSTRUCTIONAL DESIGN'],
     part,
     i = 0,
     offset = 0,
