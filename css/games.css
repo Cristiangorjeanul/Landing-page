@@ -4,7 +4,6 @@
 *:after {
   box-sizing: inherit;
 }
-
 /* Click on all the numbers game */
 /* Reset button */
 .numbersButton {
@@ -21,6 +20,7 @@
   cursor: pointer;
   width: 120px;
   height: 50px;
+  font-weight: 800;
   border-radius: 5px;
   background: lightskyblue;
   color: black;
@@ -31,10 +31,10 @@
 #resetGame:hover {
   background: red;
 }
-
 /* Click on the black balloons game */
 /* Start button */
 .gameButton {
+  width: 100%;
   height: 57px;
   display: flex;
   align-items: center;
@@ -66,6 +66,7 @@
   width: 80px;
   height: 32px;
   font-size: 27px;
+  font-weight: 500;
   margin: 1px auto;
   border-radius: 5px;
   text-align: center;
@@ -73,7 +74,7 @@
 
 /* Balloons game */
 .balloonsGame {
-  width: 335px;
+  width: 350px;
   height: 375px;
   display: flex;
   flex-wrap: wrap;
@@ -91,7 +92,7 @@
   background: url(../assets/balloons.png) bottom center no-repeat;
   background-size: contain;
   content: "";
-  width: 135px;
+  width: 131px;
   height: 77px;
   position: absolute;
   z-index: 2;
@@ -102,7 +103,7 @@
   background: url(../assets/balloon.png) bottom center no-repeat;
   background-size: 120%;
   position: absolute;
-  margin-left: -5%;
+  margin-left: -12%;
   top: 3%;
   width: 135%;
   height: 135%;
@@ -110,5 +111,5 @@
 }
 
 .balloon.up .blackBalloon {
-  top: -50%;
+  top: -52%;
 }

@@ -214,53 +214,29 @@ h3 {
 
 .my-jobs:after {
   content: "";
-  animation: myJobs 8s linear infinite;
+  animation: myJobs 5s linear infinite;
 }
 
 @keyframes myJobs {
   0% {
-    content: "Software Developer";
-    color: lightcyan;
-  }
-  15% {
-    content: "Software Developer";
-    color: cyan;
-  }
-  20% {
-    content: "Web Designer";
+    content: "Frontend Developer";
     color: yellow;
   }
-  35% {
-    content: "Web Designer";
+  50% {
+    content: "Frontend Developer";
     color: lime;
   }
-  40% {
-    content: "Instructional Designer";
-    color: pink;
+  51% {
+    content: "School Teacher";
+    color: yellow;
   }
-  55% {
-    content: "Instructional Designer";
-    color: magenta;
-  }
-  60% {
-    content: "Professor";
-    color: gold;
-  }
-  75% {
-    content: "Professor";
-    color: blue;
-  }
-  80% {
-    content: "Technical Trainer";
-    color: springgreen;
-  }
-  95% {
-    content: "Technical Trainer";
-    color: green;
+  99% {
+    content: "School Teacher";
+    color: cyan;
   }
   100% {
-    content: "Software Developer";
-    color: lightcyan;
+    content: "Frontend Developer";
+    color: yellow;
   }
 }
 
@@ -311,7 +287,7 @@ h5 {
 #portfolio,
 #skills,
 #contact {
-  margin-top: 73px;
+  margin-top: 71px;
 }
 
 .panel {
