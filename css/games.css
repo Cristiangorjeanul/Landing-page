@@ -103,9 +103,9 @@
   background: url(../assets/balloon.png) bottom center no-repeat;
   background-size: 120%;
   position: absolute;
-  margin-left: -12.9%;
+  margin-left: -12%;
   top: 3%;
-  width: 135%;
+  width: 131%;
   height: 135%;
   transition: all 1s;
 }
