@@ -92,7 +92,7 @@
   background: url(../assets/balloons.png) bottom center no-repeat;
   background-size: contain;
   content: "";
-  width: 131px;
+  width: 125px;
   height: 77px;
   position: absolute;
   z-index: 2;
@@ -103,7 +103,7 @@
   background: url(../assets/balloon.png) bottom center no-repeat;
   background-size: 120%;
   position: absolute;
-  margin-left: -12%;
+  margin-left: -12.9%;
   top: 3%;
   width: 135%;
   height: 135%;

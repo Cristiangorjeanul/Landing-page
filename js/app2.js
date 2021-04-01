@@ -1,6 +1,5 @@
 $(document).ready(function () {
 
-
   // Blink websites number
   function blink(selector) {
     $(selector).fadeOut(100, function () {
@@ -89,7 +88,6 @@ $(document).ready(function () {
     })
   }
 
-
   //Rotating picture at click
   $('#picture').on('click', function () {
     $(this).toggleClass('flipped');
@@ -97,9 +95,9 @@ $(document).ready(function () {
 
   //Social media buttons at hover
   $(".share").hover(function () {
-    $(".social").toggleClass("visible");
+    $(".share").toggleClass("visible");
   });
-  $(".social").hover(function () {
+  $(".share").hover(function () {
     $(".social").addClass("visible")
   }, function () {
     $(".social").removeClass("visible")

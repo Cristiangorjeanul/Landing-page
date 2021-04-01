@@ -29,7 +29,7 @@
   perspective: 1000px;
 }
 
-.oval-shape {
+.mobile-phone {
   width: 185px;
   height: 363px;
   border-radius: 50%;
@@ -75,14 +75,14 @@
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
 
 #clock {
-  width: 71px;
+  width: 63px;
   height: 53px;
   padding-top: 35px;
   padding-bottom: 53px;
   align-items: center;
   margin: auto;
   font-family: "Orbitron", sans-serif;
-  font-size: 17px;
+  font-size: 14px;
   color: white;
   text-shadow: 1px 1px 1px blue;
 }
