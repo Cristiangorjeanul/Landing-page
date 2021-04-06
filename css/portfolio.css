@@ -1,4 +1,3 @@
-/* HTML, CSS, JavaScript, jQuery & Bootstrap signs */
 /* Apps number message */
 .progress-number {
   margin: auto;
@@ -31,7 +30,7 @@
   }
 }
 
-/* Logo for used technologies */
+/* HTML, CSS, JavaScript, jQuery, SVG, Bootstrap technologies signs */
 .logo-technologies {
   margin: auto;
   width: 100%;
@@ -45,7 +44,7 @@
   margin-top: 21px;
   margin-bottom: 8px;
 }
-/* My websites on the GitHub platform */
+/* My websites names uploaded on the GitHub platform */
 #my-apps {
   font-size: 25px;
   text-align: center;

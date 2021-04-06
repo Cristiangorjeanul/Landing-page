@@ -255,6 +255,12 @@ h5 {
   font-weight: 900;
   text-align: center;
 }
+
+strong {
+  font-size: 21px;
+  color: white;
+  text-shadow: 1.8px 1.8px 3.5px blue;
+}
 /* Bootstrap jumbotron */
 .jumbotron {
   background-color: white;
