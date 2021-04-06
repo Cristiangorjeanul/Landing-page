@@ -1,17 +1,5 @@
 $(document).ready(function () {
 
-  // Blink websites number
-  function blink(selector) {
-    $(selector).fadeOut(100, function () {
-      $(this).fadeIn(1000, function () {
-        blink(this);
-      });
-    });
-  }
-  $(function () {
-    blink('#appNumber');
-  });
-
   //h2 activity fields animated text
   var skills = ['FRONTEND PROJECTS', 'INSTRUCTIONAL DESIGN'],
     part,

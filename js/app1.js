@@ -51,6 +51,14 @@ document.addEventListener('DOMContentLoaded', function () {
   };
   setInterval(changeSlides, slideTimer);
 
+//My apps message
+  CSS.registerProperty({
+    name: "--p",
+    syntax: "<integer>",
+    initialValue: 0,
+    inherits: true,
+  });
+
   //Button
   var button = document.querySelector('#buttonLike');
   var counter = 1;
