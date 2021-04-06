@@ -219,23 +219,23 @@ h3 {
 
 @keyframes myJobs {
   0% {
-    content: "Frontend Developer";
+    content: "FRONTEND DEVELOPER";
     color: yellow;
   }
   50% {
-    content: "Frontend Developer";
+    content: "FRONTEND DEVELOPER";
     color: lime;
   }
   51% {
-    content: "School Teacher";
+    content: "SCHOOL TEACHER";
     color: yellow;
   }
   99% {
-    content: "School Teacher";
+    content: "SCHOOL TEACHER";
     color: cyan;
   }
   100% {
-    content: "Frontend Developer";
+    content: "FRONTEND DEVELOPER";
     color: yellow;
   }
 }
