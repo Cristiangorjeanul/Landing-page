@@ -14,7 +14,7 @@ body {
 h1 {
   text-align: center;
   margin-top: 1px;
-  font-size: 35px;
+  font-size: 39px;
   font-weight: 700;
   color: white;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
@@ -64,7 +64,7 @@ h1 {
 
 h2 {
   padding-top: 153px;
-  font-size: 20px;
+  font-size: 23px;
   text-align: center;
   font-weight: 700;
   color: white;
@@ -89,7 +89,7 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 700;
   color: white;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
@@ -241,7 +241,7 @@ h3 {
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 17px;
   text-align: center;
   width: 90%;
   font-weight: 800;
@@ -251,7 +251,7 @@ h4 {
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 900;
   text-align: center;
 }
@@ -259,7 +259,7 @@ h5 {
 strong {
   font-size: 21px;
   color: white;
-  text-shadow: 1.8px 1.8px 3.5px blue;
+  text-shadow: 1.8px 1.8px 1.8px blue;
 }
 /* Bootstrap jumbotron */
 .jumbotron {
