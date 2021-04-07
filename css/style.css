@@ -110,7 +110,7 @@ h3 {
 #initial-greeting {
   font-family: "Pacifico", "Lato", "Times New Roman";
   text-shadow: 1px 1px 1px blue;
-  animation: greeting 7.5s linear infinite;
+  animation: greeting 7.7s linear infinite;
 }
 
 @keyframes greeting {
@@ -140,7 +140,7 @@ h3 {
 #welcome {
   font-family: "Pacifico", "Lato", "Times New Roman";
   text-shadow: 1px 1px 1px blue;
-  animation: greeting 7.5s linear infinite;
+  animation: greeting 7.7s linear infinite;
 }
 /*My SVG CT animation logo*/
 #ct-logo {
@@ -158,7 +158,7 @@ h3 {
 
 @keyframes draw1 {
   0% {
-    stroke: lightskyblue;
+    stroke: cyan;
     stroke-width: 1.8px;
   }
   100% {
@@ -171,11 +171,11 @@ h3 {
 
 @keyframes draw2 {
   0% {
-    stroke: lime;
+    stroke: springgreen;
     stroke-width: 1.8px;
   }
   100% {
-    stroke: lime;
+    stroke: springgreen;
     stroke-width: 1.8px;
     fill: none;
     stroke-dashoffset: 100;
@@ -224,7 +224,7 @@ h3 {
   }
   50% {
     content: "FREELANCE DEVELOPER";
-    color: lime;
+    color: springgreen;
   }
   51% {
     content: "SCHOOL PROFESSOR";
