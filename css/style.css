@@ -219,23 +219,23 @@ h3 {
 
 @keyframes myJobs {
   0% {
-    content: "FRONTEND DEVELOPER";
+    content: "FREELANCE DEVELOPER";
     color: yellow;
   }
   50% {
-    content: "FRONTEND DEVELOPER";
+    content: "FREELANCE DEVELOPER";
     color: lime;
   }
   51% {
-    content: "SCHOOL TEACHER";
+    content: "SCHOOL PROFESSOR";
     color: yellow;
   }
   99% {
-    content: "SCHOOL TEACHER";
+    content: "SCHOOL PROFESSOR";
     color: cyan;
   }
   100% {
-    content: "FRONTEND DEVELOPER";
+    content: "FREELANCE DEVELOPER";
     color: yellow;
   }
 }
