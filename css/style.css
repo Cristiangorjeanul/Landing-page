@@ -6,27 +6,8 @@ body {
   width: 100%;
   min-height: 100vh;
   background-color: white;
-  font: 400 15px Lato, Montserrat, sans-serif, Times New Roman;
   line-height: 1.8;
   transition: 0.8s ease;
-}
-
-h1 {
-  text-align: center;
-  margin-top: 1px;
-  font-size: 39px;
-  font-weight: 700;
-  color: white;
-  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
-    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 255, 0.1), 0 0 5px rgba(0, 0, 255, 0.1),
-    0 1px 3px rgba(0, 0, 255, 0.3), 0 3px 5px rgba(0, 0, 255, 0.2),
-    0 5px 10px rgba(0, 0, 255, 0.25), 0 10px 10px rgba(0, 0, 255, 0.2);
-}
-
-@media (min-width: 768px) {
-  h1 {
-    font-size: 71px;
-  }
 }
 /* My portrait picture */
 .portrait-picture {
@@ -41,6 +22,26 @@ h1 {
   border-radius: 0;
   cursor: grab;
 }
+
+h1 {
+  text-align: center;
+  margin-top: 1px;
+  font-size: 39px;
+  font-weight: 900;
+  font-family: "Lato", "Montserrat", 'Times New Roman';
+  color: white;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 255, 0.1), 0 0 5px rgba(0, 0, 255, 0.1),
+    0 1px 3px rgba(0, 0, 255, 0.3), 0 3px 5px rgba(0, 0, 255, 0.2),
+    0 5px 10px rgba(0, 0, 255, 0.25), 0 10px 10px rgba(0, 0, 255, 0.2);
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 71px;
+  }
+}
+
 /* My websites screen shoots */
 .my-website-screen-shoot {
   left: 50%;
@@ -49,24 +50,25 @@ h1 {
   transition: all 1.5s ease;
   filter: drop-shadow(1px 1px 3px blue);
   top: 259px;
-  width: 325px;
+  width: 305px;
   height: 150px;
 }
 
 @media (min-width: 768px) {
   .my-website-screen-shoot {
     left: 50%;
-    top: 307px;
-    width: 455px;
-    height: 197px;
+    top: 300px;
+    width: 450px;
+    height: 180px;
   }
 }
 
 h2 {
-  padding-top: 153px;
-  font-size: 23px;
-  text-align: center;
+  padding-top: 143px;
+  font-size: 35px;
   font-weight: 700;
+  font-family: "Amatic SC", 'Times New Roman';
+  text-align: center;
   color: white;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
     0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 255, 0.1), 0 0 5px rgba(0, 0, 255, 0.1),
@@ -76,16 +78,16 @@ h2 {
 
 @media (min-width: 768px) {
   h2 {
-    padding-top: 195px;
+    padding-top: 180px;
     margin: 1px auto;
-    font-size: 35px;
+    font-size: 54px;
   }
 }
 /* My activity fields text animation */
 .activity-fields {
   width: 100%;
+  height: 75px;
   margin: auto;
-  height: 35px;
 }
 
 h3 {
@@ -252,7 +254,6 @@ h4 {
 
 h5 {
   font-size: 16px;
-  font-weight: 900;
   text-align: center;
 }
 
@@ -283,8 +284,6 @@ strong {
   background-color: lightskyblue !important;
   padding-top: 19px;
   padding-bottom: 29px;
-  padding-left: 1px;
-  padding-right: 1px;
 }
 /* All website sections */
 #about,
