@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   document.querySelector("#initial-greeting").innerHTML = "<br>" + initialGreeting + "<br>";
-  document.querySelector("#final-greeting").innerHTML = "Bye!<br><br>" + finalGreeting + "<br>";
+  document.querySelector("#final-greeting").innerHTML = "Bye!<br>" + finalGreeting + "<br>";
 
   //Header Slide show
   const photos = document.querySelectorAll(".my-website-screen-shoot");
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
   };
   setInterval(changeSlides, slideTimer);
 
-//My apps message
+  //My apps message
   CSS.registerProperty({
     name: "--p",
     syntax: "<integer>",
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function () {
       seconds = "0" + seconds;
     }
 
-    document.getElementById('clock').textContent = hours + ":" + minutes + ":" + seconds;
+    document.getElementById('clock').textContent = hours + " : " + minutes;
 
   }
 

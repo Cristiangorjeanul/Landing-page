@@ -38,7 +38,7 @@
   align-items: center;
   transform-style: preserve-3d;
   background: transparent;
-  animation: rotate 14s linear infinite;
+  animation: rotate s linear infinite;
 }
 
 .rotating-message {
@@ -75,14 +75,18 @@
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
 
 #clock {
-  width: 63px;
-  height: 53px;
-  padding-top: 35px;
-  padding-bottom: 53px;
+  width: 71px;
+  height: 27px;
+  top: 27px;
+  text-align: center;
+  padding-bottom: 18px;
+  position: relative;
+  background-color: transparent;
   align-items: center;
   margin: auto;
   font-family: "Orbitron", sans-serif;
-  font-size: 14px;
+  font-size: 17px;
+  font-weight: 800;
   color: white;
   text-shadow: 1px 1px 1px blue;
 }
@@ -90,6 +94,7 @@
 #final-greeting {
   width: 100px;
   height: 100px;
+  padding-top: 35px;
   margin: 1px auto;
   font-family: "Pacifico", "Orbitron", "Times New Roman";
   font-size: 18px;
@@ -102,6 +107,87 @@
 @keyframes rotate {
   0% {
     transform: rotateY(360deg);
+  }
+}
+
+.smileyface {
+  width: 71px;
+  height: 71px;
+  position: relative;
+  top: 54px;
+  border-radius: 50%;
+  margin: auto;
+  background: yellow;
+}
+
+.eyes {
+  width: 12px;
+  height: 12px;
+  background: lightskyblue;
+  border-radius: 10px;
+  position: absolute;
+  top: 23px;
+}
+
+.eyes.left {
+  left: 45px;
+}
+
+.eyes.right {
+  right: 45px;
+  animation: 5s blink-eye linear infinite;
+}
+
+@keyframes blink-eye {
+  0% {
+    width: 12px;
+    height: 12px;
+  }
+  51% {
+    width: 12px;
+    height: 12px;
+  }
+  53% {
+    width: 0px;
+    height: 0px;
+  }
+  54% {
+    width: 12px;
+    height: 12px;
+  }
+  100% {
+    width: 12px;
+    height: 12px;
+  }
+}
+.smiley-mouth {
+  width: 57px;
+  height: 57px;
+  border: 7px solid red;
+  border-top: 0;
+  border-radius: 100%;
+  border-color: transparent transparent red transparent;
+  position: absolute;
+  bottom: 12px;
+  left: 8px;
+  animation: 5s smiley-mouth linear infinite;
+}
+
+@keyframes smiley-mouth {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  57% {
+    transform: rotate(9deg);
+  }
+  71% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
 
