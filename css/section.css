@@ -38,7 +38,7 @@
   align-items: center;
   transform-style: preserve-3d;
   background: transparent;
-  animation: rotate s linear infinite;
+  animation: rotate 17s linear infinite;
 }
 
 .rotating-message {
