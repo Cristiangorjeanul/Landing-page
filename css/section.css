@@ -75,7 +75,7 @@
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
 
 #clock {
-  width: 71px;
+  width: 95px;
   height: 27px;
   top: 27px;
   text-align: center;
@@ -109,8 +109,8 @@
     transform: rotateY(360deg);
   }
 }
-
-.smileyface {
+/* Smiley face */
+.smiley-face {
   width: 71px;
   height: 71px;
   position: relative;
@@ -135,7 +135,7 @@
 
 .eyes.right {
   right: 45px;
-  animation: 5s blink-eye linear infinite;
+  animation: 3.2s blink-eye linear infinite;
 }
 
 @keyframes blink-eye {
@@ -170,7 +170,7 @@
   position: absolute;
   bottom: 12px;
   left: 8px;
-  animation: 5s smiley-mouth linear infinite;
+  animation: 3.2s smiley-mouth linear infinite;
 }
 
 @keyframes smiley-mouth {
@@ -190,7 +190,7 @@
     transform: rotate(0deg);
   }
 }
-
+/* Like button */
 .button-container {
   display: flex;
   justify-content: space-around;
@@ -203,7 +203,7 @@
     flex-wrap: wrap;
   }
 }
-/* Like button */
+
 #buttonLike {
   background-color: lightskyblue;
   color: white;
