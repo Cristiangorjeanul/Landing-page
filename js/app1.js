@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
+  
   //Menu toggle burger button
   let menuButton = document.getElementById('burger-menu');
 
@@ -7,6 +8,23 @@ document.addEventListener('DOMContentLoaded', function () {
     menuButton.classList.toggle('fa-bars');
     menuButton.classList.toggle('fa-times');
   });
+
+  //Header Slide show
+  const photos = document.querySelectorAll(".my-website-screen-shoot");
+  let currentSlide = 0;
+  const slideTimer = 2937;
+
+  const changeSlides = () => {
+    photos.forEach((photo) => photo.style.opacity = 0)
+
+    if (currentSlide !== photos.length - 1) {
+      currentSlide++;
+    } else {
+      currentSlide = 0;
+    }
+    photos[currentSlide].style.opacity = 1;
+  };
+  setInterval(changeSlides, slideTimer);
 
   //Greetings
   var date = new Date();
@@ -33,23 +51,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   document.querySelector("#initial-greeting").innerHTML = "<br>" + initialGreeting + "<br>";
   document.querySelector("#final-greeting").innerHTML = "Bye!<br>" + finalGreeting + "<br>";
-
-  //Header Slide show
-  const photos = document.querySelectorAll(".my-website-screen-shoot");
-  let currentSlide = 0;
-  const slideTimer = 2535;
-
-  const changeSlides = () => {
-    photos.forEach((photo) => photo.style.opacity = 0)
-
-    if (currentSlide !== photos.length - 1) {
-      currentSlide++;
-    } else {
-      currentSlide = 0;
-    }
-    photos[currentSlide].style.opacity = 1;
-  };
-  setInterval(changeSlides, slideTimer);
 
   //My apps message
   CSS.registerProperty({
