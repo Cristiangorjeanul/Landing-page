@@ -88,10 +88,10 @@ h1 {
   }
 }
 
- header .panel-heading {
-   height: 380px;
- }
- 
+header .panel-heading {
+  height: 395px;
+}
+
 @media (min-width: 768px) {
   header .panel-heading {
     height: 450px;
