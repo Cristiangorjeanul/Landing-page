@@ -67,13 +67,13 @@ h1 {
 .activity-fields {
   width: 100%;
   height: 75px;
-  font-size: 35px;
+  font-size: 18px;
   font-weight: 900;
-  padding-top: 143px;
+  padding-top: 151px;
   margin: auto;
   color: white;
+  font-family: "Lato", "Montserrat", "Times New Roman";
   text-align: center;
-  font-family: "Amatic SC", "Arial Narrow";
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
     0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 255, 0.1), 0 0 5px rgba(0, 0, 255, 0.1),
     0 1px 3px rgba(0, 0, 255, 0.3), 0 3px 5px rgba(0, 0, 255, 0.2),
@@ -82,9 +82,9 @@ h1 {
 
 @media (min-width: 768px) {
   .activity-fields {
-    padding-top: 159px;
+    padding-top: 171px;
     margin: 1px auto;
-    font-size: 54px;
+    font-size: 39px;
     font-family: "Lato", "Montserrat", "Times New Roman";
   }
 }
