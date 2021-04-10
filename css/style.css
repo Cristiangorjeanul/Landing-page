@@ -67,7 +67,7 @@ h1 {
 .activity-fields {
   width: 100%;
   height: 75px;
-  font-size: 18px;
+  font-size: 19.5px;
   font-weight: 900;
   padding-top: 151px;
   margin: auto;
@@ -215,6 +215,7 @@ h3 {
   height: 71px;
   color: blue;
   text-shadow: 1px 1px 1px blue;
+  margin: auto;
 }
 
 @media (min-width: 768px) {
