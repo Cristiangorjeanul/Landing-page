@@ -267,7 +267,7 @@ h5 {
   color: blue;
   font-family: "Arial Narrow";
   text-align: center;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 0.3px 0.3px 0.3px black;
 }
 
 strong {
