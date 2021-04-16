@@ -8,7 +8,7 @@
 
 #apps-number {
   --p: 0;
-  animation: p 5s steps(59) infinite;
+  animation: p 5s steps(39) infinite;
   counter-reset: p var(--p);
   font-size: 53px;
   padding-top: 35px;
@@ -26,7 +26,7 @@
 @keyframes p {
   59%,
   100% {
-    --p: 59;
+    --p: 39;
   }
 }
 
@@ -67,121 +67,100 @@
   0% {
     content: "Landing page";
   }
-  2.5% {
+  3% {
     content: "Biographical Page";
   }
-  5% {
+  6% {
     content: "My Country";
   }
-  7.5% {
+  9% {
     content: "Green Tech";
   }
-  10% {
+  12% {
     content: "Juice Store";
   }
-  12.5% {
+  15% {
     content: "Flower Shop";
   }
-  15% {
+  18% {
     content: "Photo Blog";
   }
-  17.5% {
+  21% {
     content: "Byzantine Empire";
   }
-  20% {
+  24% {
     content: "Learning System";
   }
-  22.5% {
+  27% {
     content: "Graphic animation";
   }
-  25% {
+  30% {
     content: "Students` prayers";
   }
-  27.5% {
+  33% {
     content: "Astronomical quiz";
   }
-  30% {
-    content: "Coloring pages";
-  }
-  32.5% {
+  35% {
     content: "Seasons photos";
   }
-  35% {
+  38% {
     content: "Quiz Religion";
   }
-  37.5% {
+  41% {
     content: "Christmas tree";
   }
-  40% {
+  44% {
     content: "Shapes game";
   }
-  42.5% {
-    content: "My Resume";
-  }
-  45% {
+  47% {
     content: "Educatie tehnologica";
   }
-  47.5% {
+  50% {
     content: "Breaking news";
   }
-  50% {
-    content: "Bungee jumping";
-  }
-  52.5% {
+  53% {
     content: "Shopping list";
   }
-  55% {
-    content: "Discover colors";
-  }
-  57.5% {
-    content: "School survey";
-  }
-  60% {
+  56% {
     content: "Bread recipe";
   }
-  62.5% {
+  59% {
     content: "Moving button";
   }
-  65% {
+  62% {
     content: "Changing petals";
   }
-  67.5% {
+  65% {
     content: "Edu games";
   }
-  70% {
+  68% {
     content: "Results table";
   }
-  72.5% {
+  71% {
     content: "Romanian wines";
   }
-  75% {
+  74% {
     content: "Graphic Design";
   }
-  77.5% {
+  77% {
     content: "Byzantine music";
   }
   80% {
     content: "Bread recipe";
   }
-  82.5% {
-    content: "School library";
-  }
-  85% {
+  83% {
     content: "Meridian clocks";
   }
-  87.5% {
+  86.5% {
     content: "Golden fish";
   }
   90% {
-    content: "Graphic animation";
-  }
-  92.5% {
     content: "ai Cars";
   }
-  95% {
+  93.5% {
     content: "Interstellar navigation";
   }
-  97.5% {
+  97% {
     content: "Find antonyms";
   }
   100% {
