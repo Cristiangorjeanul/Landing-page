@@ -17,6 +17,15 @@ body {
   border-radius: 50%;
 }
 
+.my-logo {
+  position: absolute;
+  left: 1px;
+  top: 20.5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
 .portrait-picture:hover {
   transform: scale(1.07);
   border-radius: 0;
