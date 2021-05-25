@@ -20,28 +20,28 @@ body {
 }
 /* My portrait picture */
 .portrait-picture {
-  margin-top: -8px;
+  margin-top: -5px;
   width: 115px;
   height: 115px;
   border-radius: 50%;
-  animation: circle-square 10s linear infinite;
+  animation: circle-square 9s linear infinite;
 }
 
 @keyframes circle-square {
   0% {
     border-radius: 50%;
   }
-  12% {
+  18% {
     border-radius: 50%;
     transform: scale(1.07);
   }
   53% {
     border-radius: 0;
-    transform: scale(1.11);
+    transform: scale(1.08);
   }
   99% {
     border-radius: 0;
-    transform: scale(1.11);
+    transform: scale(1.08);
   }
   100% {
     border-radius: 50%;
@@ -51,7 +51,7 @@ body {
 /* My name */
 h1 {
   text-align: center;
-  margin-top: 1px;
+  margin-top: 12px;
   font-size: 39px;
   font-weight: 900;
   font-family: "Lato", "Montserrat", "Times New Roman";
@@ -75,7 +75,7 @@ h1 {
   transform: translate(-50%, -50%);
   transition: all 1.5s ease;
   filter: drop-shadow(1px 1px 3px blue);
-  top: 259px;
+  top: 275px;
   width: 305px;
   height: 150px;
 }
@@ -83,7 +83,7 @@ h1 {
 @media (min-width: 768px) {
   .my-website-screen-shoot {
     left: 50%;
-    top: 300px;
+    top: 314px;
     width: 450px;
     height: 180px;
   }
@@ -108,7 +108,7 @@ h1 {
 
 @media (min-width: 768px) {
   .activity-fields {
-    padding-top: 171px;
+    padding-top: 170px;
     margin: 1px auto;
     font-size: 39px;
     font-family: "Lato", "Montserrat", "Times New Roman";
