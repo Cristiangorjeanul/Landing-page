@@ -164,7 +164,7 @@ button-top {
 button-top:hover {
   box-shadow: inset 7px 7px 14px #cccccc, inset -7px -7px 14px white;
 }
-/* Googlemap iframe */
+/* Google map iframe */
 #iframe {
   align-self: center;
   margin-bottom: 1.5rem;
