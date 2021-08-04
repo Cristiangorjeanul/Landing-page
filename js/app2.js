@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
   //h2 activity fields animated text
-  var skills = ['PASSIONATE ABOUT IT', 'FRONTEND PROJECTS', 'EMAIL MARKETING', 'eLEARNING & TRAINING'],
+  var skills = ['FRONTEND PROJECTS', 'EMAIL MARKETING', 'eLEARNING & TRAINING'],
     part,
     i = 0,
     offset = 0,
