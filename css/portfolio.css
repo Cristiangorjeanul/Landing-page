@@ -44,135 +44,13 @@
   margin-top: 21px;
   margin-bottom: 12px;
 }
-/* My websites names uploaded on the GitHub platform */
-#my-apps {
-  font-size: 23px;
-  text-align: center;
-  color: red;
-  text-shadow: 1px 1px 1px blue;
-}
-
-@media (min-width: 768px) {
-  #my-apps {
-    font-size: 32px;
-  }
-}
-
-#my-apps:after {
-  content: "";
-  animation: myApps 12s linear infinite;
-}
-
-@keyframes myApps {
-  0% {
-    content: "Landing page";
-  }
-  3% {
-    content: "Biographical Page";
-  }
-  6% {
-    content: "My Country";
-  }
-  9% {
-    content: "Green Tech";
-  }
-  12% {
-    content: "Juice Store";
-  }
-  15% {
-    content: "Flower Shop";
-  }
-  18% {
-    content: "Photo Blog";
-  }
-  21% {
-    content: "Byzantine Empire";
-  }
-  24% {
-    content: "Learning System";
-  }
-  27% {
-    content: "Graphic animation";
-  }
-  30% {
-    content: "Students` prayers";
-  }
-  33% {
-    content: "Astronomical quiz";
-  }
-  35% {
-    content: "Seasons photos";
-  }
-  38% {
-    content: "Quiz Religion";
-  }
-  41% {
-    content: "Christmas tree";
-  }
-  44% {
-    content: "Shapes game";
-  }
-  47% {
-    content: "Educatie tehnologica";
-  }
-  50% {
-    content: "Breaking news";
-  }
-  53% {
-    content: "Shopping list";
-  }
-  56% {
-    content: "Bread recipe";
-  }
-  59% {
-    content: "Moving button";
-  }
-  62% {
-    content: "Changing petals";
-  }
-  65% {
-    content: "Edu games";
-  }
-  68% {
-    content: "Results table";
-  }
-  71% {
-    content: "Romanian wines";
-  }
-  74% {
-    content: "Graphic Design";
-  }
-  77% {
-    content: "Byzantine music";
-  }
-  80% {
-    content: "Bread recipe";
-  }
-  83% {
-    content: "Meridian clocks";
-  }
-  86.5% {
-    content: "Golden fish";
-  }
-  90% {
-    content: "ai Cars";
-  }
-  93.5% {
-    content: "Interstellar navigation";
-  }
-  97% {
-    content: "Find antonyms";
-  }
-  100% {
-    content: "Find antonyms";
-  }
-}
 
 @media (min-width: 768px) {
   .col-sm-2 {
     width: 20%;
   }
 }
+
 /* My websites links */
 .thumbnail {
   padding: 1px;

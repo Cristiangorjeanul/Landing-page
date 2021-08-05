@@ -269,4 +269,5 @@ document.addEventListener('DOMContentLoaded', function () {
   blackBalloon.forEach(mole => mole.addEventListener('click', hideBalloon));
 
 
+
 });

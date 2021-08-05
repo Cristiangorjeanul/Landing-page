@@ -1,4 +1,9 @@
 /* Skills section panels */
+.skills-panels {
+  width: 95%;
+  margin: 1vh auto;
+}
+
 .panel-heading1 {
   color: white !important;
   background-color: blue !important;
