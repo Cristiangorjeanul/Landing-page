@@ -1,2 +1,3 @@
 # Landing-page
-This is my landing page where you can find my apps portfolio. If you want to see this web page please visit https://cristiangorjeanul.github.io/Landing-page/
+This is my Landing page.  If you want to see my skills & portfolio please visit: 
+https://cristiangorjeanul.github.io/Landing-page/
