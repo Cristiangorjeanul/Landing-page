@@ -8,7 +8,7 @@
 
 #apps-number {
   --p: 0;
-  animation: p 5s steps(41) infinite;
+  animation: p 5s steps(40) infinite;
   counter-reset: p var(--p);
   font-size: 53px;
   padding-top: 35px;
@@ -26,7 +26,7 @@
 @keyframes p {
   59%,
   100% {
-    --p: 41;
+    --p: 40;
   }
 }
 
