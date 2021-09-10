@@ -29,20 +29,6 @@
     --p: 41;
   }
 }
-
-.portfolio-images {
-  display: inline-block;
-  overflow: hidden;
-  line-height: 1;
-  vertical-align: middle;
-  border-radius: 1px;
-  flex-shrink: 0;
-  box-shadow: 0 0 0 1px black;
-}
-
-width-full {
-  width: 100% !important;
-}
 /* HTML, CSS, JavaScript, jQuery, SVG, Bootstrap technologies signs */
 .logo-technologies {
   margin: auto;
