@@ -22,7 +22,7 @@
 .navbar-nav li.active a {
   color: blue !important;
   text-shadow: none;
-  background-color: white !important;
+  background-color: lightyellow !important;
   animation: shake 0.35s ease-in-out;
 }
 
