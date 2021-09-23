@@ -117,7 +117,7 @@
   top: 75px;
   border-radius: 50%;
   margin: auto;
-  background: #ffa500;
+  background: #fff700;
 }
 
 .eyes {
@@ -135,7 +135,7 @@
 
 .eyes.right {
   right: 45px;
-  animation: 3.2s blink-eye linear infinite;
+  animation: 2.1s blink-eye linear infinite;
 }
 
 @keyframes blink-eye {
@@ -170,7 +170,7 @@
   position: absolute;
   bottom: 12px;
   left: 8px;
-  animation: 3.2s smiley-mouth linear infinite;
+  animation: 2.1s smiley-mouth linear infinite;
 }
 
 @keyframes smiley-mouth {
