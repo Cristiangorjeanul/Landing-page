@@ -10,7 +10,8 @@
   --p: 0;
   animation: p 5s steps(41) infinite;
   counter-reset: p var(--p);
-  font-size: 53px;
+  font-size: 3.5em;
+  font-weight: 800;
   padding-top: 35px;
   padding-bottom: 45px;
   margin: auto;
