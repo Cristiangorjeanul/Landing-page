@@ -375,7 +375,7 @@ strong {
 
 .panel-heading {
   color: white !important;
-  background-color: #9999ff !important;
+  background-color: #8888ff !important;
   padding-top: 17px;
   padding-bottom: 29px;
 }
@@ -391,7 +391,7 @@ strong {
 
 .panel {
   margin-top: 5px;
-  border: 1px solid lightskyblue;
+  border: 1px solid #8888ff;
   border-radius: 0 !important;
   transition: box-shadow 0.5s;
   box-shadow: 10px 1px 50px rgba(0, 0, 0, 0.2);
@@ -465,7 +465,7 @@ strong {
 
 #button:hover,
 #button:active {
-  background-color: lightskyblue;
+  background-color: #8888ff;
   animation: shake 0.35s ease-in-out;
 }
 

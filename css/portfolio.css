@@ -58,7 +58,7 @@
   background-color: white;
   text-align: center;
   margin-top: 25px;
-  border: 1px solid lightskyblue;
+  border: 1px solid #8888ff;
   box-shadow: 7px 7px 14px #cccccc, -7px -7px 14px white;
   transition: box-shadow 0.5s;
 }

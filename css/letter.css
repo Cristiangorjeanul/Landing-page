@@ -74,9 +74,9 @@
   margin: auto;
   position: relative;
   display: block;
-  border-left: 162px dashed lightskyblue;
-  border-right: 162px dashed lightskyblue;
-  border-bottom: 70px solid lightskyblue;
+  border-left: 162px dashed #8888ff;
+  border-right: 162px dashed #8888ff;
+  border-bottom: 70px solid #8888ff;
   border-top: 100px solid transparent;
   transition: 1s ease-in-out;
   z-index: 100;
