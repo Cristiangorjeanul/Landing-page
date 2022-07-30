@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Transmedia</title>
+  <meta name="Landing page" content="portfolio, apps, Html, Css, JavaScript, jQuery, React" />
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="history.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="section.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Arial Narrow" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <script src="app1.js"></script>
+  <script src="app2.js"></script>
+</head>
+
+
+<body>
+
+  <!-- My website -->
+
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-header">
+        <!-- Menu burger button -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span><i id="burger-menu" class="fa fa-bars"
+              style="font-size: 17px; color: white; text-shadow: .8px .8px .8px blue; font-weight: 800;"></i></span>
+        </button>
+        <!-- Website title -->
+        <a class="navbar-brand" href="#myPage">
+
+          <strong style="font-size: 16px; color: white; text-shadow: .8px .8px .8px blue; font-weight: 800;">
+            Transmedia &#128142; My Landing Page</strong>
+        </a>
+      </div>
+      <!-- Links list -->
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right text-center">
+          <li><a href="https://github.com/Cristiangorjeanul" target="_blank"
+              style="font-size: 16px; color: white; text-shadow: .8px .8px .8px blue; font-weight: 800;">
+              GitHub Portfolio</a></li>
+        </ul>
+        </ul>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    <!-- Header -->
+    <header>
+      <div class="jumbotron text-center">
+        <div class="container-fluid text-center">
+          <div class="col-sm-12 col-xs-12">
+            <div class="panel-heading">
+
+              <!-- My SVG CT logo -->
+              <div id="t-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="171px" height="84px">
+                  <defs>
+                    <filter id="f1" width="170%" height="170%">
+                      <feOffset result="offOut" in="SourceGraphic" dx="1" dy="1" />
+                      <feGaussianBlur result="blurOut" in="offOut" stdDeviation=".5" />
+                      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+                    </filter>
+                  </defs>
+                  <!-- T -->
+                  <path class="t-logo" fill="none" stroke-width="1" stroke-dasharray="750" stroke-dashoffset="750"
+                    filter="url(#f1)"
+                    d="M 125 35 L 125 80 L 45 80 L 45 35  L 1 35  L 10 1  L 161 1 L 170 35  L 125 35 Z" />
+
+                </svg>
+              </div>
+
+              <h1>TRANSMEDIA</h1>
+              <!-- Slider with screen shoots of my websites -->
+              <div class="my-websites-screen-shots">
+                <img class="my-website-screen-shoot" src="transmedia.png" alt="Transmedia landing page">
+                <img class="my-website-screen-shoot" src="blog.png" alt="Photo blog">
+                <img class="my-website-screen-shoot" src="store.png" alt="Juice store">
+                <img class="my-website-screen-shoot" src="shop.png" alt="Flower shop">
+                <img class="my-website-screen-shoot" src="travel-agency.png" alt="Travel agency">
+
+                <div class="activity-fields"></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About me section -->
+    <main>
+      <div id="about" class="container-fluid text-center">
+        <div class="col-sm-12 col-xs-12">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h3>ABOUT ME</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Welcome message -->
+        <div class="container-fluid text-center">
+          <div class="col-sm-12">
+            <h3 id="initial-greeting" style='font-size: 1.7em;'></h3>
+            <h3 id="welcome" style='font-size: 1.7em;'>Welcome!</h3><br>
+          </div>
+        </div>
+
+
+        <div class="row container-fluid text-center">
+          <div class="col-sm-12 col-xs-12">
+            <br><br>
+            <div class="col-sm-4 col-xs-12">
+              <div class="panel panel-default text-center">
+                <img src="Cristian.jpg" class="portrait-picture"><br>
+                <h3 style="text-shadow: 1.2px 1.2px 1.2px blue;">
+                  <strong style='text-shadow: .5px .5px .5px black;'>
+                    Cristian T.<br>SOFTWARE<br>ANALYST</strong>
+                </h3><br>
+              </div>
+            </div>
+            <!-- Learning skills -->
+            <div class="col-sm-4 col-xs-12">
+              <div class="panel panel-default text-center">
+                <img src="Cristian.jpg" class="portrait-picture"><br>
+                <h3 style="text-shadow: 1.2px 1.2px 1.2px blue;">
+                  <strong style='text-shadow: .5px .5px .5px black;'>
+                    Cristian T.<br>FRONTEND<br>DEVELOPER</strong>
+                </h3><br>
+              </div>
+            </div>
+            <!-- Transferable skills -->
+            <div class="col-sm-4 col-xs-12">
+              <div class="panel panel-default text-center">
+                <img src="Cristian.jpg" class="portrait-picture"><br>
+                <h3 style="text-shadow: 1.2px 1.2px 1.2px blue;">
+                  <strong style='text-shadow: .5px .5px .5px black;'>
+                    Cristian T.<br>TEACHER &<br>TRAINER</strong>
+                </h3><br>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- My jobs text animation -->
+        <b class="my-jobs"></b>
+
+        <!-- Texts on the cylinder -->
+        <div class="cylinder-animation">
+          <div class="cylinder">
+            <div class="texts">
+              <span style="--i: 1"><i>I</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 2"><i>I</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 3"><i>I</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 4"><i>I</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 5"><i>HTML • HTML</i></span>
+              <span style="--i: 6"><i>HTML • HTML</i></span>
+              <span style="--i: 7"><i>HTML • HTML</i></span>
+              <span style="--i: 8"><i>HTML • HTML</i></span>
+              <span style="--i: 9"><i></i> <i>CSS•CSS•CSS</i></span>
+              <span style="--i: 10"><i></i> <i>CSS•CSS•CSS</i></span>
+              <span style="--i: 11"><i></i> <i>CSS•CSS•CSS</i></span>
+              <span style="--i: 12"><i></i> <i>CSS•CSS•CSS</i></span>
+              <span style="--i: 13"><i></i> <i></i> <i>JAVASCRIPT</i></span>
+              <span style="--i: 14"><i></i> <i></i> <i>JAVASCRIPT</i></span>
+              <span style="--i: 15"><i></i> <i></i> <i>JAVASCRIPT</i></span>
+              <span style="--i: 16"><i></i> <i></i> <i>JAVASCRIPT</i></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bootstrap carousel -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="photo-1.jpg" alt="Frontend course" width="1200" height="700">
+              <div class="carousel-caption">
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="photo-2.jpg" alt="Frontend course" width="1200" height="700">
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+      <!-- Portfolio section -->
+      <div id="portfolio" class="container-fluid text-center">
+        <div class="text-center">
+          <div class="col-sm-12 col-xs-12">
+            <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <h3>PORTFOLIO</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Number of apps message and logo technologies used for this website-->
+        <div class="row container-fluid text-center">
+          <div class="col-sm-12 col-xs-12">
+            <br><br>
+            <div class="row text-center">
+              <div class="col-sm-12">
+                <div class="col-sm-4 col-xs-12">
+                  <div class="panel panel-default text-center">
+                    <div class="panel-heading1">
+                      <br><i style='font-size:27px; color: yellow; text-shadow: .5px .5px .5px black;'
+                        class='fas fa-code'></i><br>
+                      <h3 style='color: yellow; text-shadow: .5px .5px .5px black;'>
+                        FRONTEND<br>DEVELOPMENT</h3>
+                    </div>
+                    <div class="panel-body1">
+                      <div class="progress-number">
+                        <div id="apps-number" style="--p: 1; --f: 0"></div>
+                      </div>
+                      <strong style='color: #8888ff;; text-shadow: .5px .5px .5px black;'>
+                        websites</strong><br><br><br>
+                    </div>
+                  </div>
+                </div>
+                <!-- Learning skills -->
+                <div class="col-sm-4 col-xs-12">
+                  <div class="panel panel-default text-center">
+                    <div class="panel-heading2">
+                      <br><i style='font-size:27px; color:blue; text-shadow: .5px .5px .5px black;'
+                        class='fas fa-file-text'></i><br>
+                      <h3 style='color: blue; text-shadow: .5px .5px .5px black;'>
+                        SOFTWARE<br>IMPLEMENTATION</h3>
+                    </div>
+                    <div class="panel-body2">
+                      <div class="progress-number">
+                        <div id="apps-number" style="--p: 1; --f: 0;"></div>
+                      </div>
+                      <strong style='color: #8888ff;; text-shadow: .5px .5px .5px black;'>
+                        applications</strong><br><br><br>
+                    </div>
+                  </div>
+                </div>
+                <!-- Transferable skills -->
+                <div class="col-sm-4 col-xs-12">
+                  <div class="panel panel-default text-center">
+                    <div class="panel-heading3">
+                      <br><i style='font-size:27px; color:green; text-shadow: .5px .5px .5px black;'
+                        class='fas fa-envelope'></i><br>
+                      <h3 style='color: green; text-shadow: .5px .5px .5px black;'>
+                        APPLICATION<br>MAINTENANCE</h3>
+                    </div>
+                    <div class="panel-body3">
+                      <div class="progress-number">
+                        <div id="apps-number" style="--p: 1; --f: 0;"></div>
+                      </div>
+                      <strong style='color: #8888FF;; text-shadow: .5px .5px .5px black;'>
+                        updates</strong><br><br><br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <br><strong style="color: #8888FF; text-shadow: 1px 1px 1px blue;">
+          Development with technologies:</strong>
+
+        <div class="logo-technologies">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Javascript_badge.svg">
+          <img src="https://upload.wikimedia.org/wikipedia/en/9/9e/JQuery_logo.svg">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/SVG_logo.svg">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg">
+        </div><br>
+
+      </div>
+      </div>
+
+      <!-- Photo Blog website link -->
+      <div class="container-fluid" class="text-center">
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <div class="col-sm-2 col-xs-12">
+              <div class="thumbnail"><br>
+                <h3 style='color: green; text-shadow: 1px 1px 1px black; font-family: "Arial Narrow"'>
+                  PHOTO<br>BLOG</h3>
+                <video autoplay muted loop preload="auto">
+                  <source src="photo.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <h5 style="padding-top: 3px; color: green; text-shadow: 1px 1px 1px black;">
+                  <span class="glyphicon glyphicon-hand-up"></span><br>
+                  Click to follow a blog!
+                  <a href="https://cristiangorjeanul.github.io/Photo-Blog/" target="_blank"><span
+                      class="span-link"></span></a>
+                </h5><br>
+              </div>
+            </div>
+            <!-- Juice Store website link -->
+            <div class="col-sm-2 col-xs-12">
+              <div class="thumbnail"><br>
+                <h3 style='color: yellow; text-shadow: 1px 1px 1px black; font-family: "Arial Narrow"'>
+                  TRAVEL<br>AGENCY</h3>
+                <video autoplay muted loop preload="auto">
+                  <source src="travel.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <h5 style="padding-top: 3px; color: yellow; text-shadow: 1px 1px 1px black">
+                  <span class="glyphicon glyphicon-hand-up"></span><br>
+                  Click to book a holiday!
+                  <a href="https://cristiangorjeanul.github.io/My-Country/" target="_blank"><span
+                      class="span-link"></span></a>
+                </h5><br>
+              </div>
+            </div>
+            <!-- Wally & Luna website link -->
+            <div class="col-sm-2 col-xs-12">
+              <div class="thumbnail"><br>
+                <h3 style='color: #8888ff; text-shadow: 1px 1px 1px black; font-family: "Arial Narrow"'>
+                  WALLY<br>& LUNA</h3>
+                <div id="wally-luna" style="display:inline">
+                  <img src="WL.png" alt="Wally & Luna">
+                </div>
+                <h5 style="padding-top: 3px; color: #8888ff; text-shadow: 1px 1px 1px black;">
+                  <span class="glyphicon glyphicon-hand-up"></span><br>
+                  Click to learn & play!
+                  <a href="https://cristian-tr.github.io/Wally-Luna/" target="_blank"><span
+                      class="span-link"></span></a>
+                </h5><br>
+              </div>
+            </div>
+            <!-- Flower Shop website link -->
+            <div class="col-sm-2 col-xs-12">
+              <div class="thumbnail"><br>
+                <h3 style='color: red; text-shadow: 1px 1px 1px black; font-family: "Arial Narrow"'>
+                  FLOWER<br>e-SHOP</h3>
+                <video autoplay muted loop preload="auto">
+                  <source src="flowers.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <h5 style="padding-top: 3px; color: red; text-shadow: 1px 1px 1px black;">
+                  <span class="glyphicon glyphicon-hand-up"></span><br>
+                  Click to buy a flower!
+                  <a href="https://cristiangorjeanul.github.io/Flower-Shop/" target="_blank"><span
+                      class="span-link"></span></a>
+                </h5><br>
+              </div>
+            </div>
+            <!-- Learning System website link -->
+            <div class="col-sm-2 col-xs-12">
+              <div class="thumbnail"><br>
+                <h3 style='color: blue; text-shadow: 1px 1px 1px black; font-family: "Arial Narrow"'>
+                  LEARNING<br>SYSTEM</h3>
+                <video autoplay muted loop preload="auto">
+                  <source src="system.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <h5 style="padding-top: 3px; color: black; text-shadow: 1px 1px 1px black;">
+                  <span class="glyphicon glyphicon-hand-up"></span><br>
+                  Click to read e-books!
+                  <a href="https://cristiangorjeanul.github.io/Learning-System/" target="_blank"><span
+                      class="span-link"></span></a>
+                </h5><br>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- My YouTube video on my YouTube Channel -->
+      <div class="col-sm-12 col-xs-12">
+        <div class="panel-body">
+          <div class="row text-center">
+            <div class="content"><br>
+              <div class="thumbnail">
+                <iframe src="https://www.youtube.com/embed/-Iw72460EwM" frameborder="0" allow="accelerometer; autoplay; 
+                  clipboard-write; encrypted-media; gyroscope; 
+                  picture-in-picture" allowfullscreen></iframe>
+                <h5 style="margin-bottom: 5px;">
+                  <span class="glyphicon glyphicon-hand-up"></span><br>
+                  Click to see my YouTube video!
+                </h5><br>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience section -->
+      <div id="experience" class="container-fluid" class="text-center">
+        <div class="col-sm-12 col-xs-12">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h3>HISTORY</h3>
+            </div>
+          </div>
+        </div><br><br>
+
+        <!-- Hourglass -->
+        <div class="row text-center">
+          <div class="hourglass">
+            <div class="glass top">
+              <div class="sand"></div>
+            </div>
+            <div class="glass">
+              <div class="sand delayed"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- My experience timeline -->
+        <div id="timeline">
+          <ul>
+            <li>
+              <div>
+                <h5 style="color: yellow;">
+                  <i style='font-size:21px; color: yellow;' class='fas fa-code'></i><br>
+                  <br>2022<br> <br>Software<br>implementation
+                </h5>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <h5 style="color: blue;">
+                  <i style='font-size:23px; color: blue;' class='fas fa-envelope'></i><br>
+                  <br>2021<br> <br>Application<br>maintenance
+                </h5>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <h5 style="color: green;">
+                  <i style='font-size:23px; color: green;' class='fas fa-file-code'></i><br>
+                  <br>2020<br> <br>Frontend<br>development
+                </h5>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <h5 style="color: red;">
+                  <i style='font-size:23px; color: red;' class='fas fa-file-text'></i><br>
+                  <br>2019<br><br>e-Learning<br>systems
+                </h5>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Contacts section -->
+    <footer div id="contact" class="container-fluid text-center">
+      <div class="col-sm-12 col-xs-12">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h3>CONTACTS</h3>
+          </div>
+        </div>
+      </div>
+      <!-- My picture that rotates at click -->
+      <div class="rotating-picture">
+        <div id="picture">
+          <!-- The front of the picture -->
+          <div class="front">
+            <img src="photo-3.jpg" alt="Desktop" />
+          </div>
+          <!-- The back of the picture with my GitHub, YouTube and Discord links -->
+          <div class="back"><br>
+            <h5 style="color: white; font-weight: 800; font-size: 17px;">Linkedin<br>
+              <a href="https://www.linkedin.com/in/cristian-t-664193210" target="_blank">
+                <span style="color:blue; font-weight: 500; font-size: 12px;">
+                  https://www.linkedin.com/in/cristian-t-664193210</span>
+              </a>
+            </h5>
+            <h5 style="color: white; font-weight: 800; font-size: 17px;">GitHub<br>
+              <a href="https://github.com/Cristiangorjeanul" target="_blank">
+                <span style="color:blue; font-weight: 500; font-size: 12px;">
+                  https://github.com/Cristiangorjeanul</span>
+              </a>
+            </h5>
+            <h5 style="color: white; font-weight: 800; font-size: 17px;">Discord<br>
+              <a href="#" target="_blank">
+                <span style="color:blue; font-weight: 500; font-size: 12px;">
+                  Cristian gorjeanul#0638</span>
+              </a>
+            </h5>
+            <h5 style="color: white; font-weight: 800; font-size: 17px;">YouTube<br>
+              <a href="https://www.youtube.com/channel/UCqwi0UlCeL81iGrJCJ33-Jw" target="_blank">
+                <span style="color:blue; font-weight: 500; font-size: 12px;">
+                  https://www.youtube.com/channel/</span>
+              </a>
+            </h5>
+
+          </div>
+        </div>
+        <h5>
+          <span class="glyphicon glyphicon-hand-up"></span><br>
+          Click on my photo for contacts!
+        </h5><br>
+      </div>
+      <!-- Social media buttons -->
+      <div class="social-media">
+        <div class="share">Share!</div>
+        <div class="social discord">
+          <i class="fab fa-discord" alt="Discord account"></i>
+        </div>
+        <div class="social youtube">
+          <a href="https://www.youtube.com/channel/UCqwi0UlCeL81iGrJCJ33-Jw" target="_blank">
+            <i class="fab fa-youtube" alt="YouTube channel" style="color: white;"></i></a>
+        </div>
+        <div class="social github">
+          <a href="https://github.com/Cristiangorjeanul" target="_blank">
+            <i class="fab fa-github" style="color: black;"></i></a>
+        </div>
+        <div class="social cycling">
+          <i class="fas fa-bicycle" style="color: blue;"></i>
+        </div>
+        <div class="social swimming">
+          <i class="fas fa-swimmer" style="color: peachpuff;"></i>
+        </div>
+        <div class="social tennis">
+          <i class="fas fa-table-tennis" style="color: blue;"></i>
+        </div>
+      </div>
+
+      <div class="row container-fluid text-center">
+        <div class="col-sm-12 col-xs-12">
+          <br><br>
+          <!-- Support -->
+          <div class="row text-center">
+            <div class="col-sm-12">
+              <div class="col-sm-4 col-xs-12" style='background-color: #8888ff; border: 1px solid white;'>
+                <br>
+                <h5 style='color: white; text-shadow: .5px .5px .5px black;'>
+                  SUPPORT<br><br>
+                  <u><a href="#" style='color: white;'>APPLICATIONS</a></u><br><br>
+                  <u><a href="#" style='color: white;'>DRIVERS</a></u><br><br>
+                  <u><a href="#" style='color: white;'>DOCUMENTS</a></u><br><br>
+                </h5>
+              </div>
+              <!-- Address -->
+              <div class="col-sm-4 col-xs-12" style='background-color: #8888ff; border: 1px solid white;'>
+                <br>
+                <h5 style='color: white; text-shadow: .5px .5px .5px black;'>
+                  ADDRESS<br><br>
+                  City: Bucharest<br><br>
+                  Street: Transmedia<br><br>
+                  Phone: 0123 456 789<br><br>
+                </h5>
+              </div>
+              <!-- Portfolio -->
+              <div class="col-sm-4 col-xs-12" style='background-color: #8888ff; border: 1px solid white;'>
+                <br>
+                <h5 style='color: white; text-shadow: .5px .5px .5px black;'>
+                  LINKS<br><br>
+                  <u><a href="https://github.com/Cristiangorjeanul" target="_blank"
+                      style='color: white;'>PORTFOLIO</a></u><br><br>
+                  <u><a href="https://cristiangorjeanul.github.io/HTML-email/" target="_blank"
+                      style='color: white;'>EMAIL MARKETING</a></u><br><br>
+                  <u><a href="dashboard.xlsx" download style='color: white;'>EXCEL DASHBOARD</a></u><br><br>
+                </h5>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div><br>
+
+      <!-- My address on the Google map -->
+      <iframe id="iframe" style="width: 100%; margin: 10px auto;"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6420701.660770204!2d24.97964010764297!3d47.14706412280103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1f93abf3cad4f%3A0xac0632e37c9ca628!2sBucure%C8%99ti!5e0!3m2!1sro!2sro!4v1599735037524!5m2!1sro!2sro"></iframe>
+
+
+      <section>
+        <!-- Like button -->
+        <div class="button-container">
+          <div class="button-frame">
+            <button id="buttonLike" data-toggle="modal" data-target="#myModal">
+              <b style='color: white; font-size:17px; margin: 5px;'>&nbsp;Like!</b>
+              <span id="counter"></span>
+            </button>
+          </div>
+        </div>
+        <!-- Final greeting -->
+        <div class="panel panel-default text-center">
+          <div class="panel-heading" style='font-size: 1.7em; font-family: "Pacifico", "Lato", "Times New Roman";'>
+            <div id="final-greeting">
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <!-- Modal close button -->
+                <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                  <span class="glyphicon glyphicon-remove"></span>
+                </button>
+                <!-- Modal header -->
+                <br><b style="color:#8888ff; font-size: 17px;">
+                  <span class="glyphicon glyphicon-heart"
+                    style="color:red; font-size: 15px; text-shadow: .5px .5px .5px black;"></span>
+                  Thank you very much
+                  <span class="glyphicon glyphicon-heart" style="color:red; font-size: 15px;"></span><br>
+                  for your consideration!</b>
+              </div>
+              <!-- Modal footer -->
+              <div class="modal-body text-center">
+                <b style="color:white; font-size: 17px; text-shadow: 0.5px 0.5px 0.5px blue;">
+                  I hope I will become<br>
+                  <span class="glyphicon glyphicon-heart" style="color:red; font-size: 15px;"></span>
+                  your favorite
+                  <span class="glyphicon glyphicon-heart" style="color:red; font-size: 15px;"></span><br>
+                  Software Developer!</b>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <!-- Go to top button -->
+      <button-top class="to-header" class="text-center">
+        <a href="#myPage" title="To Top">
+          <span class="glyphicon glyphicon-chevron-up" style="color:blue; font-size: 35px;"></span>
+        </a><br>
+      </button-top>
+      </div>
+
+    </footer><br>
+
+    <h5>&copy; Cristian T. &#9675; 2021<br>
+      Transmedia is my Landing Page<br>This is a website built for my job interviews!<br><br><br>
+
+  </body>
+
+</html>
